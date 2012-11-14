@@ -1,0 +1,28 @@
+4 Fish
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+3 2 1
+1 1
+1
+1
+4 11 3
+2 3 
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.Fish
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.12
+19 MIPT personal train
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

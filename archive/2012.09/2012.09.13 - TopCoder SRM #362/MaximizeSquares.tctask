@@ -1,0 +1,56 @@
+15 MaximizeSquares
+11 squareCount
+3 int
+1
+3 int
+1 N
+9
+0
+1
+int 4
+int 1
+1
+1
+1
+int 5
+int 1
+1
+2
+1
+int 6
+int 2
+1
+3
+1
+int 16
+int 14
+1
+4
+1
+int 115
+int 340
+1
+5
+1
+int 7
+int 2
+1
+6
+1
+int 8
+int 3
+1
+7
+1
+int 9
+int 5
+1
+8
+1
+int 11
+int 6
+1
+10 2012.09.13
+17 TopCoder SRM #362
+0
+23 chelper.MaximizeSquares

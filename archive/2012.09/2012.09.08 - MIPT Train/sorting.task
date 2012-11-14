@@ -1,0 +1,30 @@
+7 sorting
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+12 4 10
+5 6 3 4
+3 Yes
+1
+1
+11 4 9
+5 6 3 4
+2 No
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+15 chelper.sorting
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.08
+10 MIPT Train
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

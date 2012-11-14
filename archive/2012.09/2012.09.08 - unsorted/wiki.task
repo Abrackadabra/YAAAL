@@ -1,0 +1,38 @@
+4 wiki
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+278 2
+Cat
+2
+Kitten
+Cats
+3
+Cat is one of the most common pets, together with dogs.
+In the wild cats are often enemies of dogs.
+Growing together a dog and a cat can often be friends.
+Dog
+1
+Dogs
+2
+Dog is one of the most common pets, together with cats.
+DOG can also be an abbreviation.
+-1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.wiki
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.08
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

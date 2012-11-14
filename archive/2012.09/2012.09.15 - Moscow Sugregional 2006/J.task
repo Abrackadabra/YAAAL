@@ -1,0 +1,28 @@
+1 J
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+13 20 5 3 171697
+9 17 1 1982
+1
+1
+10 20 5 3 423
+2 -1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.J
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.15
+23 Moscow Sugregional 2006
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

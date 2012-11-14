@@ -1,0 +1,35 @@
+11 Knownothing
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+73 6
+5 3 5 3 4
+5 3 5 3 6
+5 1 3 3 6
+10 1 100 20 500
+5 5 5 3 5
+1 1 5000000 3 4
+29 4.00
+12.00
+-1
+65.00
+5.00
+0.00
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+19 chelper.Knownothing
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.13
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

@@ -1,0 +1,28 @@
+8 Surprise
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+4 10 1
+-1
+1
+1
+6 3 1.57
+-1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+16 chelper.Surprise
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.14
+35 MIPT Training camp personal contest
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

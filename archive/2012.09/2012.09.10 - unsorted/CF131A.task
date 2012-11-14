@@ -1,0 +1,28 @@
+6 CF131A
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+4 cAPS
+4 Caps
+1
+1
+4 Lock
+4 Lock
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.CF131A
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.10
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

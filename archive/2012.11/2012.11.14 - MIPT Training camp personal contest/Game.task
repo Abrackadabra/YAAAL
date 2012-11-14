@@ -1,0 +1,44 @@
+4 Game
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+25 3 2
+0 1 0
+0 0 1
+1 0 0
+1 2
+1 1
+1
+1
+25 3 2
+0 1 0
+0 0 1
+1 0 0
+2 2
+2 -1
+1
+2
+27 3 3
+0 1 0
+0 0 1
+1 0 0
+1 2 3
+2 -1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.Game
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.14
+35 MIPT Training camp personal contest
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

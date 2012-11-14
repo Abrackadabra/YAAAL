@@ -1,0 +1,39 @@
+21 ReversePrefixFunction
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+26 8 3
+0 0 1 0 1 2 3 1
+1 1
+10
+15 YES
+abacabaa
+NO
+1
+1
+37 16 26
+0 0 0 0 1 2 0 0 1 2 3 4 5 6 3 1
+-1
+1
+2
+9 3 3
+0 1 4
+-1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+29 chelper.ReversePrefixFunction
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.07
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

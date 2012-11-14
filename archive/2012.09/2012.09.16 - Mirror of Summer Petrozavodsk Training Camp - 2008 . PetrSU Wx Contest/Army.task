@@ -1,0 +1,36 @@
+4 Army
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+112 4 2 2
+2 2
+Grom Hellscream 1200 2 1 2
+Thrall 1500 2 1 2
+Origin Doomhammer 1450 2 2 1
+Kargath Bladefist 1400 2 1 2
+-1
+1
+1
+33 2 1 1000
+2
+a c 100 1 1
+ab 110 1 1
+0 
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.Army
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.16
+70 Mirror of Summer Petrozavodsk Training Camp - 2008 . PetrSU Wx Contest
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

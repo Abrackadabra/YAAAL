@@ -1,0 +1,38 @@
+6 CF141A
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+38 SANTACLAUS
+DEDMOROZ
+SANTAMOROZDEDCLAUS
+3 YES
+1
+1
+40 PAPAINOEL
+JOULUPUKKI
+JOULNAPAOILELUPUKKI
+2 NO
+1
+2
+55 BABBONATALE
+FATHERCHRISTMAS
+BABCHRISTMASBONATALLEFATHER
+2 NO
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.CF141A
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.10
+10 CF Archive
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

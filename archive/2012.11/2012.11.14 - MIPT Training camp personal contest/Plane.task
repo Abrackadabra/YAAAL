@@ -1,0 +1,41 @@
+5 Plane
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+11 1A
+1B
+1C
+1D
+4 Bong
+1
+1
+15 10A
+10B
+10C
+10E
+4 Bing
+1
+2
+15 10A
+10B
+10C
+10D
+9 Ambigious
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+13 chelper.Plane
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.14
+35 MIPT Training camp personal contest
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

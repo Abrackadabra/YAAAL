@@ -1,0 +1,28 @@
+6 CF118B
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+1 2
+37     0
+  0 1 0
+0 1 2 1 0
+  0 1 0
+    0
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.CF118B
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.10
+10 CF Archive
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

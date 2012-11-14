@@ -1,0 +1,50 @@
+4 Game
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+5
+0
+19 0 0 0 
+0 0 0 
+0 0 0
+13 Crosses' move
+1
+1
+17 0 0 0
+1 2 1
+0 1 0
+10 Impossible
+1
+2
+17 0 0 1
+2 2 1
+1 2 1
+15 The end of game
+1
+3
+17 0 0 0
+0 2 0
+0 0 0
+-1
+1
+4
+17 0 0 1
+0 1 2
+1 0 2
+15 The end of game
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.Game
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.12
+19 MIPT personal train
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

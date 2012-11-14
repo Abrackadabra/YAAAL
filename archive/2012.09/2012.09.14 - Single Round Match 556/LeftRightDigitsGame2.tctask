@@ -1,0 +1,67 @@
+20 LeftRightDigitsGame2
+9 minNumber
+16 java.lang.String
+2
+16 java.lang.String
+6 digits
+16 java.lang.String
+10 lowerBound
+6
+0
+2
+String
+3 565
+String
+3 556
+String
+3 556
+1
+1
+2
+String
+3 565
+String
+3 566
+String
+3 655
+1
+2
+2
+String
+3 565
+String
+3 656
+String
+0 
+1
+3
+2
+String
+10 9876543210
+String
+10 5565565565
+String
+10 5678943210
+1
+4
+2
+String
+7 8016352
+String
+7 1000000
+String
+7 1086352
+1
+5
+2
+String
+5 24133
+String
+5 31243
+String
+5 31243
+1
+10 2012.09.14
+22 Single Round Match 556
+0
+28 chelper.LeftRightDigitsGame2

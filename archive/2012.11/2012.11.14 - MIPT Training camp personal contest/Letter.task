@@ -1,0 +1,25 @@
+6 Letter
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+61 56 5
+sorry, I am idiot. Give me one more chance, please.I am 
+56 I am sorry, I am idiot. Give me one more chance, please.
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.Letter
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.14
+35 MIPT Training camp personal contest
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

@@ -1,0 +1,58 @@
+2 F2
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+80 3
+5
+1 2 3 4 5
+10
+1 -1 1 2 3 4 5 0 1 2
+3
+4 5 7
+7
+-1 -2 -1 1 4 5 8
+2
+1 6
+4
+4 3 2 1
+5 1
+1
+0
+1
+1
+30 3
+
+1
+1
+2
+1 2
+
+2
+1 2
+0
+
+1
+1
+1
+1
+5 1
+0
+1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+10 chelper.F2
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.09
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

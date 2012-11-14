@@ -1,0 +1,36 @@
+12 D - Olympiad
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+24 5 2
+1 1 1 1 1
+1 1 1 1 1
+
+4 1 5
+
+1
+1
+28 6 7
+4 3 5 6 4 4
+8 6 0 4 3 4
+
+4 1 5
+
+1
+11 src/chelper
+8 -Xmx256M
+4 Main
+13 chelper.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.10
+30 Codeforces Round #137 (Div. 2)
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

@@ -1,0 +1,25 @@
+24 A - Tiling with Hexagons
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+6 2 3 4
+
+2 18
+1
+11 src/chelper
+8 -Xmx256M
+4 Main
+13 chelper.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.04
+30 Codeforces Round #133 (Div. 2)
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

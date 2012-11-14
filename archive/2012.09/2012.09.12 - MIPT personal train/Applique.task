@@ -1,0 +1,39 @@
+8 Applique
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+86 8 8 10
+0 4 2 4
+3 4 5 4
+6 4 8 4
+4 0 4 2
+4 3 4 5
+4 6 4 8
+2 2 2 6
+6 2 6 6
+2 2 6 2
+2 6 6 6
+1 5
+1
+1
+13 2 2 1
+1 0 1 2
+1 2
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+16 chelper.Applique
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.12
+19 MIPT personal train
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

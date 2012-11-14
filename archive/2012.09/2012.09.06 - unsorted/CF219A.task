@@ -1,0 +1,30 @@
+6 CF219A
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+6 2
+aazz
+-1
+1
+1
+11 3
+abcabcabz
+-1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.CF219A
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.09.06
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0
