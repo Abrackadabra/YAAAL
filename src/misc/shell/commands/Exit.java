@@ -16,7 +16,8 @@ public class Exit extends Command {
     }
 
     @Override
-    public void execute() {
+    public boolean execute() {
         System.exit(0);
+        return true;
     }
 }

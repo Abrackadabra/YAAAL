@@ -17,14 +17,14 @@ public class Mkdir extends IOCommand {
     }
 
     @Override
-    public void execute() {
+    public boolean execute() {
         if (arguments.length == 0) {
             System.out.println("Incorrect syntax. You should use it like:");
             System.out.println("mkdir <directory name>");
-            return;
+            return false;
         }
 
-        File dir = new File(position.getFile().getAbsolutePath() + "/" + arguments[0]);
-        dir.mkdirs();
+        File dir = new File(position.getFile().getAbsolutePath() + File.separator + arguments[0]);
+        return dir.mkdirs();
     }
 }

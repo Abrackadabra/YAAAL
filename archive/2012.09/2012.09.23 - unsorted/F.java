@@ -48,7 +48,7 @@ public class F {
     Cell command(String s) {
         out.println(s);
         if (s.contains("DONE")) return Cell.EMPTY;
-        String ans = in.readLine();
+        String ans = in.nextLine();
         if (ans.charAt(0) == 'W') return Cell.WALL;
         if (ans.charAt(0) == 'C') return Cell.STONE;
         if (ans.charAt(0) == 'E') return Cell.EMPTY;

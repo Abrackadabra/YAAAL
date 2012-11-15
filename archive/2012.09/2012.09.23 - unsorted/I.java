@@ -2,7 +2,6 @@ package chelper;
 
 import abrackadabra.Scanner;
 
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,7 +18,7 @@ public class I {
         int lastSwap = 0;
         int steps = 9000;
         for (int i = 0; i < steps; i++) {
-            String s = min.readLine();
+            String s = min.nextLine();
             boolean[] a = new boolean[5];
             ArrayList<Integer> black = new ArrayList<Integer>();
             ArrayList<Integer> white = new ArrayList<Integer>();

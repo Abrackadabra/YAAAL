@@ -17,9 +17,12 @@ public class Action implements Executable {
     }
 
     @Override
-    public void execute() {
+    public boolean execute() {
         for (Command command : commands) {
-            command.execute();
+            if (!command.execute()) {
+                return false;
+            }
         }
+        return true;
     }
 }

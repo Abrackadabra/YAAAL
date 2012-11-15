@@ -16,10 +16,18 @@ public class Shell {
             StringBuilder stringBuilder = new StringBuilder();
             for (String s : args) {
                 stringBuilder.append(s);
+                stringBuilder.append(" ");
             }
 
-            Action action = CommandFactory.createAction(stringBuilder.toString(), new MovableFile("."));
-            action.execute();
+            try {
+                Action action = CommandFactory.createAction(stringBuilder.toString(), new MovableFile("."));
+                if (!action.execute()) {
+                    System.exit(1);
+                }
+            } catch (IOException e) {
+                System.err.println("File system inaccessible.");
+                System.exit(1);
+            }
         }
     }
 }

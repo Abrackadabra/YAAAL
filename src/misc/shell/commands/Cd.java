@@ -17,13 +17,13 @@ public class Cd extends IOCommand {
     }
 
     @Override
-    public void execute() {
+    public boolean execute() {
         if (arguments.length == 0) {
-            System.out.println("Incorrect syntax. You should use it like:");
-            System.out.println("cd <relative path | absolute path>");
-            return;
+            System.err.println("Incorrect syntax. You should use it like:");
+            System.err.println("cd <relative path | absolute path>");
+            return false;
         }
         String cd = arguments[0];
-        position.move(cd);
+        return position.move(cd);
     }
 }

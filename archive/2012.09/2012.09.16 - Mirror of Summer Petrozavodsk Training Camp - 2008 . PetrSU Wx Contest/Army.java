@@ -41,7 +41,7 @@ public class Army {
         Orc[] orcs = new Orc[n];
 
         for(int i = 0; i < n; ++i){
-            orcs[i] = new Orc(in.readLine());
+            orcs[i] = new Orc(in.nextLine());
         }
 
         Arrays.sort(orcs, new Comparator<Orc>() {

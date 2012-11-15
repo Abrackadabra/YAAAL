@@ -9,5 +9,5 @@ import java.io.*;
  * Time: 23:34
  */
 public interface Executable {
-    public void execute();
+    public boolean execute();
 }

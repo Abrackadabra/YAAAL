@@ -64,6 +64,10 @@ public class CommandFactory {
             return new Cp(arguments, position);
         }
 
+        if (command.equals("mv")) {
+            return new Mv(arguments, position);
+        }
+
         return new UnknownCommand(command);
     }
 }

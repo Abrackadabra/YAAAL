@@ -13,17 +13,14 @@ import java.io.*;
 public class UnknownCommand extends Command {
     private String name;
 
-    private UnknownCommand(String[] arguments) {
-        super(arguments);
-    }
-
     public UnknownCommand(String name) {
         super(null);
         this.name = name;
     }
 
     @Override
-    public void execute() {
-        System.out.println("Unknown command " + name);
+    public boolean execute() {
+        System.err.println("Unknown command " + name + ".");
+        return false;
     }
 }

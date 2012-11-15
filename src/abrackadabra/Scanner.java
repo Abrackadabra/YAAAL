@@ -11,11 +11,11 @@ public class Scanner {
         br = new BufferedReader(new InputStreamReader(inputStream));
     }
 
-    public String next() {
+    public String nextString() {
         return hasMoreTokens() ? in.nextToken() : null;
     }
 
-    public String readLine() {
+    public String nextLine() {
         try {
             in = null; // riad legacy
             return br.readLine();
@@ -27,15 +27,11 @@ public class Scanner {
 
     boolean hasMoreTokens() {
         while (in == null || !in.hasMoreTokens()) {
-            String s = readLine();
+            String s = nextLine();
             if (s == null) return false;
             in = new StringTokenizer(s);
         }
         return true;
-    }
-
-    public String nextString() {
-        return next();
     }
 
     public int nextInt() {

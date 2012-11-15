@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class wiki {
 	public void solve(int testNumber, Scanner in, PrintWriter out) {
-        int n = Integer.parseInt(in.readLine());
+        int n = Integer.parseInt(in.nextLine());
 
         ArrayList<String> names = new ArrayList<String>();
 
@@ -16,23 +16,23 @@ public class wiki {
         ArrayList<String> texts = new ArrayList<String>();
 
         for (int i = 0; i < n; i++) {
-            String name = in.readLine();
+            String name = in.nextLine();
             names.add(name);
 
             forms.put(name, i);
             forms.put(transform(name), i);
 
-            int m = Integer.parseInt(in.readLine());
+            int m = Integer.parseInt(in.nextLine());
             for (int j = 0; j < m; j++) {
-                String s = in.readLine();
+                String s = in.nextLine();
                 forms.put(s, i);
                 forms.put(transform(s), i);
             }
 
-            m = Integer.parseInt(in.readLine());
+            m = Integer.parseInt(in.nextLine());
             String s = "";
             for (int j = 0; j < m; j++) {
-                s += in.readLine() + "\n";
+                s += in.nextLine() + "\n";
             }
             texts.add(s);
         }

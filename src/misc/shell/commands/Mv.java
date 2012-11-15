@@ -9,10 +9,10 @@ import java.io.*;
  * Created with IntelliJ IDEA.
  * Author: Abrackadabra
  * Date: 15/11/12
- * Time: 01:32
+ * Time: 13:43
  */
-public class Cp extends IOCommand {
-    public Cp(String[] arguments, MovableFile position) {
+public class Mv extends IOCommand {
+    public Mv(String[] arguments, MovableFile position) {
         super(arguments, position);
     }
 
@@ -20,7 +20,7 @@ public class Cp extends IOCommand {
     public boolean execute() {
         if (arguments.length < 2) {
             System.err.println("Incorrect syntax. You should use it like:");
-            System.err.println("cp <from> <to>");
+            System.err.println("mv <from> <to>");
             return false;
         }
 
@@ -34,18 +34,21 @@ public class Cp extends IOCommand {
             to = new File(position.getFile().getPath() + File.separator + arguments[1]);
         }
 
-        return copy(from, to);
+        return move(from, to);
     }
 
-    private boolean copy(File from, File to) {
-        boolean ok = true;
+    private boolean move(File from, File to) {
         if (!from.exists()) {
             System.err.println("Could not find " + from.getPath() + ".");
             return false;
         }
 
+        boolean ok = true;
+
         if (from.isFile()) {
-            ok &= atomicCopy(from, to);
+            if (!atomicMove(from, to)) {
+                return false;
+            }
         } else {
             if (!to.mkdirs()) {
                 System.err.println("Could not create " + to.getPath() + ".");
@@ -53,13 +56,13 @@ public class Cp extends IOCommand {
             }
             String[] files = from.list();
             for (String s : files) {
-                ok &= copy(new File(from.getPath() + File.separator + s), new File(to.getPath() + File.separator + s));
+                ok &= move(new File(from.getPath() + File.separator + s), new File(to.getPath() + File.separator + s));
             }
         }
         return ok;
     }
 
-    private boolean atomicCopy(File from, File to) {
+    private boolean atomicMove(File from, File to) {
         InputStreamReader inputStreamReader;
         try {
             inputStreamReader = new InputStreamReader(new FileInputStream(from));
@@ -76,13 +79,16 @@ public class Cp extends IOCommand {
             return false;
         }
 
+        boolean ok = true;
+
         while (true) {
             int a = 0;
             try {
                 a = inputStreamReader.read();
             } catch (IOException e) {
                 System.err.println("Could not read from " + from.getPath() + ".");
-                return false;
+                ok = false;
+                break;
             }
 
             if (a == -1) {
@@ -93,11 +99,10 @@ public class Cp extends IOCommand {
                 outputStreamWriter.write(a);
             } catch (IOException e) {
                 System.err.println("Could not write to " + to.getPath() + ".");
-                return false;
+                ok = false;
+                break;
             }
         }
-
-        boolean ok = true;
 
         try {
             inputStreamReader.close();
@@ -110,6 +115,11 @@ public class Cp extends IOCommand {
             outputStreamWriter.close();
         } catch (IOException e) {
             System.err.println("Could not close " + to.getPath() + ".");
+            ok = false;
+        }
+
+        if (!from.delete()) {
+            System.err.println("Could not delete " + from.getPath() + ".");
             ok = false;
         }
         return ok;

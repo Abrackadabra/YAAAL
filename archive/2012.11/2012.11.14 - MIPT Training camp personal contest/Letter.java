@@ -7,7 +7,7 @@ public class Letter {
 	public void solve(int testNumber, Scanner in, PrintWriter out) {
         int n = in.nextInt(), k = in.nextInt();
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(in.readLine());
+        stringBuilder.append(in.nextLine());
         while (stringBuilder.length() < n)
             stringBuilder.append(' ');
         String s = stringBuilder.toString();

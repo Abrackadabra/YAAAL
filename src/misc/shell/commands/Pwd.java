@@ -15,7 +15,8 @@ public class Pwd extends IOCommand {
     }
 
     @Override
-    public void execute() {
+    public boolean execute() {
         System.out.println(position.getFile().getAbsolutePath());
+        return true;
     }
 }

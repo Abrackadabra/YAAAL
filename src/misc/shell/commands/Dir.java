@@ -17,12 +17,14 @@ public class Dir extends IOCommand {
     }
 
     @Override
-    public void execute() {
+    public boolean execute() {
         String[] files = position.getFile().list();
-        if (files != null) {
-            for (String s : files) {
-                System.out.println(s);
-            }
+        if (files == null) {
+            return false;
         }
+        for (String s : files) {
+            System.out.println(s);
+        }
+        return true;
     }
 }
