@@ -12,12 +12,18 @@ import java.io.*;
  * Time: 00:38
  */
 public class Dir extends IOCommand {
-    public Dir(MovableFile position) {
-        super(null, position);
+    public Dir(String[] arguments, MovableFile position) {
+        super(arguments, position);
     }
 
     @Override
     public boolean execute() {
+        if (arguments.length != 0) {
+            System.err.println("Incorrect syntax. You should use it like:");
+            System.err.println("dir");
+            return false;
+        }
+
         String[] files = position.getFile().list();
         if (files == null) {
             return false;
