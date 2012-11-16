@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.16 - unsorted/Godzilla.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.16 - unsorted/GodzillaGen.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.16 - unsorted/Godzilla.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.16 - unsorted/GodzillaGen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" afterPath="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Cd.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Cd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Cp.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Cp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Dir.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Dir.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Exit.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Exit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Mv.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Mv.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Pwd.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Pwd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/commands/Rm.java" afterPath="$PROJECT_DIR$/src/misc/shell/commands/Rm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/MovableFile.java" afterPath="$PROJECT_DIR$/src/misc/shell/MovableFile.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +65,16 @@
       <file leaf-file-name="Cd.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="27" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+            <state line="27" column="25" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovableFile.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/misc/shell/MovableFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.28208956">
               <folding />
             </state>
           </provider>
@@ -94,7 +92,7 @@
       <file leaf-file-name="CommandFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/shell/CommandFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="37" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
+            <state line="47" column="81" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mkdir.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Mkdir.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4188406">
+            <state line="25" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,15 +156,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/Shell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="64" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -181,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/misc/shell/MovableFile.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/InteractiveShell.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/Action.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/Shell.java" />
@@ -194,9 +182,10 @@
         <option value="$PROJECT_DIR$/src/misc/shell/commands/Rm.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/commands/Cd.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/commands/Exit.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/commands/Pwd.java" />
         <option value="$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java" />
+        <option value="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/misc/shell/MovableFile.java" />
       </list>
     </option>
   </component>
@@ -671,7 +660,11 @@
       <created>1353012629839</created>
       <updated>1353012629839</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="straaaange shell features">
+      <created>1353097031742</created>
+      <updated>1353097031742</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -693,7 +686,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13981959" sideWeight="0.4923077" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35115978" sideWeight="0.66433567" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35115978" sideWeight="0.66433567" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -740,7 +733,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes + mv" />
+    <option name="LAST_COMMIT_MESSAGE" value="straaaange shell features" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -756,6 +749,7 @@
     <MESSAGE value="InitialCommit" />
     <MESSAGE value="another init commit" />
     <MESSAGE value="fixes + mv" />
+    <MESSAGE value="straaaange shell features" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -821,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/MovableFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="0.33283582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Dir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="25" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
@@ -865,26 +852,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/shell/InteractiveShell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="37" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +875,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4188406">
+        <state line="25" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/shell/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="81" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="25" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/shell/MovableFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.28208956">
           <folding />
         </state>
       </provider>
