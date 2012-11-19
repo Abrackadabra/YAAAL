@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.12 - unsorted/Crypto1ProgrammingAssignment.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/GC.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Gorgeous.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Hrundy.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Rooks.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Sequence.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Wheel.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Young.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.18 - unsorted/CCard.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.18 - unsorted/Card.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/General.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Generator.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Medical.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Numbereater.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/NumbereaterGen.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Sum.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.12 - unsorted/Crypto1ProgrammingAssignment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/GC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Gorgeous.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Hrundy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Rooks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Sequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Wheel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.17 - unsorted/Young.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.18 - unsorted/CCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.18 - unsorted/Card.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/General.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Generator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Medical.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Numbereater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/NumbereaterGen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/2012.11/2012.11.19 - unsorted/Sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" afterPath="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/shell/MovableFile.java" afterPath="$PROJECT_DIR$/src/misc/shell/MovableFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abrackadabra/Scanner.java" afterPath="$PROJECT_DIR$/src/abrackadabra/Scanner.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,6 +50,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -62,37 +102,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Cd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cd.java">
+      <file leaf-file-name="ParallelSort.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="73" column="42" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.41309524">
+              <folding>
+                <element signature="e#299#467#0" expanded="true" />
+                <element signature="e#313#321#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#2318#2326#0" expanded="true" />
+                <element signature="e#2381#2389#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovableFile.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/MovableFile.java">
+      <file leaf-file-name="MasterSorter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.28208956">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InteractiveShell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/InteractiveShell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/CommandFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="81" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+            <state line="16" column="10" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,58 +128,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pwd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Pwd.java">
+      <file leaf-file-name="SlaveSorter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+            <state line="11" column="8" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mkdir.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java">
+      <file leaf-file-name="IOHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Rm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="396" selection-end="594" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+            <state line="16" column="46" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mv.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Mv.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Exit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -170,22 +162,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/misc/shell/InteractiveShell.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/Action.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/Shell.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/UnknownCommand.java" />
-        <option value="$PROJECT_DIR$/src/chelper/Godzilla.java" />
-        <option value="$PROJECT_DIR$/src/chelper/GodzillaGen.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Dir.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Mv.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Cp.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Rm.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Cd.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Exit.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Pwd.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/CommandFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/shell/MovableFile.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Bug.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/output/Main.java" />
+        <option value="$PROJECT_DIR$/src/chelper/CCard.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Card.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Numbereater.java" />
+        <option value="$PROJECT_DIR$/src/chelper/NumbereaterGen.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Medical.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Sum.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Generator.java" />
+        <option value="$PROJECT_DIR$/src/chelper/General.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/SuperScanner.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
       </list>
     </option>
   </component>
@@ -195,8 +187,24 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -294,33 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
+              <option name="myItemId" value="parallelsort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,16 +342,16 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -380,57 +362,7 @@
       <recent name="C:\Work\Java\Olympic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Shell">
-    <configuration default="false" name="Runner" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chelper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chelper.Runner" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Debug" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Olympic" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FGrabber" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="misc.FGrabber" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Debug" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Olympic" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ParallelSort">
     <configuration default="false" name="W" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -501,6 +433,40 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Debug" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Olympic" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParallelSort" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="misc.parallelsort.ParallelSort" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Debug" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Olympic" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -600,19 +566,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="Crypto1ProgrammingAssignment" type="Task" factoryName="Task">
-      <taskConf>src/chelper/Crypto1ProgrammingAssignment.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FGrabber" />
-      <item index="2" class="java.lang.String" itemvalue="Application.W" />
-      <item index="3" class="java.lang.String" itemvalue="Application.XKCDGrabber" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Shell" />
-      <item index="5" class="java.lang.String" itemvalue="Task.Crypto1ProgrammingAssignment" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.W" />
+      <item index="1" class="java.lang.String" itemvalue="Application.XKCDGrabber" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Shell" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ParallelSort" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -664,29 +623,33 @@
       <created>1353097031742</created>
       <updated>1353097031742</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="movable file fix">
+      <created>1353100901034</created>
+      <updated>1353100901034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587412" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3883547" sideWeight="0.5884726" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.4951049" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35180414" sideWeight="0.58181816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283237" sideWeight="0.49806702" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35135135" sideWeight="0.32587412" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35135135" sideWeight="0.4083916" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13981959" sideWeight="0.4979021" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1360294" sideWeight="0.5468208" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13981959" sideWeight="0.4923077" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35115978" sideWeight="0.66433567" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1360294" sideWeight="0.44508672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27879903" sideWeight="0.55804193" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -733,7 +696,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="straaaange shell features" />
+    <option name="LAST_COMMIT_MESSAGE" value="movable file fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -750,6 +713,7 @@
     <MESSAGE value="another init commit" />
     <MESSAGE value="fixes + mv" />
     <MESSAGE value="straaaange shell features" />
+    <MESSAGE value="movable file fix" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -793,113 +757,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/Action.java">
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/MathUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="553" selection-end="553" vertical-scroll-proportion="0.48115942" />
+        <state line="23" column="4" selection-start="503" selection-end="718" vertical-scroll-proportion="0.02463768" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/UnknownCommand.java">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="57" selection-start="442" selection-end="442" vertical-scroll-proportion="0.017171716" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/Command.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="139" selection-end="139" vertical-scroll-proportion="0.19710144" />
+        <state line="672" column="29" selection-start="25242" selection-end="25242" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chelper/Crypto1ProgrammingAssignment.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/math/MutableBigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="48" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0">
+        <state line="952" column="30" selection-start="28923" selection-end="28923" vertical-scroll-proportion="0.18550725" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1341" column="14" selection-start="48087" selection-end="48087" vertical-scroll-proportion="0.45652175" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="603" column="0" selection-start="22213" selection-end="22213" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="17" selection-end="17" vertical-scroll-proportion="0.020238096">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Dir.java">
+    <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+        <state line="204" column="0" selection-start="6237" selection-end="6237" vertical-scroll-proportion="0.18214285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/Shell.java">
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="64" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+        <state line="16" column="90" selection-start="350" selection-end="350" vertical-scroll-proportion="0.24285714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Exit.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Mv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+        <state line="16" column="46" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/InteractiveShell.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+        <state line="70" column="22" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-1.4273809">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Rm.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="396" selection-end="594" vertical-scroll-proportion="0.0">
+        <state line="460" column="34" selection-start="18717" selection-end="18717" vertical-scroll-proportion="0.7583333">
+          <folding>
+            <element signature="e#18738#18746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="31" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.35357141">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Pwd.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+        <state line="11" column="8" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Mkdir.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="81" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+        <state line="16" column="10" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/commands/Cd.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/shell/MovableFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.28208956">
-          <folding />
+        <state line="73" column="42" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.41309524">
+          <folding>
+            <element signature="e#299#467#0" expanded="true" />
+            <element signature="e#313#321#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#2318#2326#0" expanded="true" />
+            <element signature="e#2381#2389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

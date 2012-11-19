@@ -1,0 +1,48 @@
+6 Hrundy
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+7
+0
+1 1
+1 1
+1
+1
+1 2
+1 2
+1
+2
+1 3
+1 4
+1
+3
+1 4
+1 6
+1
+4
+1 5
+2 10
+1
+5
+1 6
+2 16
+1
+6
+4 1000
+-1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.Hrundy
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.17
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

@@ -1,0 +1,32 @@
+7 General
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+90 12 6
+abcdefghijkl
+cdabghieflkj
+2 10 11
+4 4 3 2 1
+5 9 8 7 6 5
+4 1 2 3 4
+5 5 6 7 8 9
+2 11 12
+13 1 2 2 3 3 6 1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+15 chelper.General
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.19
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0

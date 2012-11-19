@@ -1,0 +1,24 @@
+4 Card
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+0 
+-1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.Card
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2012.11.18
+0 
+1
+20 abrackadabra.Scanner
+19 java.io.PrintWriter
+0
