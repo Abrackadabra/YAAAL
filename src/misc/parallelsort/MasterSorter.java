@@ -25,7 +25,7 @@ public class MasterSorter {
                 while (!executorService.awaitTermination(100, TimeUnit.MILLISECONDS)) {
                 }
             } catch (InterruptedException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             }
             if (i >= strings.size()) {
                 break;
