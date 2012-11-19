@@ -45,6 +45,7 @@ public class ParallelSort {
                             System.err.println("Wrong syntax");
                             System.exit(1);
                         }
+                        i = args[start].length();
                         break;
                     case 'o':
                         if (args[start].length() > 2 || start + 1 >= args.length) {
@@ -52,6 +53,7 @@ public class ParallelSort {
                             System.exit(1);
                         }
                         io.setOutputFile(args[++start]);
+                        i = args[start].length();
                         break;
                     default:
                         System.err.println("Unrecognized key: " + c);
@@ -71,10 +73,6 @@ public class ParallelSort {
             if (s == null) {
                 break;
             }
-            // TODO: delete before release
-            if (s.equals("stop")) {
-                break;
-            }
             if (uniqueMode) {
                 uniqueStrings.add(s);
             } else {
@@ -85,6 +83,8 @@ public class ParallelSort {
             strings.addAll(uniqueStrings);
         }
 
+        System.out.println("Finished reading");
+
         long startTime = System.nanoTime();
         new MasterSorter().sort(strings, comparator, threadCount);
         long executionTime = System.nanoTime() - startTime;
@@ -92,9 +92,10 @@ public class ParallelSort {
         for (String s : strings) {
             io.println(s);
         }
-        io.close();
 
         System.out.println("Execution time");
         System.out.printf("%.2f seconds \n", executionTime / 1e9);
+
+        io.close();
     }
 }

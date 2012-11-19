@@ -34,6 +34,17 @@ public class IOHandler {
     public void addInputFile(String fileName) {
         fileInput = true;
         inputQueue.add(new File(fileName));
+
+        openReader();
+    }
+
+    private void openReader() {
+        try {
+            bufferedReader = new BufferedReader(new FileReader(inputQueue.peek()));
+        } catch (FileNotFoundException e) {
+            System.err.println("Input file not found: " + inputQueue.peek().toString());
+            System.exit(1);
+        }
     }
 
     public void close() {
@@ -67,12 +78,7 @@ public class IOHandler {
                     if (inputQueue.isEmpty()) {
                         return null;
                     }
-                    try {
-                        bufferedReader = new BufferedReader(new FileReader(inputQueue.peek()));
-                    } catch (FileNotFoundException e) {
-                        System.err.println("Input file not found: " + inputQueue.peek().toString());
-                        System.exit(1);
-                    }
+                    openReader();
                 }
             }
         } else {
