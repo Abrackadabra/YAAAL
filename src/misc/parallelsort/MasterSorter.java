@@ -11,8 +11,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Time: 23:47
  */
 public class MasterSorter {
-    //private Set<Integer> locks = Collections.newSetFromMap(new ConcurrentHashMap<Integer, Boolean>());
-
     public void sort(String[] strings, Comparator<String> comparator, int maxThreadCount) {
         AtomicInteger threadsLeft = new AtomicInteger(maxThreadCount - 1);
         Thread sorter = new SlaveSorter(strings, comparator, threadsLeft, 0, strings.length);
