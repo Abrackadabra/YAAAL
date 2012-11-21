@@ -84,7 +84,7 @@
       <file leaf-file-name="log" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="33" selection-end="33" vertical-scroll-proportion="0.04047619">
+            <state line="3" column="52" selection-start="41" selection-end="41" vertical-scroll-proportion="0.060714286">
               <folding />
             </state>
           </provider>
@@ -102,7 +102,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hotfix" />
       </map>
     </option>
   </component>
@@ -619,7 +619,11 @@
       <created>1353525658701</created>
       <updated>1353525658701</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix">
+      <created>1353525692557</created>
+      <updated>1353525692557</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -839,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="33" selection-end="33" vertical-scroll-proportion="0.04047619">
+        <state line="3" column="52" selection-start="41" selection-end="41" vertical-scroll-proportion="0.060714286">
           <folding />
         </state>
       </provider>
