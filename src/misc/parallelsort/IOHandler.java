@@ -73,13 +73,20 @@ public class IOHandler {
                 }
                 if (s != null) {
                     return s;
-                } else {
-                    inputQueue.poll();
-                    if (inputQueue.isEmpty()) {
-                        return null;
-                    }
-                    openReader();
                 }
+                inputQueue.poll();
+                if (bufferedReader != null) {
+                    try {
+                        bufferedReader.close();
+                    } catch (IOException e) {
+                        System.err.println("Could not close file.");
+                        System.exit(1);
+                    }
+                }
+                if (inputQueue.isEmpty()) {
+                    return null;
+                }
+                openReader();
             }
         } else {
             try {
