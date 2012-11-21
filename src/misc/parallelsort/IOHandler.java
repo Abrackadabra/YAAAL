@@ -52,7 +52,7 @@ public class IOHandler {
         // if fileInput then is already closed
         // else no need to close cin
 
-        //test
+        //real release
         out.flush();
         out.close();
     }
