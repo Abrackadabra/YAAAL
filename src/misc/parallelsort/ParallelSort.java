@@ -94,7 +94,7 @@ public class ParallelSort {
             }
         }
 
-        String[] stringArray = strings.toArray(new String[0]);
+        String[] stringArray = strings.toArray(new String[strings.size()]);
 
         new MasterSorter().sort(stringArray, comparator, threadCount);
 

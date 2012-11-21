@@ -13,8 +13,8 @@ public class IOHandler {
     private BufferedReader bufferedReader;
     private PrintWriter    out;
 
-    boolean     fileInput  = false;
-    Queue<File> inputQueue = new LinkedList<File>();
+    private boolean     fileInput  = false;
+    private Queue<File> inputQueue = new LinkedList<File>();
 
     public IOHandler() {
         bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -48,11 +48,9 @@ public class IOHandler {
     }
 
     public void close() {
-        try {
-            bufferedReader.close();
-        } catch (Exception e) {
-
-        }
+        // bufferedReader
+        // if fileInput then is already closed
+        // else no need to close cin
         out.flush();
         out.close();
     }

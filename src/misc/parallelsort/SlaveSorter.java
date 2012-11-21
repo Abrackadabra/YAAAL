@@ -14,7 +14,7 @@ public class SlaveSorter extends Thread {
 
     private Comparator<String> comparator;
 
-    private AtomicInteger threadsLeft;
+    private final AtomicInteger threadsLeft;
 
     private int l, r;
 
@@ -25,8 +25,6 @@ public class SlaveSorter extends Thread {
         this.l = l;
         this.r = r;
     }
-
-    private SlaveSorter() {}
 
     @Override
     public void run() {
