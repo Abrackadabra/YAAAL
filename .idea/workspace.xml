@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -616,7 +613,11 @@
       <created>1353522361512</created>
       <updated>1353522361512</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="++speed&#10;+correct keys">
+      <created>1353523003642</created>
+      <updated>1353523003642</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
