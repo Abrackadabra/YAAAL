@@ -93,7 +93,7 @@
       <file leaf-file-name="IOHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="122" selection-start="940" selection-end="940" vertical-scroll-proportion="0.3041145">
+            <state line="38" column="53" selection-start="969" selection-end="969" vertical-scroll-proportion="0.39534885">
               <folding>
                 <element signature="e#359#365#0" expanded="true" />
               </folding>
@@ -140,7 +140,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hotfox" />
       </map>
     </option>
   </component>
@@ -649,7 +649,15 @@
       <created>1353523594741</created>
       <updated>1353523594741</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <created>1353523658700</created>
+      <updated>1353523658700</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <created>1353523814147</created>
+      <updated>1353523814147</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -858,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="122" selection-start="940" selection-end="940" vertical-scroll-proportion="0.3041145">
+        <state line="38" column="53" selection-start="969" selection-end="969" vertical-scroll-proportion="0.39534885">
           <folding>
             <element signature="e#359#365#0" expanded="true" />
           </folding>
