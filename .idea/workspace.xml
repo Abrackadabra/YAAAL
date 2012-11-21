@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,7 +93,7 @@
       <file leaf-file-name="IOHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="72" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.24329159">
+            <state line="35" column="122" selection-start="940" selection-end="940" vertical-scroll-proportion="0.3041145">
               <folding>
                 <element signature="e#359#365#0" expanded="true" />
               </folding>
@@ -162,9 +163,9 @@
         <option value="$PROJECT_DIR$/output.txt" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/CaseIgnoringString.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
       </list>
     </option>
   </component>
@@ -644,7 +645,11 @@
       <created>1353523263286</created>
       <updated>1353523263286</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <created>1353523594741</created>
+      <updated>1353523594741</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,6 +665,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3512852" sideWeight="0.4083916" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1360294" sideWeight="0.48901734" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -671,7 +677,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3512852" sideWeight="0.4083916" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -713,7 +718,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added something" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -737,6 +742,7 @@
     <MESSAGE value="++speed&#10;+correct keys" />
     <MESSAGE value="corrected inspections" />
     <MESSAGE value="added something" />
+    <MESSAGE value="test" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -852,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="72" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.24329159">
+        <state line="35" column="122" selection-start="940" selection-end="940" vertical-scroll-proportion="0.3041145">
           <folding>
             <element signature="e#359#365#0" expanded="true" />
           </folding>

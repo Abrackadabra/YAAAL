@@ -51,6 +51,8 @@ public class IOHandler {
         // bufferedReader
         // if fileInput then is already closed
         // else no need to close cin
+
+        //test
         out.flush();
         out.close();
     }
