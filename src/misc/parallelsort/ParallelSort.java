@@ -28,62 +28,6 @@ public class ParallelSort {
         new ParallelSort().run(args);
     }
 
-    private void run(String[] args) {
-        processArguments(args);
-
-        ArrayList<String> strings = new ArrayList<String>();
-        HashSet<String> uniqueStrings = new HashSet<String>();
-        while (true) {
-            String s = io.readLine();
-            if (s == null) {
-                break;
-            }
-            if (uniqueMode && preFiltering) {
-                if (ignoringCase) {
-                    String lowerCase = s.toLowerCase();
-                    if (!uniqueStrings.contains(lowerCase)) {
-                        uniqueStrings.add(lowerCase);
-                        strings.add(s);
-                    }
-                } else {
-                    if (!uniqueStrings.contains(s)) {
-                        uniqueStrings.add(s);
-                        strings.add(s);
-                    }
-                }
-            } else {
-                strings.add(s);
-            }
-        }
-
-        new MasterSorter().sort(strings, comparator, threadCount);
-
-        if (!preFiltering) {
-            ArrayList<String> newStrings = new ArrayList<String>();
-            for (String s : strings) {
-                if (ignoringCase) {
-                    String lowerCase = s.toLowerCase();
-                    if (!uniqueStrings.contains(lowerCase)) {
-                        uniqueStrings.add(lowerCase);
-                        newStrings.add(s);
-                    }
-                } else {
-                    if (!uniqueStrings.contains(s)) {
-                        uniqueStrings.add(s);
-                        newStrings.add(s);
-                    }
-                }
-            }
-            strings = newStrings;
-        }
-
-        for (String s : strings) {
-            io.println(s);
-        }
-
-        io.close();
-    }
-
     private void processArguments(String[] args) {
         int start = 0;
         for (; start < args.length && args[start].charAt(0) == '-'; start++) {
@@ -128,5 +72,61 @@ public class ParallelSort {
         for (; start < args.length; start++) {
             io.addInputFile(args[start]);
         }
+    }
+
+    private void run(String[] args) {
+        processArguments(args);
+
+        ArrayList<String> strings = new ArrayList<String>();
+        HashSet<String> uniqueStrings = new HashSet<String>();
+        while (true) {
+            String s = io.readLine();
+            if (s == null) {
+                break;
+            }
+            if (uniqueMode && preFiltering) {
+                if (ignoringCase) {
+                    String lowerCase = s.toLowerCase();
+                    if (!uniqueStrings.contains(lowerCase)) {
+                        uniqueStrings.add(lowerCase);
+                        strings.add(s);
+                    }
+                } else {
+                    if (!uniqueStrings.contains(s)) {
+                        uniqueStrings.add(s);
+                        strings.add(s);
+                    }
+                }
+            } else {
+                strings.add(s);
+            }
+        }
+
+        new MasterSorter().sort(strings, comparator, threadCount);
+
+        if (uniqueMode && !preFiltering) {
+            ArrayList<String> newStrings = new ArrayList<String>();
+            for (String s : strings) {
+                if (ignoringCase) {
+                    String lowerCase = s.toLowerCase();
+                    if (!uniqueStrings.contains(lowerCase)) {
+                        uniqueStrings.add(lowerCase);
+                        newStrings.add(s);
+                    }
+                } else {
+                    if (!uniqueStrings.contains(s)) {
+                        uniqueStrings.add(s);
+                        newStrings.add(s);
+                    }
+                }
+            }
+            strings = newStrings;
+        }
+
+        for (String s : strings) {
+            io.println(s);
+        }
+
+        io.close();
     }
 }

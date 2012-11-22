@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/Generator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
+    <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="fix">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,10 +82,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IOHandler.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="IOHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="50" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0">
+            <state line="71" column="81" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.35243902">
               <folding />
             </state>
           </provider>
@@ -100,10 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="64" column="23" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1761#1901#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,25 +103,26 @@
       <file leaf-file-name="Tester.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="90" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
+            <state line="34" column="1" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#266#515#0" expanded="true" />
                 <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#542#792#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#598#848#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelSort.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ParallelSort.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="34" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.85">
+            <state line="131" column="33" selection-start="4373" selection-end="4373" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#474#482#0" expanded="true" />
                 <element signature="method#main#0;class#ParallelSort#0" expanded="false" />
-                <element signature="e#1775#1783#0" expanded="true" />
+                <element signature="e#2714#2722#0" expanded="true" />
+                <element signature="e#2777#2785#0" expanded="true" />
+                <element signature="e#3682#3690#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,9 +141,7 @@
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="64" column="59" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1610#1618#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,9 +150,7 @@
         <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="81" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#327#335#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -200,9 +189,9 @@
         <option value="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/PerfomanceTest.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/Generator.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
+        <option value="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
       </list>
     </option>
@@ -393,9 +382,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -735,11 +724,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.4951049" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841912" sideWeight="0.58181816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -749,17 +737,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3512852" sideWeight="0.4083916" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.44046244" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.44508672" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.55144507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30208334" sideWeight="0.6716763" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.5468208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30147058" sideWeight="0.6716763" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -914,44 +903,6 @@
         <state line="699" column="14" selection-start="36260" selection-end="36260" vertical-scroll-proportion="0.7892857" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="81" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#327#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="90" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#266#515#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#542#792#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="23" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1761#1901#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="50" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
@@ -962,20 +913,52 @@
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="59" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1610#1618#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="81" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="34" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.85">
+        <state line="131" column="33" selection-start="4373" selection-end="4373" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#474#482#0" expanded="true" />
             <element signature="method#main#0;class#ParallelSort#0" expanded="false" />
-            <element signature="e#1775#1783#0" expanded="true" />
+            <element signature="e#2714#2722#0" expanded="true" />
+            <element signature="e#2777#2785#0" expanded="true" />
+            <element signature="e#3682#3690#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="1" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#266#515#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#598#848#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="23" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="81" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.35243902">
+          <folding />
         </state>
       </provider>
     </entry>
