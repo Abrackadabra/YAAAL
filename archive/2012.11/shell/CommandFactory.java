@@ -2,7 +2,6 @@ package misc.shell;
 
 import misc.shell.commands.*;
 
-import java.io.*;
 import java.util.*;
 
 /**

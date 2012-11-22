@@ -2,8 +2,6 @@ package misc.shell.commands;
 
 import misc.shell.Command;
 
-import java.io.*;
-
 /**
  * Created with IntelliJ IDEA.
  * Author: Abrackadabra

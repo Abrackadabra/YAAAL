@@ -3,8 +3,6 @@ package misc.shell.commands;
 import misc.shell.IOCommand;
 import misc.shell.MovableFile;
 
-import java.io.*;
-
 /**
  * Created with IntelliJ IDEA.
  * Author: Abrackadabra

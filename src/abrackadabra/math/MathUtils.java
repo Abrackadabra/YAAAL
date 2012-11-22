@@ -41,17 +41,13 @@ public class MathUtils {
         return a.abs();
     }
 
-    public static double randomBetween(double a, double b) {
+    public static double getRandomBetween(double a, double b) {
         if (a > b) {
             double t = a;
             a = b;
             b = t;
         }
         return Math.random() * (b - a) + a;
-    }
-
-    public static double distance(double x0, double y0, double x1, double y1) {
-        return Math.sqrt((x1 - x0) * (x1 - x0) + (y1 - y0) * (y1 - y0));
     }
 
     public static ArrayList<Integer> getPrimes(int max) {
@@ -65,4 +61,6 @@ public class MathUtils {
         }
         return res;
     }
+
+
 }

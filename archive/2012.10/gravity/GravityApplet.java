@@ -4,7 +4,6 @@ import abrackadabra.math.MathUtils;
 
 import java.applet.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.awt.image.*;
 import java.util.*;
 
@@ -22,9 +21,9 @@ public class GravityApplet extends Applet {
     public void init() {
         setSize((int) width, (int) height);
         for (int i = 0; i < n; i++) {
-            particles.add(new Particle(MathUtils.randomBetween(0.1, 0.1),
-                    MathUtils.randomBetween(0, width),
-                    MathUtils.randomBetween(0, height),
+            particles.add(new Particle(MathUtils.getRandomBetween(0.1, 0.1),
+                    MathUtils.getRandomBetween(0, width),
+                    MathUtils.getRandomBetween(0, height),
                     0,
                     0));
         }
@@ -64,9 +63,9 @@ public class GravityApplet extends Applet {
     void calculate() {
         totalMass = 0.0;
         if (Math.random() < 0.3) {
-            particles.add(new Particle(MathUtils.randomBetween(0.1, 0.1),
-                    MathUtils.randomBetween(0, width),
-                    MathUtils.randomBetween(0, height),
+            particles.add(new Particle(MathUtils.getRandomBetween(0.1, 0.1),
+                    MathUtils.getRandomBetween(0, width),
+                    MathUtils.getRandomBetween(0, height),
                     0,
                     0));
         }
