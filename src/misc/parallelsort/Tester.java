@@ -20,6 +20,8 @@ public class Tester {
             }
         };
 
+        new PerformanceTest(pre).runTestAndPrint(100);
+
         Runnable post = new Runnable() {
             @Override
             public void run() {
@@ -27,8 +29,6 @@ public class Tester {
                 new ParallelSort().main(new String[]{"-u", "-o", "output.txt", "-t", "1", "input.txt"});
             }
         };
-
-        new PerformanceTest(pre).runTestAndPrint(100);
 
         new PerformanceTest(post).runTestAndPrint(100);
     }
