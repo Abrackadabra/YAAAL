@@ -68,7 +68,7 @@ public class Particle implements Comparable<Particle> {
     }
 
     public double distanceTo(Particle particle) {
-        return MathUtils.distance(x, y, particle.getX(), particle.getY());
+        return MathUtils.hypot(x, y, particle.getX(), particle.getY());
     }
 
     public double getMass() {
@@ -76,7 +76,7 @@ public class Particle implements Comparable<Particle> {
     }
 
     public double getVelocity() {
-        return MathUtils.distance(0, 0, velocityX, velocityY);
+        return MathUtils.hypot(0, 0, velocityX, velocityY);
     }
 
     public double getEnergy() {
@@ -88,13 +88,13 @@ public class Particle implements Comparable<Particle> {
     static double rCos = Math.cos(angle);
 
     public void interact(Particle particle) {
-        double distance = MathUtils.distance(x, y, particle.x, particle.y);
+        double distance = MathUtils.hypot(x, y, particle.x, particle.y);
         if (distance < getRadius() + particle.getRadius()) return;
         double dx = (particle.x - x) / distance;
         double dy = (particle.y - y) / distance;
         double acc = particle.mass / distance / distance / mass * 1e1;
         acc -= particle.mass / distance / distance / distance / distance /  mass * 5e2;
-        //acc -= 1 / distance / distance / distance /  mass * 2e4;
+        //acc -= 1 / hypot / hypot / hypot /  mass * 2e4;
 
         double nx = dx * rCos - dy * rSin;
         double ny = dy * rCos + dx * rSin;
@@ -104,7 +104,7 @@ public class Particle implements Comparable<Particle> {
 
 
 
-        double totalSpeed = MathUtils.distance(0, 0, velocityX, velocityY);
+        double totalSpeed = MathUtils.hypot(0, 0, velocityX, velocityY);
         if (totalSpeed > maxSpeed) {
             double c = totalSpeed / maxSpeed;
             velocityX /= c;
