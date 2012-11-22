@@ -9,22 +9,82 @@ import java.util.*;
  * Time: 22:53
  */
 public class ParallelSort {
+    static boolean preFiltering = true;
+
+    private IOHandler io = new IOHandler();
+    private boolean uniqueMode = false;
+    private boolean ignoringCase = false;
+
+    private int threadCount = Runtime.getRuntime().availableProcessors();
+
+    private Comparator<String> comparator = new Comparator<String>() {
+        @Override
+        public int compare(String o1, String o2) {
+            return o1.compareTo(o2);
+        }
+    };
+
     public static void main(String[] args) {
-        IOHandler io = new IOHandler();
+        new ParallelSort().run(args);
+    }
 
-        System.out.println();
+    private void run(String[] args) {
+        processArguments(args);
 
-        Comparator<String> comparator = new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.compareTo(o2);
+        ArrayList<String> strings = new ArrayList<String>();
+        HashSet<String> uniqueStrings = new HashSet<String>();
+        while (true) {
+            String s = io.readLine();
+            if (s == null) {
+                break;
             }
-        };
-        boolean uniqueMode = false;
-        boolean ignoringCase = false;
+            if (uniqueMode && preFiltering) {
+                if (ignoringCase) {
+                    String lowerCase = s.toLowerCase();
+                    if (!uniqueStrings.contains(lowerCase)) {
+                        uniqueStrings.add(lowerCase);
+                        strings.add(s);
+                    }
+                } else {
+                    if (!uniqueStrings.contains(s)) {
+                        uniqueStrings.add(s);
+                        strings.add(s);
+                    }
+                }
+            } else {
+                strings.add(s);
+            }
+        }
 
-        int threadCount = Runtime.getRuntime().availableProcessors();
+        new MasterSorter().sort(strings, comparator, threadCount);
 
+        if (!preFiltering) {
+            ArrayList<String> newStrings = new ArrayList<String>();
+            for (String s : strings) {
+                if (ignoringCase) {
+                    String lowerCase = s.toLowerCase();
+                    if (!uniqueStrings.contains(lowerCase)) {
+                        uniqueStrings.add(lowerCase);
+                        newStrings.add(s);
+                    }
+                } else {
+                    if (!uniqueStrings.contains(s)) {
+                        uniqueStrings.add(s);
+                        newStrings.add(s);
+                    }
+                }
+            }
+            strings = newStrings;
+        }
+
+        for (String s : strings) {
+            io.println(s);
+        }
+
+        io.close();
+    }
+
+    private void processArguments(String[] args) {
         int start = 0;
         for (; start < args.length && args[start].charAt(0) == '-'; start++) {
             for (int i = 1; i < args[start].length(); i++) {
@@ -68,40 +128,5 @@ public class ParallelSort {
         for (; start < args.length; start++) {
             io.addInputFile(args[start]);
         }
-
-        ArrayList<String> strings = new ArrayList<String>();
-        HashSet<String> uniqueStrings = new HashSet<String>();
-        while (true) {
-            String s = io.readLine();
-            if (s == null) {
-                break;
-            }
-            if (uniqueMode) {
-                if (ignoringCase) { // gvnkd!!
-                    String lowerCase = s.toLowerCase();
-                    if (!uniqueStrings.contains(lowerCase)) {
-                        uniqueStrings.add(lowerCase);
-                        strings.add(s);
-                    }
-                } else {
-                    if (!uniqueStrings.contains(s)) {
-                        uniqueStrings.add(s);
-                        strings.add(s);
-                    }
-                }
-            } else {
-                strings.add(s);
-            }
-        }
-
-        String[] stringArray = strings.toArray(new String[strings.size()]);
-
-        new MasterSorter().sort(stringArray, comparator, threadCount);
-
-        for (String s : stringArray) {
-            io.println(s);
-        }
-
-        io.close();
     }
 }
