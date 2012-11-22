@@ -11,9 +11,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Time: 23:47
  */
 public class MasterSorter {
-    public void sort(String[] strings, Comparator<String> comparator, int maxThreadCount) {
+    public void sort(ArrayList<String> strings, Comparator<String> comparator, int maxThreadCount) {
         AtomicInteger threadsLeft = new AtomicInteger(maxThreadCount - 1);
-        Thread sorter = new SlaveSorter(strings, comparator, threadsLeft, 0, strings.length);
+        Thread sorter = new SlaveSorter(strings, comparator, threadsLeft, 0, strings.size());
         sorter.start();
         try {
             sorter.join();

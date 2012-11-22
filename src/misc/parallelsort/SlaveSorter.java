@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Time: 23:48
  */
 public class SlaveSorter extends Thread {
-    private String[] strings;
+    private ArrayList<String> strings;
 
     private Comparator<String> comparator;
 
@@ -18,7 +18,7 @@ public class SlaveSorter extends Thread {
 
     private int l, r;
 
-    public SlaveSorter(String[] strings, Comparator<String> comparator, AtomicInteger threadCount, int l, int r) {
+    public SlaveSorter(ArrayList<String> strings, Comparator<String> comparator, AtomicInteger threadCount, int l, int r) {
         this.strings = strings;
         this.comparator = comparator;
         this.threadsLeft = threadCount;
@@ -62,17 +62,16 @@ public class SlaveSorter extends Thread {
 
         int i = l, j = m;
 
-        String[] sorted = new String[r - l];
-        int c = 0;
+        ArrayList<String> sorted = new ArrayList<String>();
         while (i < m || j < r) {
-            if (j == r || (i < m && comparator.compare(strings[i], strings[j]) <= 0)) {
-                sorted[c++] = strings[i++];
+            if (j == r || (i < m && comparator.compare(strings.get(i), strings.get(j)) <= 0)) {
+                sorted.add(strings.get(i++));
             } else {
-                sorted[c++] = strings[j++];
+                sorted.add(strings.get(j++));
             }
         }
-        for (i = 0; i < c; i++) {
-            strings[l + i] = sorted[i];
+        for (i = 0; i < r - l; i++) {
+            strings.set(l + i, sorted.get(i));
         }
     }
 }
