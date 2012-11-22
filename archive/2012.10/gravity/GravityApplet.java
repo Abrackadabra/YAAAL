@@ -4,7 +4,6 @@ import abrackadabra.math.MathUtils;
 
 import java.applet.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.awt.image.*;
 import java.util.*;
 

@@ -2,9 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="fix">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abrackadabra/structure/Counter.java" />
+      <change type="DELETED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\TypeOverflowException.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\1\C.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/1/C.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\1\Cgen.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/1/Cgen.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\1\D.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/1/D.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\1\F.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/1/F.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\1\H.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/1/H.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\2\A.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/2/A.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\2\A2.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/2/A2.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\2\G.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/2/G.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\2\H.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/2/H.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\2\HGen.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/2/HGen.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\3\F.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/3/F.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\3\FGen.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/3/FGen.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\4\A.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/4/A.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\4\F.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/4/F.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\4\G.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/4/G.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\5\B.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/5/B.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\5\BGen.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/5/BGen.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\5\F.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/5/F.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\6\H.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/6/H.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\6\HGen.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/6/HGen.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\6\K.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/6/K.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\6\X.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/6/X.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\7\A.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/7/A.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\7\G.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/7/G.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\8\B.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/8/B.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\8\D.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/8/D.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\8\H.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/8/H.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\9\B.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/9/B.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\9\F.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/9/F.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\9\H.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/9/H.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\9\Hold.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/9/Hold.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\TestRound\G.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/TestRound/G.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\TestRound\P.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/TestRound/P.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\TestRound\Q.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/TestRound/Q.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\TestRound\R.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/TestRound/R.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\TestRound\S.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/TestRound/S.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\cf\A.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/cf/A.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\cf\B.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/cf/B.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\cf\C.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/cf/C.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\tc\TheBrickTowerEasyDivOne.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/tc/TheBrickTowerEasyDivOne.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\archive\Petr\tc\TheBrickTowerMediumDivOne.java" afterPath="$PROJECT_DIR$/archive/2012.08/Petr/tc/TheBrickTowerMediumDivOne.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\gravity\GravityApplet.java" afterPath="$PROJECT_DIR$/archive/2012.10/gravity/GravityApplet.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\gravity\Node.java" afterPath="$PROJECT_DIR$/archive/2012.10/gravity/Node.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\gravity\Particle.java" afterPath="$PROJECT_DIR$/archive/2012.10/gravity/Particle.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\Action.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/Action.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\Command.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/Command.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\CommandFactory.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/CommandFactory.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\Executable.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/Executable.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\IOCommand.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/IOCommand.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\InteractiveShell.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/InteractiveShell.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\MovableFile.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/MovableFile.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\Shell.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/Shell.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Cd.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Cd.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Cp.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Cp.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Dir.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Dir.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Exit.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Exit.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Mkdir.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Mkdir.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Mv.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Mv.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Pwd.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Pwd.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\Rm.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/Rm.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\misc\shell\commands\UnknownCommand.java" afterPath="$PROJECT_DIR$/archive/2012.11/shell/commands/UnknownCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" afterPath="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,74 +143,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IOHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
+      <file leaf-file-name="Fraction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="81" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.35243902">
+            <state line="2" column="22" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerformanceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java">
+      <file leaf-file-name="Counter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/abrackadabra/structure/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="23" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tester.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Tester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="1" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#266#515#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#598#848#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelSort.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="33" selection-start="4373" selection-end="4373" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#main#0;class#ParallelSort#0" expanded="false" />
-                <element signature="e#2714#2722#0" expanded="true" />
-                <element signature="e#2777#2785#0" expanded="true" />
-                <element signature="e#3682#3690#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MasterSorter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SlaveSorter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="59" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="81" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+            <state line="18" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.32380953">
               <folding />
             </state>
           </provider>
@@ -177,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/chelper/ICPCBalloons.java" />
         <option value="$PROJECT_DIR$/src/misc/FGrabber.java" />
         <option value="$PROJECT_DIR$/output.txt" />
@@ -193,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
+        <option value="$PROJECT_DIR$/src/abrackadabra/structure/Counter.java" />
       </list>
     </option>
   </component>
@@ -281,16 +287,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,8 +318,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abrackadabra" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,26 +351,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
+              <option name="myItemId" value="abrackadabra" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parallelsort" />
+              <option name="myItemId" value="structure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -382,15 +388,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Work\Java\Olympic\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Java\Olympic\archive\2012.08" />
+      <recent name="C:\Work\Java\Olympic\archive\2012.11" />
+      <recent name="C:\Work\Java\Olympic\archive\2012.10" />
       <recent name="C:\Work\Java\Olympic" />
       <recent name="C:\Work\Java\Olympic\src" />
     </key>
@@ -737,11 +746,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3512852" sideWeight="0.4083916" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.44508672" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.45433527" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.5468208" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30147058" sideWeight="0.6716763" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1427696" sideWeight="0.53757226" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30085784" sideWeight="0.6716763" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -858,21 +867,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="14" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.33292684" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/OutputStreamWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="10" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.3452381" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="17" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.020238096" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.IntelliJIdea11/config/plugins/chelper.jar!/net/egork/chelper/tester/NewTopCoderTester.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="36" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.08343558" />
@@ -903,61 +897,72 @@
         <state line="699" column="14" selection-start="36260" selection-end="36260" vertical-scroll-proportion="0.7892857" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.08292683">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="59" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="81" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="33" selection-start="4373" selection-end="4373" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#main#0;class#ParallelSort#0" expanded="false" />
-            <element signature="e#2714#2722#0" expanded="true" />
-            <element signature="e#2777#2785#0" expanded="true" />
-            <element signature="e#3682#3690#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#266#515#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#598#848#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
+        <state line="35" column="39" selection-start="915" selection-end="915" vertical-scroll-proportion="0.60121953">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="23" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0">
+        <state line="64" column="23" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.020238096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="81" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.35243902">
+        <state line="91" column="37" selection-start="2601" selection-end="2601" vertical-scroll-proportion="1.3357143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="172" selection-end="212" vertical-scroll-proportion="0.20238096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.020238096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="59" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.04047619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="791" selection-end="791" vertical-scroll-proportion="0.020238096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/structure/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.32380953">
           <folding />
         </state>
       </provider>
