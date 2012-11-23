@@ -14,6 +14,7 @@ public class IOHandler {
     PrintWriter    out;
 
     boolean     fileInput  = false;
+    boolean     opened     = false;
     Queue<File> inputQueue = new LinkedList<File>();
 
     public IOHandler() {
@@ -35,8 +36,9 @@ public class IOHandler {
         fileInput = true;
         inputQueue.add(new File(fileName));
 
-        if (bufferedReader == null) {
+        if (!opened) {
             openReader();
+            opened = true;
         }
     }
 
