@@ -9,7 +9,13 @@ import java.io.*;
  * Time: 09:12
  */
 public class OutputWriter extends PrintWriter {
-    static final String DEFAULT_SEPARATOR = " ";
+    public static final String DEFAULT_SEPARATOR = " ";
+
+    String separator = DEFAULT_SEPARATOR;
+
+    public void setSeparator(String separator) {
+        this.separator = separator;
+    }
 
     public OutputWriter(String fileName) throws FileNotFoundException {
         super(fileName);
@@ -24,10 +30,6 @@ public class OutputWriter extends PrintWriter {
     }
 
     public void printSeparated(Object... objects) {
-        printSeparated(DEFAULT_SEPARATOR, objects);
-    }
-
-    public void printSeparated(String separator, Object... objects) {
         for (int i = 0; i < objects.length; i++) {
             if (i > 0) {
                 print(separator);
