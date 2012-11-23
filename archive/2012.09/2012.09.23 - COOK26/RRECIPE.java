@@ -1,10 +1,10 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 import java.io.PrintWriter;
 
 public class RRECIPE {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         String s = in.nextString();
         int n = s.length();
         int[] a = new int[n];

@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.util.*;
 
 public class TaskD {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         int n = in.nextInt();
         int x = in.nextInt();
         ArrayList<Integer> a = new ArrayList<Integer>();

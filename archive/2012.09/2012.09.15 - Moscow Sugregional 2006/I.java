@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -40,7 +40,7 @@ public class I {
     int n;
     HashSet<Pair> answer = new HashSet<Pair>();
 
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         n = in.nextInt();
         int[] l = new int[n];
         int[] r = new int[n];

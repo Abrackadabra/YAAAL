@@ -1,11 +1,11 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
 import java.io.PrintWriter;
 
 public class Tiles {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         int w = in.nextInt(), h = in.nextInt(), a = in.nextInt();
 
         int q = 0;
@@ -39,12 +39,12 @@ public class Tiles {
 /*
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
 import java.io.PrintWriter;
 
 public class Tiles {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         int w = in.nextInt(), h = in.nextInt(), a = in.nextInt();
 
         int q = 0;

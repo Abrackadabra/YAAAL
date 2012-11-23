@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.util.*;
 
 public class Game {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         int n = in.nextInt();
         int m = in.nextInt();
         boolean[][] win = new boolean[n][n];

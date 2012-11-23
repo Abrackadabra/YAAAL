@@ -1,6 +1,7 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 
 public class J {
@@ -8,7 +9,7 @@ public class J {
 
         return (((day*m + k)*n + month + 1)*m + k)*n + year == d;
     }
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         long n, m, k, d;
         long months[] = {31,28,31,30,31,30,31,31,30,31,30,31};
         m = in.nextLong();

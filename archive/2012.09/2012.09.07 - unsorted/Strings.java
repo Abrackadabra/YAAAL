@@ -1,13 +1,13 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 import abrackadabra.StringUtils;
 
 import java.io.PrintWriter;
 import java.util.Arrays;
 
 public class Strings {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         String s = in.nextString();
         out.println("Length: " + s.length());
 

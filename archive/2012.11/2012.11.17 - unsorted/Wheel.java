@@ -1,6 +1,7 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.util.*;
 
@@ -59,7 +60,7 @@ public class Wheel {
         cache.put(key, ans);
         return ans;
     }
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         n = in.nextInt();
         r = in.nextInt() - 1;
         String s = in.nextString();

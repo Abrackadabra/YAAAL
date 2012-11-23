@@ -1,13 +1,13 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
 import java.io.PrintWriter;
 
 public class TaskE {
     int m;
 
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         long n = in.nextLong();
         m = in.nextInt();
         int k = in.nextInt();

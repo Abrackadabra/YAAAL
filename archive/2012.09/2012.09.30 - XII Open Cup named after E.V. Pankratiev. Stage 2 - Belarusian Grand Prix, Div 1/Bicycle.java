@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Bicycle {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         HashSet<Line> lines = new HashSet<Line>();
         HashSet<Point> points = new HashSet<Point>();
         long x0 = in.nextLong(), y0 = in.nextLong(), x1 = in.nextLong(), y1 = in.nextLong();

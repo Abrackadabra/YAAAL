@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Game {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         int crosses = 0;
         int ouths = 0;
 

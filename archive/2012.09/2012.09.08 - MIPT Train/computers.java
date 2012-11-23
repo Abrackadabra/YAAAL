@@ -1,10 +1,11 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 
 public class computers {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         int a1 = in.nextInt(), a2 = in.nextInt(), a3 = in.nextInt();
         int b1 = in.nextInt(), b2 = in.nextInt(), b3 = in.nextInt();
 

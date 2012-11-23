@@ -1,8 +1,7 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
-import java.awt.geom.Point2D;
 import java.io.PrintWriter;
 import java.util.*;
 
@@ -27,7 +26,7 @@ public class Threed {
         return res;
     }
 
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         ArrayList<Integer> x0 = new ArrayList<Integer>();
         ArrayList<Integer> x1 = new ArrayList<Integer>();
         ArrayList<Integer> y0 = new ArrayList<Integer>();

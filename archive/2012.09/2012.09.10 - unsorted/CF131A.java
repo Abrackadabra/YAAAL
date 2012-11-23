@@ -1,10 +1,11 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 
 public class CF131A {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         String s = in.nextString();
         if (s.length() <= 1 || s.substring(1).equals(s.substring(1).toUpperCase())) {
             for (int i = 0; i < s.length(); i++) {

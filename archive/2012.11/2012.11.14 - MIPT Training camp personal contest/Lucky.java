@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.util.*;
 
 public class Lucky {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         ArrayList<Integer> a = new ArrayList<Integer>();
         a.add(in.nextInt());
         a.add(in.nextInt());

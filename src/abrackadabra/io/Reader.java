@@ -1,14 +1,33 @@
-package abrackadabra;
+package abrackadabra.io;
 
 import java.io.*;
 import java.util.*;
 
-public class Scanner {
-    BufferedReader br;
+public class Reader {
+    BufferedReader  br;
     StringTokenizer in;
 
-    public Scanner(InputStream inputStream) {
+    public Reader(String fileName) {
+        try {
+            br = new BufferedReader(new FileReader(fileName));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public Reader(InputStream inputStream) {
         br = new BufferedReader(new InputStreamReader(inputStream));
+    }
+
+    boolean hasMoreTokens() {
+        while (in == null || !in.hasMoreTokens()) {
+            String s = nextLine();
+            if (s == null) {
+                return false;
+            }
+            in = new StringTokenizer(s);
+        }
+        return true;
     }
 
     public String nextString() {
@@ -25,21 +44,8 @@ public class Scanner {
         }
     }
 
-    boolean hasMoreTokens() {
-        while (in == null || !in.hasMoreTokens()) {
-            String s = nextLine();
-            if (s == null) return false;
-            in = new StringTokenizer(s);
-        }
-        return true;
-    }
-
     public int nextInt() {
         return Integer.parseInt(nextString());
-    }
-
-    public String next(){
-        return nextString();
     }
 
     public long nextLong() {
@@ -80,5 +86,18 @@ public class Scanner {
             a[i] = nextString();
         }
         return a;
+    }
+
+    public String[] nextLineArray(int n) {
+        String[] a = new String[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = nextLine();
+        }
+        return a;
+    }
+
+    @Deprecated
+    public String next() {
+        return nextString();
     }
 }

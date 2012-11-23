@@ -1,6 +1,7 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,8 +10,8 @@ import java.util.Random;
 public class C {
     Random random = new Random();
 
-	public void solve(int testNumber, Scanner ___in, PrintWriter ____out) {
-        Scanner in = new Scanner(System.in);
+	public void solve(int testNumber, Reader ___in, PrintWriter ____out) {
+        Reader in = new Reader(System.in);
         PrintWriter out = new PrintWriter(System.out);
         while (true) {
             int n = in.nextInt();
@@ -19,7 +20,7 @@ public class C {
         }
 	}
 
-    void game(int n, Scanner in, PrintWriter out) {
+    void game(int n, Reader in, PrintWriter out) {
         int wins = 0, loses = 0;
         ArrayList<Player> players = new ArrayList<Player>();
         for (int i = 1; i <= n; i++)

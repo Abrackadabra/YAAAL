@@ -1,10 +1,10 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 import java.io.PrintWriter;
 
 public class Segments {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         int n = in.nextInt();
         for (int i = 0; i < n; i++) {
             long l = in.nextLong(), a = in.nextLong(), b = in.nextLong();

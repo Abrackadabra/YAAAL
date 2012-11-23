@@ -1,14 +1,13 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 import abrackadabra.math.MathUtils;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Phi {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         ArrayList<Integer> primes = MathUtils.getPrimes(2000100);
         long a = in.nextLong(), b = in.nextLong();
         long res = 0;

@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.math.BigInteger;
 
 public class CKISSHUG {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         int n = in.nextInt();
         BigInteger res = BigInteger.valueOf(2);
         BigInteger q = BigInteger.valueOf(n / 2);

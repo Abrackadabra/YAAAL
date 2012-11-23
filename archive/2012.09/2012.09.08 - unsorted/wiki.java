@@ -1,12 +1,13 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class wiki {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, Reader in, PrintWriter out) {
         int n = Integer.parseInt(in.nextLine());
 
         ArrayList<String> names = new ArrayList<String>();

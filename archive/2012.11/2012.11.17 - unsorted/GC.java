@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.Reader;
 
 import java.io.PrintWriter;
 import java.util.*;
 
 public class GC {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, Reader in, PrintWriter out) {
         ArrayList<String> a = new ArrayList<String>();
         ArrayList<String> labels = new ArrayList<String>();
         while (true) {
