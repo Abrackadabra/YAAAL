@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -90,7 +90,7 @@ public class General {
     Permutation[] commands;
     Permutation[] commandsReversed;
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         n = in.nextInt();
         m = in.nextInt();
         begin = new Permutation(in.nextString());

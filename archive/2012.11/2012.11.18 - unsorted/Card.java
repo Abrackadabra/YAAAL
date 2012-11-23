@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.math.*;
@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Card {
     AtomicInteger a = new AtomicInteger(0);
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         int[] ans = new int[1001];
 
         ans[1] = 0;

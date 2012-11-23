@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.*;
 import java.util.*;
 
 public class NumbereaterGen {
-    public void solve(int testNumber, Reader in, PrintWriter cout) {
+    public void solve(int testNumber, InputReader in, PrintWriter cout) {
         try {
             PrintWriter out = new PrintWriter(new FileWriter("input.txt"));
 

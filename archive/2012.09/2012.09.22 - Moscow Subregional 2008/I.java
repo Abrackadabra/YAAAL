@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -11,7 +11,7 @@ public class I {
     int taken0, taken1;
     int[][] a;
 
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         maxX = in.nextInt();
         maxY = in.nextInt();
         n = in.nextInt();

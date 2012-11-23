@@ -1,13 +1,13 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 import abrackadabra.math.MathUtils;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Problem77 {
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         int max = 500;
         int[] dp = new int[max];
         dp[0] = 1;

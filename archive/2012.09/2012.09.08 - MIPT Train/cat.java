@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class cat {
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         int a = in.nextInt() * 60, b = in.nextInt() * 60;
         int n = in.nextInt();
         int total = 60 * 24;

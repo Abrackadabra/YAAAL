@@ -1,16 +1,16 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class F {
     int x = 35, y = 35;
-    Reader in;
+    InputReader in;
     PrintWriter out;
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
-        this.in = new Reader(System.in);
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
+        this.in = new InputReader(System.in);
         this.out = new PrintWriter(System.out);
         while (true) {
             Area area = new Area();

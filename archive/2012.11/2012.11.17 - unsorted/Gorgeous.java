@@ -1,13 +1,13 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class Gorgeous {
     int n;
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         String[] res = new String[10];
 
         res[1] = "3 ";

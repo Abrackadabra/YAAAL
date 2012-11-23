@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
 
 public class Numbereater {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         HashSet<HashSet<Integer>> set = new HashSet<HashSet<Integer>>();
         int n = in.nextInt();
         int[] a = new int[n];

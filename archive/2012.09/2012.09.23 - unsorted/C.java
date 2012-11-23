@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import java.util.Random;
 public class C {
     Random random = new Random();
 
-	public void solve(int testNumber, Reader ___in, PrintWriter ____out) {
-        Reader in = new Reader(System.in);
+	public void solve(int testNumber, InputReader ___in, PrintWriter ____out) {
+        InputReader in = new InputReader(System.in);
         PrintWriter out = new PrintWriter(System.out);
         while (true) {
             int n = in.nextInt();
@@ -20,7 +20,7 @@ public class C {
         }
 	}
 
-    void game(int n, Reader in, PrintWriter out) {
+    void game(int n, InputReader in, PrintWriter out) {
         int wins = 0, loses = 0;
         ArrayList<Player> players = new ArrayList<Player>();
         for (int i = 1; i <= n; i++)

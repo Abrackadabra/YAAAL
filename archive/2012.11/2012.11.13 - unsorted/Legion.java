@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
 
 public class Legion {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         out.println(f(in.nextLong()));
 	}
 

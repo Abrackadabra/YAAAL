@@ -1,11 +1,11 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class homework {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = in.nextInt(), m = in.nextInt();
         int[] t = new int[n];
         int s = 0;

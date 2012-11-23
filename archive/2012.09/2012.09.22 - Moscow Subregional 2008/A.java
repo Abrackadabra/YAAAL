@@ -1,13 +1,13 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class A {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = in.nextInt();
         HashMap<String, Integer> institute = new HashMap<String, Integer>();
         ArrayList<String> result = new ArrayList<String>();

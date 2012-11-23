@@ -1,12 +1,12 @@
 package chelper;
 
 import abrackadabra.ArrayUtils;
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class CF144A {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = in.nextInt();
         int[] a = in.nextIntArray(n);
 

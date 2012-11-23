@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -14,7 +14,7 @@ public class Jackpot {
     int[] dsuColor;
     int   n, m;
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         n = in.nextInt();
         m = in.nextInt();
         ArrayList<ArrayList<Integer>> edges = new ArrayList<ArrayList<Integer>>();

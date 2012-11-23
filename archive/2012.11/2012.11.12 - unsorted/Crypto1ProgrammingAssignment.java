@@ -1,10 +1,12 @@
 package chelper;
 
+import abrackadabra.io.InputReader;
+
 import java.io.*;
 import java.util.*;
 
 public class Crypto1ProgrammingAssignment {
-    public void solve(int testNumber, abrackadabra.io.Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         ArrayList<int[]> cyphers = new ArrayList<int[]>();
 
         HashMap<Integer, Integer> sure = new HashMap<Integer, Integer>();

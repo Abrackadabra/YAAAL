@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import java.util.Random;
 public class I {
     Random random = new Random();
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
-        Reader min = new Reader(System.in);
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
+        InputReader min = new InputReader(System.in);
 
         ArrayList<Integer> commands = new ArrayList<Integer>();
         ArrayList<boolean[]> answers = new ArrayList<boolean[]>();

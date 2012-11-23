@@ -1,11 +1,11 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class Knownothing {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         long t1 = (long)in.nextInt();
         long t2 = (long)in.nextInt();
         long s1 = (long)in.nextInt();

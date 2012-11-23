@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\Scanner.java" afterPath="$PROJECT_DIR$/src/abrackadabra/io/Reader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\io\Reader.java" afterPath="$PROJECT_DIR$/src/abrackadabra/io/InputReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.09/2012.09.04 - Codeforces Round #133 (Div. 2)/TaskA.java" afterPath="$PROJECT_DIR$/archive/2012.09/2012.09.04 - Codeforces Round #133 (Div. 2)/TaskA.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.09/2012.09.04 - SEP12/CHEFTOWN.java" afterPath="$PROJECT_DIR$/archive/2012.09/2012.09.04 - SEP12/CHEFTOWN.java" />
@@ -178,11 +179,135 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Reader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/Reader.java">
+      <file leaf-file-name="InputReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/InputReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputWriter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.09855072">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chelper/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/PrintWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="589" column="3" selection-start="19553" selection-end="19554" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="docComment;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;field#out#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;field#lineSeparator#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#toCharset#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#toCharset#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#2;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#2;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#3;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#3;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#4;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#4;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#5;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#6;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#6;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#7;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#7;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#PrintWriter#8;class#PrintWriter#0" expanded="false" />
+                <element signature="method#PrintWriter#8;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#ensureOpen#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#ensureOpen#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#flush#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#flush#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#close#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#checkError#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#checkError#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#setError#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#setError#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#clearError#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#clearError#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#write#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#write#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#write#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#write#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#write#2;class#PrintWriter#0" expanded="false" />
+                <element signature="method#write#2;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#write#3;class#PrintWriter#0" expanded="false" />
+                <element signature="method#write#3;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#write#4;class#PrintWriter#0" expanded="false" />
+                <element signature="method#write#4;class#PrintWriter#0" expanded="false" />
+                <element signature="method#newLine#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#2;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#2;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#3;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#3;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#4;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#4;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#5;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#5;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#6;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#6;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#7;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#7;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#print#8;class#PrintWriter#0" expanded="false" />
+                <element signature="method#print#8;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#2;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#2;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#3;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#3;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#4;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#4;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#5;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#5;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#6;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#6;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#7;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#7;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#8;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#8;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#println#9;class#PrintWriter#0" expanded="false" />
+                <element signature="method#println#9;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#printf#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#printf#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#printf#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#printf#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#format#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#format#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#format#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#format#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#append#0;class#PrintWriter#0" expanded="false" />
+                <element signature="method#append#0;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#append#1;class#PrintWriter#0" expanded="false" />
+                <element signature="method#append#1;class#PrintWriter#0" expanded="false" />
+                <element signature="docComment;method#append#2;class#PrintWriter#0" expanded="false" />
+                <element signature="method#append#2;class#PrintWriter#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,11 +334,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/newFeature" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/PerfomanceTest.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/Generator.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/structure/Counter.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/math/MathUtils.java" />
@@ -225,6 +345,11 @@
         <option value="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/io/AReader.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/io/Reader.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Test.java" />
+        <option value="$PROJECT_DIR$/src/abrackadabra/io/Writer.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Task.java" />
+        <option value="$PROJECT_DIR$/src/abrackadabra/io/OutputReader.java" />
+        <option value="$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java" />
       </list>
     </option>
   </component>
@@ -354,46 +479,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parallelsort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -410,28 +495,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="abrackadabra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abrackadabra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +549,7 @@
       <recent name="C:\Work\Java\Olympic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tester">
+  <component name="RunManager" selected="Task.Task">
     <configuration default="false" name="Shell" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="misc.shell.Shell" />
@@ -689,12 +752,19 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="5">
+    <configuration default="false" name="Task" type="Task" factoryName="Task">
+      <taskConf>src/chelper/Task.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Shell" />
       <item index="1" class="java.lang.String" itemvalue="Application.ParallelSort" />
       <item index="2" class="java.lang.String" itemvalue="Application.Generator" />
       <item index="3" class="java.lang.String" itemvalue="Application.FGrabber" />
       <item index="4" class="java.lang.String" itemvalue="Application.Tester" />
+      <item index="5" class="java.lang.String" itemvalue="Task.Task" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -814,12 +884,16 @@
       <created>1353594362171</created>
       <updated>1353594362171</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="+Reader">
+      <created>1353647492012</created>
+      <updated>1353647492012</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -831,17 +905,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43307593" sideWeight="0.33006993" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.47272727" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.5174825" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3" sideWeight="0.6763006" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.5174825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27061856" sideWeight="0.66013986" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3512852" sideWeight="0.6763006" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -883,7 +957,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="+counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Reader" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -911,6 +985,7 @@
     <MESSAGE value="readme fix" />
     <MESSAGE value="fix" />
     <MESSAGE value="+counter" />
+    <MESSAGE value="+Reader" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -954,26 +1029,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="37" selection-start="2601" selection-end="2601" vertical-scroll-proportion="1.3357143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/MasterSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.020238096" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="59" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.04047619" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="791" selection-end="791" vertical-scroll-proportion="0.020238096" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/FGrabber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" />
@@ -1045,9 +1100,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/InputReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="589" column="3" selection-start="19553" selection-end="19554" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;field#out#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;field#lineSeparator#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#toCharset#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#toCharset#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#2;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#2;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#3;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#3;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#4;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#4;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#5;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#6;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#6;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#7;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#7;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#PrintWriter#8;class#PrintWriter#0" expanded="false" />
+            <element signature="method#PrintWriter#8;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#ensureOpen#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#ensureOpen#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#flush#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#flush#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#close#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#checkError#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#checkError#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#setError#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#setError#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#clearError#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#clearError#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#write#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#write#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#write#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#write#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#write#2;class#PrintWriter#0" expanded="false" />
+            <element signature="method#write#2;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#write#3;class#PrintWriter#0" expanded="false" />
+            <element signature="method#write#3;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#write#4;class#PrintWriter#0" expanded="false" />
+            <element signature="method#write#4;class#PrintWriter#0" expanded="false" />
+            <element signature="method#newLine#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#2;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#2;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#3;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#3;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#4;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#4;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#5;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#5;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#6;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#6;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#7;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#7;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#print#8;class#PrintWriter#0" expanded="false" />
+            <element signature="method#print#8;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#2;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#2;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#3;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#3;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#4;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#4;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#5;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#5;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#6;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#6;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#7;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#7;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#8;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#8;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#println#9;class#PrintWriter#0" expanded="false" />
+            <element signature="method#println#9;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#printf#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#printf#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#printf#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#printf#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#format#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#format#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#format#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#format#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#append#0;class#PrintWriter#0" expanded="false" />
+            <element signature="method#append#0;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#append#1;class#PrintWriter#0" expanded="false" />
+            <element signature="method#append#1;class#PrintWriter#0" expanded="false" />
+            <element signature="docComment;method#append#2;class#PrintWriter#0" expanded="false" />
+            <element signature="method#append#2;class#PrintWriter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chelper/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.09855072">
           <folding />
         </state>
       </provider>

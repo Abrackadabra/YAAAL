@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class CCard {
     AtomicInteger count = new AtomicInteger(0);
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         for (int n = 1; n <= 1000; n++) {
             while (count.intValue() >= 1) {
                 try {

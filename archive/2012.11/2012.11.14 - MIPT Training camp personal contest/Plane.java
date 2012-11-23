@@ -1,11 +1,11 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class Plane {
-	public void solve(int testNumber, Reader in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         boolean bing = true, bong = true;
         for (int i = 0; i < 4; i++) {
             String s = in.nextString();

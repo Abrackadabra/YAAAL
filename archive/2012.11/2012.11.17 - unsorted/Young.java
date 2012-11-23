@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.io.Reader;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -12,7 +12,7 @@ public class Young {
     ArrayList<Integer> best = new ArrayList<Integer>();
     long               max  = 0;
 
-    public void solve(int testNumber, Reader in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         String[] res = new String[101];
 
         res[1] = "1\n1 ";

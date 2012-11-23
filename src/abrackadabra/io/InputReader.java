@@ -3,11 +3,11 @@ package abrackadabra.io;
 import java.io.*;
 import java.util.*;
 
-public class Reader {
+public class InputReader {
     BufferedReader  br;
     StringTokenizer in;
 
-    public Reader(String fileName) {
+    public InputReader(String fileName) {
         try {
             br = new BufferedReader(new FileReader(fileName));
         } catch (IOException e) {
@@ -15,7 +15,7 @@ public class Reader {
         }
     }
 
-    public Reader(InputStream inputStream) {
+    public InputReader(InputStream inputStream) {
         br = new BufferedReader(new InputStreamReader(inputStream));
     }
 
