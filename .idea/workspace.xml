@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/abrackadabra/util/MiscUtils.java" />
-      <change type="DELETED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\MiscUtils.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\ArrayUtils.java" afterPath="$PROJECT_DIR$/src/abrackadabra/util/ArrayUtils.java" />
-      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\NetUtils.java" afterPath="$PROJECT_DIR$/src/abrackadabra/util/NetUtils.java" />
-      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\StringUtils.java" afterPath="$PROJECT_DIR$/src/abrackadabra/util/StringUtils.java" />
+      <change type="MOVED" beforePath="C:\Work\Java\Olympic\src\abrackadabra\math\MathUtils.java" afterPath="$PROJECT_DIR$/src/abrackadabra/math/AMath.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.09/2012.09.07 - unsorted/Strings.java" afterPath="$PROJECT_DIR$/archive/2012.09/2012.09.07 - unsorted/Strings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.09/2012.09.10 - CF Archive/CF136A.java" afterPath="$PROJECT_DIR$/archive/2012.09/2012.09.10 - CF Archive/CF136A.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.09/2012.09.10 - CF Archive/CF144A.java" afterPath="$PROJECT_DIR$/archive/2012.09/2012.09.10 - CF Archive/CF144A.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java" afterPath="$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.10/2012.10.14 - XII Open Cup named after E.V. Pankratiev. Stage 2 - Grand Prix of SPb, Div 1/Phi.java" afterPath="$PROJECT_DIR$/archive/2012.10/2012.10.14 - XII Open Cup named after E.V. Pankratiev. Stage 2 - Grand Prix of SPb, Div 1/Phi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.10/2012.10.24 - Euler/Problem77.java" afterPath="$PROJECT_DIR$/archive/2012.10/2012.10.24 - Euler/Problem77.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.10/gravity/GravityApplet.java" afterPath="$PROJECT_DIR$/archive/2012.10/gravity/GravityApplet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/2012.10/gravity/Particle.java" afterPath="$PROJECT_DIR$/archive/2012.10/gravity/Particle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abrackadabra/math/Fraction.java" afterPath="$PROJECT_DIR$/src/abrackadabra/math/Fraction.java" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,29 +86,145 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InputReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/InputReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputWriter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="51" selection-start="606" selection-end="606" vertical-scroll-proportion="0.5811594">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Task.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chelper/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+            <state line="9" column="19" selection-start="188" selection-end="188" vertical-scroll-proportion="0.22173913">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fraction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/Fraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="192" column="0" selection-start="5452" selection-end="5452" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AMath.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/AMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1334" column="4" selection-start="50572" selection-end="50572" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="docComment;method#AMath#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;field#E#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;field#PI#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#sin#0;class#AMath#0" expanded="false" />
+                <element signature="method#sin#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#cos#0;class#AMath#0" expanded="false" />
+                <element signature="method#cos#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#tan#0;class#AMath#0" expanded="false" />
+                <element signature="method#tan#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#asin#0;class#AMath#0" expanded="false" />
+                <element signature="method#asin#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#acos#0;class#AMath#0" expanded="false" />
+                <element signature="method#acos#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#atan#0;class#AMath#0" expanded="false" />
+                <element signature="method#atan#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#toRadians#0;class#AMath#0" expanded="false" />
+                <element signature="method#toRadians#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#toDegrees#0;class#AMath#0" expanded="false" />
+                <element signature="method#toDegrees#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#exp#0;class#AMath#0" expanded="false" />
+                <element signature="method#exp#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#log#0;class#AMath#0" expanded="false" />
+                <element signature="method#log#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#log10#0;class#AMath#0" expanded="false" />
+                <element signature="method#log10#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#sqrt#0;class#AMath#0" expanded="false" />
+                <element signature="method#sqrt#0;class#AMath#0" expanded="false" />
+                <element signature="e#10236#10275#0" expanded="false" />
+                <element signature="docComment;method#cbrt#0;class#AMath#0" expanded="false" />
+                <element signature="method#cbrt#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#IEEEremainder#0;class#AMath#0" expanded="false" />
+                <element signature="method#IEEEremainder#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#ceil#0;class#AMath#0" expanded="false" />
+                <element signature="method#ceil#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#floor#0;class#AMath#0" expanded="false" />
+                <element signature="method#floor#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#rint#0;class#AMath#0" expanded="false" />
+                <element signature="method#rint#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#atan2#0;class#AMath#0" expanded="false" />
+                <element signature="method#atan2#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#pow#0;class#AMath#0" expanded="false" />
+                <element signature="method#pow#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#round#0;class#AMath#0" expanded="false" />
+                <element signature="method#round#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#round#1;class#AMath#0" expanded="false" />
+                <element signature="method#round#1;class#AMath#0" expanded="false" />
+                <element signature="method#initRNG#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#random#0;class#AMath#0" expanded="false" />
+                <element signature="method#random#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#abs#0;class#AMath#0" expanded="false" />
+                <element signature="method#abs#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#abs#1;class#AMath#0" expanded="false" />
+                <element signature="method#abs#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#abs#2;class#AMath#0" expanded="false" />
+                <element signature="method#abs#2;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#abs#3;class#AMath#0" expanded="false" />
+                <element signature="method#abs#3;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#max#0;class#AMath#0" expanded="false" />
+                <element signature="method#max#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#max#1;class#AMath#0" expanded="false" />
+                <element signature="method#max#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#max#2;class#AMath#0" expanded="false" />
+                <element signature="method#max#2;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#max#3;class#AMath#0" expanded="false" />
+                <element signature="method#max#3;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#min#1;class#AMath#0" expanded="false" />
+                <element signature="method#min#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#min#2;class#AMath#0" expanded="false" />
+                <element signature="method#min#2;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#min#3;class#AMath#0" expanded="false" />
+                <element signature="method#min#3;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#min#4;class#AMath#0" expanded="false" />
+                <element signature="method#min#4;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#ulp#0;class#AMath#0" expanded="false" />
+                <element signature="method#ulp#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#ulp#1;class#AMath#0" expanded="false" />
+                <element signature="method#ulp#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#signum#0;class#AMath#0" expanded="false" />
+                <element signature="method#signum#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#signum#1;class#AMath#0" expanded="false" />
+                <element signature="method#signum#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#sinh#0;class#AMath#0" expanded="false" />
+                <element signature="method#sinh#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#cosh#0;class#AMath#0" expanded="false" />
+                <element signature="method#cosh#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#tanh#0;class#AMath#0" expanded="false" />
+                <element signature="method#tanh#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#hypot#0;class#AMath#0" expanded="false" />
+                <element signature="method#hypot#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#expm1#0;class#AMath#0" expanded="false" />
+                <element signature="method#expm1#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#log1p#0;class#AMath#0" expanded="false" />
+                <element signature="method#log1p#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#copySign#0;class#AMath#0" expanded="false" />
+                <element signature="method#copySign#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#copySign#1;class#AMath#0" expanded="false" />
+                <element signature="method#copySign#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#getExponent#0;class#AMath#0" expanded="false" />
+                <element signature="method#getExponent#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#getExponent#1;class#AMath#0" expanded="false" />
+                <element signature="method#getExponent#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#nextAfter#0;class#AMath#0" expanded="false" />
+                <element signature="method#nextAfter#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#nextAfter#1;class#AMath#0" expanded="false" />
+                <element signature="method#nextAfter#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#nextUp#0;class#AMath#0" expanded="false" />
+                <element signature="method#nextUp#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#nextUp#1;class#AMath#0" expanded="false" />
+                <element signature="method#nextUp#1;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#scalb#0;class#AMath#0" expanded="false" />
+                <element signature="method#scalb#0;class#AMath#0" expanded="false" />
+                <element signature="docComment;method#scalb#1;class#AMath#0" expanded="false" />
+                <element signature="method#scalb#1;class#AMath#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/abrackadabra/structure/Counter.java" />
-        <option value="$PROJECT_DIR$/src/abrackadabra/math/MathUtils.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/math/Complex.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/math/FastFourierTransform.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
@@ -154,6 +264,8 @@
         <option value="$PROJECT_DIR$/src/abrackadabra/io/OutputReader.java" />
         <option value="$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java" />
         <option value="$PROJECT_DIR$/output/Main.java" />
+        <option value="$PROJECT_DIR$/src/abrackadabra/math/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/abrackadabra/math/AMath.java" />
         <option value="$PROJECT_DIR$/src/chelper/Task.java" />
       </list>
     </option>
@@ -300,6 +412,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="abrackadabra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abrackadabra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="math" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,7 +831,11 @@
       <created>1353648451228</created>
       <updated>1353648451228</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="+ps">
+      <created>1353649436044</created>
+      <updated>1353649436044</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,13 +852,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26640928" sideWeight="0.379021" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26576576" sideWeight="0.32307693" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.47272727" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.47832167" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.5174825" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26610824" sideWeight="0.6111888" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14239691" sideWeight="0.5118881" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26546392" sideWeight="0.66713285" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -766,7 +904,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Reader&#10;+InputReader&#10;+OutputWriter" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ps" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -796,6 +934,7 @@
     <MESSAGE value="+counter" />
     <MESSAGE value="+Reader" />
     <MESSAGE value="-Reader&#10;+InputReader&#10;+OutputWriter" />
+    <MESSAGE value="+ps" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -885,20 +1024,6 @@
     <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/FastFourierTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="9" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.02463768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/MathUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.02463768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/Fraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="50" selection-end="50" vertical-scroll-proportion="0.02463768">
           <folding />
         </state>
       </provider>
@@ -1014,9 +1139,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chelper/Task.java">
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="27" column="51" selection-start="612" selection-end="612" vertical-scroll-proportion="0.6057971">
           <folding />
         </state>
       </provider>
@@ -1028,10 +1153,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="51" selection-start="606" selection-end="606" vertical-scroll-proportion="0.5811594">
+        <state line="932" column="25" selection-start="37289" selection-end="37289" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="docComment;class#Math#0" expanded="false" />
+            <element signature="docComment;method#Math#0;class#Math#0" expanded="false" />
+            <element signature="docComment;field#E#0;class#Math#0" expanded="false" />
+            <element signature="docComment;field#PI#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#sin#0;class#Math#0" expanded="false" />
+            <element signature="method#sin#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#cos#0;class#Math#0" expanded="false" />
+            <element signature="method#cos#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#tan#0;class#Math#0" expanded="false" />
+            <element signature="method#tan#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#asin#0;class#Math#0" expanded="false" />
+            <element signature="method#asin#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#acos#0;class#Math#0" expanded="false" />
+            <element signature="method#acos#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#atan#0;class#Math#0" expanded="false" />
+            <element signature="method#atan#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#toRadians#0;class#Math#0" expanded="false" />
+            <element signature="method#toRadians#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#toDegrees#0;class#Math#0" expanded="false" />
+            <element signature="method#toDegrees#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#exp#0;class#Math#0" expanded="false" />
+            <element signature="method#exp#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#log#0;class#Math#0" expanded="false" />
+            <element signature="method#log#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#log10#0;class#Math#0" expanded="false" />
+            <element signature="method#log10#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#sqrt#0;class#Math#0" expanded="false" />
+            <element signature="method#sqrt#0;class#Math#0" expanded="false" />
+            <element signature="e#11941#11980#0" expanded="false" />
+            <element signature="docComment;method#cbrt#0;class#Math#0" expanded="false" />
+            <element signature="method#cbrt#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#IEEEremainder#0;class#Math#0" expanded="false" />
+            <element signature="method#IEEEremainder#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#ceil#0;class#Math#0" expanded="false" />
+            <element signature="method#ceil#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#floor#0;class#Math#0" expanded="false" />
+            <element signature="method#floor#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#rint#0;class#Math#0" expanded="false" />
+            <element signature="method#rint#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#atan2#0;class#Math#0" expanded="false" />
+            <element signature="method#atan2#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#pow#0;class#Math#0" expanded="false" />
+            <element signature="method#pow#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#round#0;class#Math#0" expanded="false" />
+            <element signature="method#round#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#round#1;class#Math#0" expanded="false" />
+            <element signature="method#round#1;class#Math#0" expanded="false" />
+            <element signature="method#initRNG#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#random#0;class#Math#0" expanded="false" />
+            <element signature="method#random#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#abs#0;class#Math#0" expanded="false" />
+            <element signature="method#abs#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#abs#1;class#Math#0" expanded="false" />
+            <element signature="method#abs#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#abs#2;class#Math#0" expanded="false" />
+            <element signature="method#abs#2;class#Math#0" expanded="false" />
+            <element signature="docComment;method#abs#3;class#Math#0" expanded="false" />
+            <element signature="method#abs#3;class#Math#0" expanded="false" />
+            <element signature="docComment;method#max#0;class#Math#0" expanded="false" />
+            <element signature="method#max#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#max#1;class#Math#0" expanded="false" />
+            <element signature="method#max#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#max#2;class#Math#0" expanded="false" />
+            <element signature="method#max#2;class#Math#0" expanded="false" />
+            <element signature="docComment;method#max#3;class#Math#0" expanded="false" />
+            <element signature="method#max#3;class#Math#0" expanded="false" />
+            <element signature="docComment;method#min#0;class#Math#0" expanded="false" />
+            <element signature="method#min#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#min#1;class#Math#0" expanded="false" />
+            <element signature="method#min#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#min#2;class#Math#0" expanded="false" />
+            <element signature="method#min#2;class#Math#0" expanded="false" />
+            <element signature="docComment;method#min#3;class#Math#0" expanded="false" />
+            <element signature="docComment;method#ulp#0;class#Math#0" expanded="false" />
+            <element signature="method#ulp#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#ulp#1;class#Math#0" expanded="false" />
+            <element signature="method#ulp#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#signum#0;class#Math#0" expanded="false" />
+            <element signature="method#signum#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#signum#1;class#Math#0" expanded="false" />
+            <element signature="method#signum#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#sinh#0;class#Math#0" expanded="false" />
+            <element signature="method#sinh#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#cosh#0;class#Math#0" expanded="false" />
+            <element signature="method#cosh#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#tanh#0;class#Math#0" expanded="false" />
+            <element signature="method#tanh#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#hypot#0;class#Math#0" expanded="false" />
+            <element signature="method#hypot#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#expm1#0;class#Math#0" expanded="false" />
+            <element signature="method#expm1#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#log1p#0;class#Math#0" expanded="false" />
+            <element signature="method#log1p#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#copySign#0;class#Math#0" expanded="false" />
+            <element signature="method#copySign#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#copySign#1;class#Math#0" expanded="false" />
+            <element signature="method#copySign#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#getExponent#0;class#Math#0" expanded="false" />
+            <element signature="method#getExponent#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#getExponent#1;class#Math#0" expanded="false" />
+            <element signature="method#getExponent#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#nextAfter#0;class#Math#0" expanded="false" />
+            <element signature="method#nextAfter#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#nextAfter#1;class#Math#0" expanded="false" />
+            <element signature="method#nextAfter#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#nextUp#0;class#Math#0" expanded="false" />
+            <element signature="method#nextUp#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#nextUp#1;class#Math#0" expanded="false" />
+            <element signature="method#nextUp#1;class#Math#0" expanded="false" />
+            <element signature="docComment;method#scalb#0;class#Math#0" expanded="false" />
+            <element signature="method#scalb#0;class#Math#0" expanded="false" />
+            <element signature="docComment;method#scalb#1;class#Math#0" expanded="false" />
+            <element signature="method#scalb#1;class#Math#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/AMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1334" column="4" selection-start="50572" selection-end="50572" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;method#AMath#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;field#E#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;field#PI#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#sin#0;class#AMath#0" expanded="false" />
+            <element signature="method#sin#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#cos#0;class#AMath#0" expanded="false" />
+            <element signature="method#cos#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#tan#0;class#AMath#0" expanded="false" />
+            <element signature="method#tan#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#asin#0;class#AMath#0" expanded="false" />
+            <element signature="method#asin#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#acos#0;class#AMath#0" expanded="false" />
+            <element signature="method#acos#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#atan#0;class#AMath#0" expanded="false" />
+            <element signature="method#atan#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#toRadians#0;class#AMath#0" expanded="false" />
+            <element signature="method#toRadians#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#toDegrees#0;class#AMath#0" expanded="false" />
+            <element signature="method#toDegrees#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#exp#0;class#AMath#0" expanded="false" />
+            <element signature="method#exp#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#log#0;class#AMath#0" expanded="false" />
+            <element signature="method#log#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#log10#0;class#AMath#0" expanded="false" />
+            <element signature="method#log10#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#sqrt#0;class#AMath#0" expanded="false" />
+            <element signature="method#sqrt#0;class#AMath#0" expanded="false" />
+            <element signature="e#10236#10275#0" expanded="false" />
+            <element signature="docComment;method#cbrt#0;class#AMath#0" expanded="false" />
+            <element signature="method#cbrt#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#IEEEremainder#0;class#AMath#0" expanded="false" />
+            <element signature="method#IEEEremainder#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#ceil#0;class#AMath#0" expanded="false" />
+            <element signature="method#ceil#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#floor#0;class#AMath#0" expanded="false" />
+            <element signature="method#floor#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#rint#0;class#AMath#0" expanded="false" />
+            <element signature="method#rint#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#atan2#0;class#AMath#0" expanded="false" />
+            <element signature="method#atan2#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#pow#0;class#AMath#0" expanded="false" />
+            <element signature="method#pow#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#round#0;class#AMath#0" expanded="false" />
+            <element signature="method#round#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#round#1;class#AMath#0" expanded="false" />
+            <element signature="method#round#1;class#AMath#0" expanded="false" />
+            <element signature="method#initRNG#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#random#0;class#AMath#0" expanded="false" />
+            <element signature="method#random#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#abs#0;class#AMath#0" expanded="false" />
+            <element signature="method#abs#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#abs#1;class#AMath#0" expanded="false" />
+            <element signature="method#abs#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#abs#2;class#AMath#0" expanded="false" />
+            <element signature="method#abs#2;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#abs#3;class#AMath#0" expanded="false" />
+            <element signature="method#abs#3;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#max#0;class#AMath#0" expanded="false" />
+            <element signature="method#max#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#max#1;class#AMath#0" expanded="false" />
+            <element signature="method#max#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#max#2;class#AMath#0" expanded="false" />
+            <element signature="method#max#2;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#max#3;class#AMath#0" expanded="false" />
+            <element signature="method#max#3;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#min#1;class#AMath#0" expanded="false" />
+            <element signature="method#min#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#min#2;class#AMath#0" expanded="false" />
+            <element signature="method#min#2;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#min#3;class#AMath#0" expanded="false" />
+            <element signature="method#min#3;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#min#4;class#AMath#0" expanded="false" />
+            <element signature="method#min#4;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#ulp#0;class#AMath#0" expanded="false" />
+            <element signature="method#ulp#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#ulp#1;class#AMath#0" expanded="false" />
+            <element signature="method#ulp#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#signum#0;class#AMath#0" expanded="false" />
+            <element signature="method#signum#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#signum#1;class#AMath#0" expanded="false" />
+            <element signature="method#signum#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#sinh#0;class#AMath#0" expanded="false" />
+            <element signature="method#sinh#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#cosh#0;class#AMath#0" expanded="false" />
+            <element signature="method#cosh#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#tanh#0;class#AMath#0" expanded="false" />
+            <element signature="method#tanh#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#hypot#0;class#AMath#0" expanded="false" />
+            <element signature="method#hypot#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#expm1#0;class#AMath#0" expanded="false" />
+            <element signature="method#expm1#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#log1p#0;class#AMath#0" expanded="false" />
+            <element signature="method#log1p#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#copySign#0;class#AMath#0" expanded="false" />
+            <element signature="method#copySign#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#copySign#1;class#AMath#0" expanded="false" />
+            <element signature="method#copySign#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#getExponent#0;class#AMath#0" expanded="false" />
+            <element signature="method#getExponent#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#getExponent#1;class#AMath#0" expanded="false" />
+            <element signature="method#getExponent#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#nextAfter#0;class#AMath#0" expanded="false" />
+            <element signature="method#nextAfter#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#nextAfter#1;class#AMath#0" expanded="false" />
+            <element signature="method#nextAfter#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#nextUp#0;class#AMath#0" expanded="false" />
+            <element signature="method#nextUp#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#nextUp#1;class#AMath#0" expanded="false" />
+            <element signature="method#nextUp#1;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#scalb#0;class#AMath#0" expanded="false" />
+            <element signature="method#scalb#0;class#AMath#0" expanded="false" />
+            <element signature="docComment;method#scalb#1;class#AMath#0" expanded="false" />
+            <element signature="method#scalb#1;class#AMath#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abrackadabra/math/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="0" selection-start="5452" selection-end="5452" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chelper/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="188" selection-end="188" vertical-scroll-proportion="0.22173913">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
