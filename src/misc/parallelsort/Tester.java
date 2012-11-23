@@ -1,5 +1,8 @@
 package misc.parallelsort;
 
+// раскоменть
+//import ru.fizteh.obezyana.PerfomanceTest;
+
 /**
  * Created with IntelliJ IDEA.
  * Author: Abrackadabra
