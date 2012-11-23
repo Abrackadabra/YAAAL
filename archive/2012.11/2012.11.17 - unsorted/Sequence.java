@@ -1,6 +1,7 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.util.*;
 
@@ -45,7 +46,7 @@ public class Sequence {
         }
         return ans;
     }
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         long n = in.nextLong();
         if(n == 1)
             out.println(2);

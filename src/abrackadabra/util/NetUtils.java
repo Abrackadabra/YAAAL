@@ -1,4 +1,4 @@
-package abrackadabra;
+package abrackadabra.util;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

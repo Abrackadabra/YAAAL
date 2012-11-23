@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.math.*;
 
 public class Hrundy {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = in.nextInt();
         BigInteger[] ans = new BigInteger[1001];
         ans[1] = BigInteger.ONE;

@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.math.BigInteger;
 
 public class A {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         BigInteger bi = new BigInteger(in.nextString());
         int l = in.nextInt();
         int MAGIC = 20;

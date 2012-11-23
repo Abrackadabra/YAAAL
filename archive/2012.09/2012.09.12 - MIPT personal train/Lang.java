@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Lang {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         String s = in.nextString();
         if (isJavanese(s) && isCglish(s)) {
             out.println(s);

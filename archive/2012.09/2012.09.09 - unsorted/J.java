@@ -1,9 +1,9 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class J {
@@ -142,7 +142,7 @@ public class J {
         return (int) ans;
     }
 
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = in.nextInt();
         long d = in.nextLong();
 

@@ -76,19 +76,19 @@ public abstract class Fraction extends Number {
                 denominator = -denominator;
             }
             if (numerator == 0) denominator = 1;
-            int gcd = MathUtils.gcd(numerator, denominator);
+            int gcd = AMath.gcd(numerator, denominator);
             numerator /= gcd;
             denominator /= gcd;
         }
 
         public Integer add(Integer a) {
-            int gcd = MathUtils.gcd(denominator, a.denominator);
+            int gcd = AMath.gcd(denominator, a.denominator);
             int d = denominator / gcd * a.denominator;
             return new Integer(numerator * (d / a.denominator) + a.numerator * (d / denominator), d);
         }
 
         public Integer subtract(Integer a) {
-            int gcd = MathUtils.gcd(denominator, a.denominator);
+            int gcd = AMath.gcd(denominator, a.denominator);
             int d = denominator / gcd * a.denominator;
             return new Integer(numerator * (d / a.denominator) - a.numerator * (d / denominator), d);
         }
@@ -186,19 +186,19 @@ public abstract class Fraction extends Number {
                 denominator = -denominator;
             }
             if (numerator == 0) denominator = 1;
-            long gcd = MathUtils.gcd(numerator, denominator);
+            long gcd = AMath.gcd(numerator, denominator);
             numerator /= gcd;
             denominator /= gcd;
         }
 
         public Long add(Long a) {
-            long gcd = MathUtils.gcd(denominator, a.denominator);
+            long gcd = AMath.gcd(denominator, a.denominator);
             long d = denominator / gcd * a.denominator;
             return new Long(numerator * (d / a.denominator) + a.numerator * (d / denominator), d);
         }
 
         public Long subtract(Long a) {
-            long gcd = MathUtils.gcd(denominator, a.denominator);
+            long gcd = AMath.gcd(denominator, a.denominator);
             long d = denominator / gcd * a.denominator;
             return new Long(numerator * (d / a.denominator) - a.numerator * (d / denominator), d);
         }
@@ -296,19 +296,19 @@ public abstract class Fraction extends Number {
                 denominator = denominator.negate();
             }
             if (numerator.signum() == 0) denominator = java.math.BigInteger.ONE;
-            java.math.BigInteger gcd = MathUtils.gcd(numerator, denominator);
+            java.math.BigInteger gcd = AMath.gcd(numerator, denominator);
             numerator = numerator.divide(gcd);
             denominator = denominator.divide(gcd);
         }
 
         public BigInteger add(BigInteger a) {
-            java.math.BigInteger gcd = MathUtils.gcd(denominator, a.denominator);
+            java.math.BigInteger gcd = AMath.gcd(denominator, a.denominator);
             java.math.BigInteger d = denominator.divide(gcd).multiply(a.denominator);
             return new BigInteger(numerator.multiply(d.divide(a.denominator)).add(a.numerator.multiply(d.divide(denominator))), d);
         }
 
         public BigInteger subtract(BigInteger a) {
-            java.math.BigInteger gcd = MathUtils.gcd(denominator, a.denominator);
+            java.math.BigInteger gcd = AMath.gcd(denominator, a.denominator);
             java.math.BigInteger d = denominator.divide(gcd).multiply(a.denominator);
             return new BigInteger(numerator.multiply(d.divide(a.denominator)).subtract(a.numerator.multiply(d.divide(denominator))), d);
         }

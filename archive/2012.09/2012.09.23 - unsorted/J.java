@@ -1,9 +1,8 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -13,8 +12,8 @@ public class J {
     int[] lettersSecond = new int[4];
     int[] lettersThird = new int[4];
 
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
-        Scanner min = new Scanner(System.in);
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
+        InputReader min = new InputReader(System.in);
 
         for (int i = 0; i < 3; i++) {
             String s = "";

@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.util.Arrays;
 
 public class CF140D {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int leftTime = 6 * 60 - 10;
         int rightTime = 6 * 60;
         int n = in.nextInt();

@@ -1,11 +1,11 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
-import java.util.HashSet;
 
 public class TaskA {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = in.nextInt();
         int k = in.nextInt() - 1;
         int[] a = in.nextIntArray(n);

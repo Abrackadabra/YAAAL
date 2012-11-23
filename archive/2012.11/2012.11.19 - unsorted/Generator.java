@@ -1,11 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.util.*;
 
 public class Generator {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int n = 100000;
         ArrayList<Integer> a = new ArrayList<Integer>();
         for (int i = 0; i < n; i++) {

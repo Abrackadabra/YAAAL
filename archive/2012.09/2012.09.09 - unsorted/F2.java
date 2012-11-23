@@ -1,11 +1,11 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 
 public class F2 {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         int m = in.nextInt();
         int[] query = new int[m];
         for (int i = 0; i < m; i++)

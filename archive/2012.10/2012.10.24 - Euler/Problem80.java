@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 import abrackadabra.math.BigDecimalUtils;
 
 import java.io.PrintWriter;
@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 
 public class Problem80 {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         MathContext mc = new MathContext(1000);
         int sum = 0;
         for (int i = 1; i <= 100; i++) {

@@ -1,6 +1,6 @@
 package gravity;
 
-import abrackadabra.math.MathUtils;
+import abrackadabra.math.Math;
 
 import java.awt.*;
 import java.util.Collection;
@@ -57,18 +57,18 @@ public class Particle implements Comparable<Particle> {
 
     public void draw(Graphics graphics) {
         double r = getRadius();
-        graphics.drawOval((int) Math.round(x - r),
-                (int) Math.round(y - r),
-                (int) Math.round(r * 2),
-                (int) Math.round(r * 2));
+        graphics.drawOval((int) java.lang.Math.round(x - r),
+                (int) java.lang.Math.round(y - r),
+                (int) java.lang.Math.round(r * 2),
+                (int) java.lang.Math.round(r * 2));
     }
 
     public double getRadius() {
-        return Math.sqrt(mass / Math.PI * 100);
+        return java.lang.Math.sqrt(mass / java.lang.Math.PI * 100);
     }
 
     public double distanceTo(Particle particle) {
-        return MathUtils.hypot(x, y, particle.getX(), particle.getY());
+        return Math.hypot(x, y, particle.getX(), particle.getY());
     }
 
     public double getMass() {
@@ -76,7 +76,7 @@ public class Particle implements Comparable<Particle> {
     }
 
     public double getVelocity() {
-        return MathUtils.hypot(0, 0, velocityX, velocityY);
+        return Math.hypot(0, 0, velocityX, velocityY);
     }
 
     public double getEnergy() {
@@ -84,11 +84,11 @@ public class Particle implements Comparable<Particle> {
     }
 
     static double angle = -0.5;
-    static double rSin = Math.sin(angle);
-    static double rCos = Math.cos(angle);
+    static double rSin = java.lang.Math.sin(angle);
+    static double rCos = java.lang.Math.cos(angle);
 
     public void interact(Particle particle) {
-        double distance = MathUtils.hypot(x, y, particle.x, particle.y);
+        double distance = Math.hypot(x, y, particle.x, particle.y);
         if (distance < getRadius() + particle.getRadius()) return;
         double dx = (particle.x - x) / distance;
         double dy = (particle.y - y) / distance;
@@ -104,7 +104,7 @@ public class Particle implements Comparable<Particle> {
 
 
 
-        double totalSpeed = MathUtils.hypot(0, 0, velocityX, velocityY);
+        double totalSpeed = abrackadabra.math.Math.hypot(0, 0, velocityX, velocityY);
         if (totalSpeed > maxSpeed) {
             double c = totalSpeed / maxSpeed;
             velocityX /= c;
@@ -115,10 +115,10 @@ public class Particle implements Comparable<Particle> {
     public void act(double width, double height) {
         velocityX *= 0.99;
         velocityY *= 0.99;
-        mass = Math.max(1e-2, mass * 0.999);
+        mass = java.lang.Math.max(1e-2, mass * 0.999);
         x += velocityX;
         y += velocityY;
-        x = Math.min(Math.max(0, x), width);
-        y = Math.min(Math.max(0, y), height);
+        x = java.lang.Math.min(java.lang.Math.max(0, x), width);
+        y = java.lang.Math.min(java.lang.Math.max(0, y), height);
     }
 }

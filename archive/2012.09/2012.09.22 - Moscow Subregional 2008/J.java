@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -11,7 +11,7 @@ public class J {
     String tens[] = new String[]{"","X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
     String units[] = new String[]{"","I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
 
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         TreeSet<String> answer =  new TreeSet<String>();
         for (int i = 0; i < 10; ++i) {
             for (int j = 0; j < 10; ++j) {

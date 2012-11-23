@@ -1,13 +1,13 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class cube {
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         ArrayList<int[]> coords = new ArrayList<int[]>();
         ArrayList<String> names = new ArrayList<String>();
         coords.add(new int[]{0, 0, 0});

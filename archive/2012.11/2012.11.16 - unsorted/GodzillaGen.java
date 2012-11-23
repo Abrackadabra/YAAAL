@@ -1,12 +1,12 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 
 import java.io.*;
 import java.util.*;
 
 public class GodzillaGen {
-    public void solve(int testNumber, Scanner in, PrintWriter qout) {
+    public void solve(int testNumber, InputReader in, PrintWriter qout) {
         try {
             PrintWriter out = new PrintWriter(new FileWriter("input.txt"));
 

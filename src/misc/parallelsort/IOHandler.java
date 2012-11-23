@@ -10,11 +10,11 @@ import java.util.*;
  * Time: 23:04
  */
 public class IOHandler {
-    private BufferedReader bufferedReader;
-    private PrintWriter    out;
+    BufferedReader bufferedReader;
+    PrintWriter    out;
 
-    private boolean     fileInput  = false;
-    private Queue<File> inputQueue = new LinkedList<File>();
+    boolean     fileInput  = false;
+    Queue<File> inputQueue = new LinkedList<File>();
 
     public IOHandler() {
         bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -35,7 +35,9 @@ public class IOHandler {
         fileInput = true;
         inputQueue.add(new File(fileName));
 
-        openReader();
+        if (bufferedReader == null) {
+            openReader();
+        }
     }
 
     private void openReader() {

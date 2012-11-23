@@ -1,6 +1,6 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
 
 import java.io.PrintWriter;
 import java.util.*;
@@ -24,7 +24,7 @@ public class Threed {
 
     ArrayList<Point> a[] = new ArrayList[3];
 
-    public void solve(int testNumber, Scanner in, PrintWriter out) {
+    public void solve(int testNumber, InputReader in, PrintWriter out) {
         for (int i = 0; i < 3; ++i) {
             int cur = in.nextInt();
             a[i] = new ArrayList<Point>();

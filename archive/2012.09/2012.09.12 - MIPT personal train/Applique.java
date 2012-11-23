@@ -1,13 +1,14 @@
 package chelper;
 
-import abrackadabra.Scanner;
+import abrackadabra.io.InputReader;
+
 import java.io.PrintWriter;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Applique {
-	public void solve(int testNumber, Scanner in, PrintWriter out) {
+	public void solve(int testNumber, InputReader in, PrintWriter out) {
         int X = in.nextInt(), Y = in.nextInt();
         HashSet<Integer> prohibited = new HashSet<Integer>();
 
