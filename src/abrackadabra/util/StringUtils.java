@@ -1,4 +1,4 @@
-package abrackadabra;
+package abrackadabra.util;
 
 import java.util.Arrays;
 

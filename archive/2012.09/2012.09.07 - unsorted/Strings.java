@@ -1,7 +1,7 @@
 package chelper;
 
 import abrackadabra.io.InputReader;
-import abrackadabra.StringUtils;
+import abrackadabra.util.StringUtils;
 
 import java.io.PrintWriter;
 import java.util.Arrays;
