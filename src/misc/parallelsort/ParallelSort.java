@@ -75,14 +75,12 @@ public class ParallelSort {
         }
     }
 
+    // postFiltering is better (80 against 180), is now default
     private void run(String[] args) {
         processArguments(args);
 
         ArrayList<String> strings = new ArrayList<String>();
-        // a try to rehabilitate preFiltering method
         Set<String> uniqueStrings = new HashSet<String>();
-        // fail
-        // postFiltering is better (80 against 180), is now default
         while (true) {
             String s = io.readLine();
             if (s == null) {
