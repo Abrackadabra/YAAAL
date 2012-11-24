@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="started Calendar dev">
-      <change type="DELETED" beforePath="C:\Work\Java\Olympic\src\misc\calendar\Date.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Work\Java\Olympic\src\misc\calendar\Runner.java" afterPath="" />
+    <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java" afterPath="$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java" />
     </list>
@@ -86,22 +84,23 @@
       <file leaf-file-name="CalendarPrinter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="0.13448276">
+            <state line="183" column="51" selection-start="5843" selection-end="5843" vertical-scroll-proportion="0.86321837">
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#printMonth#0;class#CalendarPrinter#0" expanded="false" />
                 <element signature="method#printWeekDays#0;class#CalendarPrinter#0" expanded="false" />
-                <element signature="method#printAll#0;class#CalendarPrinter#0" expanded="false" />
                 <element signature="method#printSheet#0;class#CalendarPrinter#0" expanded="false" />
                 <element signature="method#printWeeks#0;class#CalendarPrinter#0" expanded="false" />
-                <element signature="method#parseArguments#0;class#CalendarPrinter#0" expanded="false" />
+                <element signature="method#printTime#0;class#CalendarPrinter#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calendar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Calendar.java">
+      <file leaf-file-name="SimpleDateFormat.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/SimpleDateFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="456" column="19" selection-start="20068" selection-end="20068" vertical-scroll-proportion="0.0">
+            <state line="749" column="19" selection-start="29063" selection-end="29063" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -428,7 +427,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="misc.calendar.CalendarPrinter" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-m 9 -y 2012 -w" />
+      <option name="PROGRAM_PARAMETERS" value="-m 9 -y 2012 -w -t Asia/Omsk" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -730,12 +729,16 @@
       <created>1353784548120</created>
       <updated>1353784548120</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="calendar working">
+      <created>1353792190144</created>
+      <updated>1353792190144</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -749,10 +752,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26576576" sideWeight="0.32307693" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10309829" sideWeight="0.53854746" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14049146" sideWeight="0.53854746" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10309829" sideWeight="0.45363128" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14049146" sideWeight="0.45363128" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21901709" sideWeight="0.67412585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -799,7 +802,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="started Calendar dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="calendar working" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -832,6 +835,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="-cishs" />
     <MESSAGE value="started Calendar dev" />
+    <MESSAGE value="calendar working" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -955,22 +959,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="432" column="28" selection-start="17525" selection-end="17525" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="456" column="19" selection-start="20068" selection-end="20068" vertical-scroll-proportion="0.0">
+        <state line="456" column="19" selection-start="20068" selection-end="20068" vertical-scroll-proportion="0.47011495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="749" column="19" selection-start="29063" selection-end="29063" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="0.13448276">
+        <state line="183" column="51" selection-start="5843" selection-end="5843" vertical-scroll-proportion="0.86321837">
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printMonth#0;class#CalendarPrinter#0" expanded="false" />
             <element signature="method#printWeekDays#0;class#CalendarPrinter#0" expanded="false" />
-            <element signature="method#printAll#0;class#CalendarPrinter#0" expanded="false" />
             <element signature="method#printSheet#0;class#CalendarPrinter#0" expanded="false" />
             <element signature="method#printWeeks#0;class#CalendarPrinter#0" expanded="false" />
-            <element signature="method#parseArguments#0;class#CalendarPrinter#0" expanded="false" />
+            <element signature="method#printTime#0;class#CalendarPrinter#0" expanded="false" />
           </folding>
         </state>
       </provider>

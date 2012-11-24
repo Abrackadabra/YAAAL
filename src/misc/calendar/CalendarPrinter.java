@@ -1,5 +1,6 @@
 package misc.calendar;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
@@ -13,11 +14,11 @@ public class CalendarPrinter {
         new CalendarPrinter().run(args);
     }
 
-    Locale   locale   = Locale.getDefault(); // for testing
-    Calendar calendar = Calendar.getInstance(locale);
-    boolean showWeeks = false;
-    boolean  showTime = false;
-    TimeZone timeZone = calendar.getTimeZone();
+    Locale   locale    = Locale.getDefault(); // for testing
+    Calendar calendar  = Calendar.getInstance(locale);
+    boolean  showWeeks = false;
+    boolean  showTime  = false;
+    TimeZone timeZone  = calendar.getTimeZone();
 
     int width = 7 * 2 + 6; // default width of calendar
 
@@ -25,7 +26,6 @@ public class CalendarPrinter {
     char[][] map = new char[MAP_SIZE][MAP_SIZE]; // drawing map
 
     int startX = MAP_SIZE / 2, startY = MAP_SIZE / 2; // left upper corner
-
 
     void run(String[] arguments) {
         parseArguments(arguments);
@@ -43,6 +43,10 @@ public class CalendarPrinter {
         }
 
         printAll();
+
+        if (showTime) {
+            printTime();
+        }
     }
 
     void printMonth() {
@@ -66,33 +70,6 @@ public class CalendarPrinter {
             for (int j = 0; j < 2; j++) {
                 map[startX + i * 3 + j][startY - 1] = s.charAt(j);
             }
-        }
-    }
-
-    void printAll() {
-        int minX = Integer.MAX_VALUE, maxX = Integer.MIN_VALUE;
-        int minY = Integer.MAX_VALUE, maxY = Integer.MIN_VALUE;
-
-        for (int x = 0; x < MAP_SIZE; x++) {
-            for (int y = 0; y < MAP_SIZE; y++) {
-                if (map[x][y] != 0) {
-                    minX = Math.min(minX, x);
-                    maxX = Math.max(maxX, x);
-                    minY = Math.min(minY, y);
-                    maxY = Math.max(maxY, y);
-                }
-            }
-        }
-
-        for (int y = minY; y <= maxY; y++) {
-            for (int x = minX; x <= maxX; x++) {
-                if (map[x][y] == 0) {
-                    System.out.print(" ");
-                } else {
-                    System.out.print(map[x][y]);
-                }
-            }
-            System.out.println();
         }
     }
 
@@ -133,6 +110,42 @@ public class CalendarPrinter {
         }
     }
 
+    void printTime() {
+        System.out.println();
+        System.out.print("Now: ");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss ", locale);
+        simpleDateFormat.setTimeZone(timeZone);
+        System.out.print(simpleDateFormat.format(Calendar.getInstance(timeZone, locale).getTime()));
+        System.out.println(timeZone.getDisplayName(locale));
+    }
+
+    void printAll() {
+        int minX = Integer.MAX_VALUE, maxX = Integer.MIN_VALUE;
+        int minY = Integer.MAX_VALUE, maxY = Integer.MIN_VALUE;
+
+        for (int x = 0; x < MAP_SIZE; x++) {
+            for (int y = 0; y < MAP_SIZE; y++) {
+                if (map[x][y] != 0) {
+                    minX = Math.min(minX, x);
+                    maxX = Math.max(maxX, x);
+                    minY = Math.min(minY, y);
+                    maxY = Math.max(maxY, y);
+                }
+            }
+        }
+
+        for (int y = minY; y <= maxY; y++) {
+            for (int x = minX; x <= maxX; x++) {
+                if (map[x][y] == 0) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print(map[x][y]);
+                }
+            }
+            System.out.println();
+        }
+    }
+
     void parseArguments(String[] arguments) {
         for (int i = 0; i < arguments.length; i++) {
             String arg = arguments[i];
@@ -168,7 +181,7 @@ public class CalendarPrinter {
                 try {
                     showTime = true;
                     timeZone = TimeZone.getTimeZone(arguments[++i]);
-                    calendar = Calendar.getInstance(timeZone);
+                    calendar.setTimeZone(timeZone);
                 } catch (Exception e) {
                     die("Wrong syntax.");
                 }
