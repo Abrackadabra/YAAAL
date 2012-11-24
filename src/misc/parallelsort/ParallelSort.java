@@ -9,11 +9,12 @@ import java.util.*;
  * Time: 22:53
  */
 public class ParallelSort {
+    private IOHandler io = new IOHandler();
+
     static boolean preFiltering = false;
 
-    private IOHandler io           = new IOHandler();
-    private boolean   uniqueMode   = false;
-    private boolean   ignoringCase = false;
+    private boolean uniqueMode   = false;
+    private boolean ignoringCase = false;
 
     private int threadCount = Runtime.getRuntime().availableProcessors();
 
@@ -74,14 +75,12 @@ public class ParallelSort {
         }
     }
 
+    // postFiltering is better (80 against 180), is now default
     private void run(String[] args) {
         processArguments(args);
 
         ArrayList<String> strings = new ArrayList<String>();
-        // a try to rehabilitate preFiltering method
-        Set<String> uniqueStrings = new CaseInsensitiveStringHashSet();
-        // fail
-        // postFiltering is better (80 against 180), is now default
+        Set<String> uniqueStrings = new HashSet<String>();
         while (true) {
             String s = io.readLine();
             if (s == null) {
