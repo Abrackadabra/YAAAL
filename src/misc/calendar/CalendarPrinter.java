@@ -23,7 +23,8 @@ public class CalendarPrinter {
     int width = 7 * 2 + 6; // default width of calendar
 
     final int MAP_SIZE = 1000;
-    char[][] map = new char[MAP_SIZE][MAP_SIZE]; // drawing map
+
+    TableCharMap map = new TableCharMap(); // special drawing map
 
     int startX = MAP_SIZE / 2, startY = MAP_SIZE / 2; // left upper corner
 
@@ -55,7 +56,7 @@ public class CalendarPrinter {
                    calendar.get(Calendar.YEAR);
         int pos = width / 2 - s.length() / 2;
         for (int i = 0; i < s.length(); i++) {
-            map[startX + pos + i][startY - 2] = s.charAt(i);
+            map.put(pos + i, -2, s.charAt(i));
         }
     }
 
@@ -64,11 +65,9 @@ public class CalendarPrinter {
         for (int i = 0; i < 7; i++) {
             t.set(Calendar.DAY_OF_WEEK, calendar.getFirstDayOfWeek() + i);
             String s = t.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, locale);
-            while (s.length() < 2) {
-                s = " " + s;
-            }
+            s = makeGoodLooking(s);
             for (int j = 0; j < 2; j++) {
-                map[startX + i * 3 + j][startY - 1] = s.charAt(j);
+                map.put(i * 3 + j, -1, s.charAt(j));
             }
         }
     }
@@ -79,11 +78,9 @@ public class CalendarPrinter {
         int num = 1;
         while (calendar.get(Calendar.MONTH) == t.get(Calendar.MONTH)) {
             String s = Integer.toString(num++);
-            while (s.length() < 2) {
-                s = " " + s;
-            }
+            s = makeGoodLooking(s);
             for (int j = 0; j < s.length(); j++) {
-                map[startX + curX * 3 + j][startY + curY] = s.charAt(j);
+                map.put(curX * 3 + j, curY, s.charAt(j));
             }
 
             t.set(Calendar.DAY_OF_MONTH, t.get(Calendar.DAY_OF_MONTH) + 1);
@@ -93,16 +90,23 @@ public class CalendarPrinter {
         }
     }
 
+    String makeGoodLooking(String s) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < 2 - s.length(); i++) {
+            stringBuilder.append(' ');
+        }
+        stringBuilder.append(s);
+        return stringBuilder.toString();
+    }
+
     void printWeeks() {
         int curY = 0;
         Calendar t = (Calendar) calendar.clone();
         while (calendar.get(Calendar.MONTH) == t.get(Calendar.MONTH)) {
             String s = Integer.toString(t.get(Calendar.WEEK_OF_YEAR));
-            while (s.length() < 2) {
-                s = " " + s;
-            }
+            s = makeGoodLooking(s);
             for (int j = 0; j < s.length(); j++) {
-                map[startX - 3 + j][startY + curY] = s.charAt(j);
+                map.put(j - 3, curY, s.charAt(j));
             }
 
             t.set(Calendar.DAY_OF_MONTH, t.get(Calendar.DAY_OF_MONTH) + 7);
@@ -111,7 +115,6 @@ public class CalendarPrinter {
     }
 
     void printTime() {
-        System.out.println();
         System.out.print("Now: ");
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss ", locale);
         simpleDateFormat.setTimeZone(timeZone);
@@ -120,30 +123,7 @@ public class CalendarPrinter {
     }
 
     void printAll() {
-        int minX = Integer.MAX_VALUE, maxX = Integer.MIN_VALUE;
-        int minY = Integer.MAX_VALUE, maxY = Integer.MIN_VALUE;
-
-        for (int x = 0; x < MAP_SIZE; x++) {
-            for (int y = 0; y < MAP_SIZE; y++) {
-                if (map[x][y] != 0) {
-                    minX = Math.min(minX, x);
-                    maxX = Math.max(maxX, x);
-                    minY = Math.min(minY, y);
-                    maxY = Math.max(maxY, y);
-                }
-            }
-        }
-
-        for (int y = minY; y <= maxY; y++) {
-            for (int x = minX; x <= maxX; x++) {
-                if (map[x][y] == 0) {
-                    System.out.print(" ");
-                } else {
-                    System.out.print(map[x][y]);
-                }
-            }
-            System.out.println();
-        }
+        System.out.println(map);
     }
 
     void parseArguments(String[] arguments) {
