@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/calendar/TableCharMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java" afterPath="$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java" />
     </list>
@@ -82,36 +81,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalendarPrinter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="XmlBinder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/XmlBinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarPrinter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="0" selection-start="5417" selection-end="5417" vertical-scroll-proportion="0.0">
+            <state line="28" column="13" selection-start="740" selection-end="740" vertical-scroll-proportion="0.37380952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsXmlAttribute.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/AsXmlAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#printWeekDays#0;class#CalendarPrinter#0" expanded="false" />
-                <element signature="method#printSheet#0;class#CalendarPrinter#0" expanded="false" />
-                <element signature="method#makeGoodLooking#0;class#CalendarPrinter#0" expanded="false" />
-                <element signature="method#printWeeks#0;class#CalendarPrinter#0" expanded="false" />
-                <element signature="method#printTime#0;class#CalendarPrinter#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableCharMap.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/misc/calendar/TableCharMap.java">
+      <file leaf-file-name="AsXmlCdata.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/AsXmlCdata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="58" selection-start="759" selection-end="759" vertical-scroll-proportion="0.66785717">
-              <folding />
+            <state line="15" column="25" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleDateFormat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/SimpleDateFormat.java">
+      <file leaf-file-name="AsXmlElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/AsXmlElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="749" column="19" selection-start="29063" selection-end="29063" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BindingType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/BindingType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,22 +165,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/output/Main.java" />
-        <option value="$PROJECT_DIR$/src/abrackadabra/math/Fraction.java" />
-        <option value="$PROJECT_DIR$/src/chelper/Task.java" />
-        <option value="$PROJECT_DIR$/src/abrackadabra/io/OutputWriter.java" />
-        <option value="$PROJECT_DIR$/src/abrackadabra/math/AMath.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/SlaveSorter.java" />
-        <option value="$PROJECT_DIR$/src/misc/calendar/Date.java" />
-        <option value="$PROJECT_DIR$/src/misc/calendar/Runner.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/Tester.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java" />
-        <option value="$PROJECT_DIR$/src/misc/parallelsort/Generator.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/CaseInsensitiveStringHashSet.java" />
         <option value="$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java" />
         <option value="$PROJECT_DIR$/src/misc/FGrabber.java" />
-        <option value="$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java" />
         <option value="$PROJECT_DIR$/src/misc/calendar/TableCharMap.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/XmlBinder.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/AsXmlAttribute.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/AsXmlCData.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/AsXmlCdata.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/AsXmlElement.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/BindingType.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/MembersToBind.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/test/Permissions.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/test/User.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/test/UserType.java" />
+        <option value="$PROJECT_DIR$/src/misc/xmlbinder/test/UserName.java" />
+        <option value="$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java" />
       </list>
     </option>
   </component>
@@ -261,6 +288,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmlbinder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -748,29 +797,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.4951049" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.383547" sideWeight="0.58181816" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587412" sideWeight="0.49806702" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.49806702" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26576576" sideWeight="0.32307693" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14031863" sideWeight="0.5421965" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14031863" sideWeight="0.5549133" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14031863" sideWeight="0.449711" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21845238" sideWeight="0.67412585" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14031863" sideWeight="0.43699422" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21813725" sideWeight="0.67412585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32587412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26576576" sideWeight="0.32307693" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -889,103 +938,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/TimeZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="325" column="22" selection-start="11550" selection-end="11550" vertical-scroll-proportion="0.95072466" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/IOHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="26" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/CharacterData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="706" selection-end="706" vertical-scroll-proportion="0.33283582" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6147" column="48" selection-start="220091" selection-end="220091" vertical-scroll-proportion="0.35820895" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="19" selection-start="7984" selection-end="7984" vertical-scroll-proportion="0.025373135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/PerformanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.025373135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.02463768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/ParallelSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="63" selection-start="2661" selection-end="2661" vertical-scroll-proportion="0.02463768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/parallelsort/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.02463768" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="925" selection-end="925" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/FGrabber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="427" selection-end="427" vertical-scroll-proportion="0.17586207">
-          <folding>
-            <element signature="e#664#672#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="29" selection-start="427" selection-end="427" vertical-scroll-proportion="0.17586207" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="432" column="28" selection-start="17525" selection-end="17525" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="432" column="28" selection-start="17525" selection-end="17525" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="456" column="19" selection-start="20068" selection-end="20068" vertical-scroll-proportion="0.47011495">
-          <folding />
-        </state>
+        <state line="456" column="19" selection-start="20068" selection-end="20068" vertical-scroll-proportion="0.47011495" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="749" column="19" selection-start="29063" selection-end="29063" vertical-scroll-proportion="0.0">
+        <state line="749" column="19" selection-start="29063" selection-end="29063" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/calendar/TableCharMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="22" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/test/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="104" selection-end="104" vertical-scroll-proportion="0.10119048">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/test/UserName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/test/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="24" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.9595238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/test/Permissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="156" selection-end="156" vertical-scroll-proportion="0.18214285">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/MembersToBind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="1" selection-start="635" selection-end="635" vertical-scroll-proportion="0.50595236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/BindingType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/AsXmlElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/AsXmlCdata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/AsXmlAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/xmlbinder/XmlBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/calendar/CalendarPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="0" selection-start="5417" selection-end="5417" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#printWeekDays#0;class#CalendarPrinter#0" expanded="false" />
-            <element signature="method#printSheet#0;class#CalendarPrinter#0" expanded="false" />
-            <element signature="method#makeGoodLooking#0;class#CalendarPrinter#0" expanded="false" />
-            <element signature="method#printWeeks#0;class#CalendarPrinter#0" expanded="false" />
-            <element signature="method#printTime#0;class#CalendarPrinter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/calendar/TableCharMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="58" selection-start="759" selection-end="759" vertical-scroll-proportion="0.66785717">
+        <state line="28" column="13" selection-start="740" selection-end="740" vertical-scroll-proportion="0.37380952">
           <folding />
         </state>
       </provider>
