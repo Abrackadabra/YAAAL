@@ -13,51 +13,74 @@ import java.net.Socket;
  */
 
 class ServerConnection {
-    Socket socket;
-    InputStream in;
-    OutputStream out;
-    String nickName;
-    boolean activeConnection = true;
-    Client client;
+    private Socket socket;
+    private String nickName;
+    private Client client;
 
-    public ServerConnection(String address, int port, String nickName, Client client) throws IOException {
+    private boolean alive = true;
+
+    private CommunicationThread communicationThread;
+
+    ServerConnection(String address, int port, String nickName, Client client) {
         this.nickName = nickName;
         this.client = client;
 
-        socket = new Socket(address, port);
+        try {
+            socket = new Socket(address, port);
 
-        in = socket.getInputStream();
-        out = socket.getOutputStream();
-
-        listeningThread = new ListeningThread(this);
-        listeningThread.start();
-
-        hello();
-    }
-
-    public void setActiveConnection(boolean activeConnection) {
-        if (activeConnection) {
-            listeningThread.flush();
+            communicationThread = new CommunicationThread(this);
+            communicationThread.start();
+        } catch (Exception e) {
+            disconnect();
         }
-        this.activeConnection = activeConnection;
     }
 
-    public InputStream getIn() {
-        return in;
+    boolean isAlive() {
+        return alive;
     }
 
-    public boolean isActiveConnection() {
-        return activeConnection;
+    boolean isCurrentServer() {
+        return client.isCurrentServer(this);
     }
 
-    void hello() throws IOException {
-        out.write(MessageUtils.hello(nickName));
-        out.flush();
+    Socket getSocket() {
+        return socket;
     }
 
-    public void post(String message) throws IOException {
-        out.write(MessageUtils.message(nickName, message));
-        out.flush();
+    String getNickName() {
+        return nickName;
+    }
+
+    void disconnect() {
+        if (!alive) {
+            return;
+        }
+
+        alive = false;
+
+        try {
+            communicationThread.bye();
+        } catch (Exception e) {
+        }
+
+        communicationThread.flush();
+        communicationThread.interrupt();
+
+        try {
+            socket.close();
+        } catch (Exception e) {
+        }
+        System.out.println("You got disconnected from " + this);
+
+        client.validateServers();
+    }
+
+    void post(String message) {
+        try {
+            communicationThread.post(message);
+        } catch (Exception e) {
+            disconnect();
+        }
     }
 
     @Override
@@ -69,38 +92,4 @@ class ServerConnection {
     public boolean equals(Object obj) {
         return this == obj;
     }
-
-    boolean dying = false;
-
-    public void disconnect() {
-        dying = true;
-        client.dropServer(this);
-        try {
-            out.write(MessageUtils.bye());
-            out.flush();
-        } catch (Exception e) {
-        }
-
-        listeningThread.flush();
-        listeningThread.interrupt();
-
-        try {
-            socket.close();
-        } catch (Exception e) {
-        }
-
-        try {
-            in.close();
-        } catch (Exception e) {
-        }
-
-        try {
-            out.close();
-        } catch (Exception e) {
-        }
-        this.toString();
-        System.out.println("You got disconnected from " + this.toString());
-    }
-
-    ListeningThread listeningThread;
 }

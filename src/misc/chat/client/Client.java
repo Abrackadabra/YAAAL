@@ -14,11 +14,11 @@ public class Client {
         new Client().run(args);
     }
 
-    String nickName = null;
-    ArrayList<ServerConnection> servers = new ArrayList<ServerConnection>();
-    ServerConnection currentServer = null;
+    private String nickName = null;
+    private ArrayList<ServerConnection> servers = new ArrayList<ServerConnection>();
+    private ServerConnection currentServer = null;
 
-    void run(String[] args) {
+    private void run(String[] args) {
         if (args.length != 1) {
             System.err.println("Wrong syntax");
             System.exit(1);
@@ -40,14 +40,14 @@ public class Client {
         }
     }
 
-    void processCommand(String command) {
+    private void processCommand(String command) {
         if (command.length() > 0 && command.charAt(0) == '/') {
             if (command.matches("/connect\\s.+:\\d+")) {
-                connect(command.split(" ")[1]);//
+                connect(command.split(" ")[1]);
             } else if (command.matches("/disconnect")) {
                 disconnect();
             } else if (command.matches("/whereami")) {
-                whereami();
+                whereAmI();
             } else if (command.matches("/list")) {
                 list();
             } else if (command.matches("/use\\s\\d+")) {
@@ -62,8 +62,9 @@ public class Client {
         }
     }
 
-    void connect(String arg) {
+    private void connect(String arg) {
         ServerConnection server;
+
         try {
             String[] split = arg.split(":");
             if (split.length != 2) {
@@ -76,26 +77,38 @@ public class Client {
             System.err.println(e.getMessage());
             return;
         }
+
         servers.add(server);
-        if (currentServer != null) {
-            currentServer.setActiveConnection(false);
-        }
         currentServer = server;
+
         System.out.println("Successfully connected to " + server);
+    }
+
+    boolean isCurrentServer(ServerConnection server) {
+        return currentServer == server;
     }
 
     void disconnect() {
         if (currentServer != null) {
             currentServer.disconnect();
+            currentServer = null;
         }
-        currentServer = null;
     }
 
-    void dropServer(ServerConnection server) {
-        servers.remove(server);
+    void validateServers() {
+        if (!currentServer.isAlive()) {
+            currentServer = null;
+        }
+        ArrayList<ServerConnection> newServers = new ArrayList<ServerConnection>();
+        for (ServerConnection server : servers) {
+            if (server.isAlive()) {
+                newServers.add(server);
+            }
+        }
+        servers = newServers;
     }
 
-    void whereami() {
+    private void whereAmI() {
         if (currentServer == null) {
             System.out.println("You are nowhere, mwhahahaha");
         } else {
@@ -103,13 +116,13 @@ public class Client {
         }
     }
 
-    void list() {
+    private void list() {
         for (int i = 0; i < servers.size(); i++) {
             System.out.println(i + ") " + servers.get(i));
         }
     }
 
-    void use(String s) {
+    private void use(String s) {
         int index;
         try {
             index = Integer.parseInt(s);
@@ -122,29 +135,21 @@ public class Client {
 
         }
 
-        if (currentServer != null) {
-            currentServer.setActiveConnection(false);
-        }
         currentServer = servers.get(index);
-        currentServer.setActiveConnection(true);
     }
 
-    void exit() {
+    private void exit() {
         for (ServerConnection server : servers) {
             server.disconnect();
         }
         System.exit(0);
     }
 
-    void post(String message) {
+    private void post(String message) {
         if (currentServer == null) {
             System.err.println("You are not connected to a server");
-            return;
-        }
-        try {
+        } else {
             currentServer.post(message);
-        } catch (Exception e) {
-            disconnect();
         }
     }
 }
