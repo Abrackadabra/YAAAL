@@ -1,0 +1,80 @@
+package misc.chat.server;
+
+import misc.chat.Message;
+import misc.chat.MessageType;
+
+import java.io.*;
+import java.net.ProtocolException;
+import java.net.Socket;
+import java.util.*;
+
+/**
+ * Created with IntelliJ IDEA.
+ * Author: Abrackadabra
+ * Date: 05/12/12
+ * Time: 13:09
+ */
+class CommunicationThread extends Thread {
+    private ClientConnection client;
+    private Socket socket;
+    private InputStream in;
+    private OutputStream out;
+
+    CommunicationThread(Socket socket, ClientConnection client) throws IOException {
+        this.client = client;
+        this.socket = socket;
+
+        in = socket.getInputStream();
+        out = socket.getOutputStream();
+    }
+
+    @Override
+    public void run() {
+        try {
+            getHello();
+            while (true) {
+                getMessage();
+            }
+        } catch (IOException e) {
+            // I use protocol exception to mark exceptions which should be sent to client
+            if (e instanceof ProtocolException) {
+                sendError(e.getMessage());
+            }
+            System.err.println(e.getMessage());
+            client.disconnect();
+        }
+    }
+
+    void getHello() throws IOException {
+        Message message = Message.readMessage(in);
+        if (message.getType() != MessageType.HELLO || message.getContents().length < 1) {
+            throw new ProtocolException("Not hello? Do svidania");
+        }
+
+        client.setNickName(message.getContents()[0]);
+    }
+
+    void getMessage() throws IOException {
+        Message message = Message.readMessage(in);
+
+        switch (message.getType()) {
+            case ERROR:
+                throw new IOException(message.getContents()[0]);
+            case HELLO:
+                throw new ProtocolException("I already know you");
+            case BYE:
+                client.disconnect();
+                return;
+            case MESSAGE:
+                if (message.getContents().length < 2) {
+                    throw new ProtocolException("Wrong message contents");
+                }
+        }
+
+
+    }
+
+    void sendError(String error) {
+
+    }
+}

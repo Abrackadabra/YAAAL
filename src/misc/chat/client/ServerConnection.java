@@ -10,9 +10,10 @@ import java.net.Socket;
  */
 
 class ServerConnection {
-    private Socket socket;
     private String nickName;
     private Client client;
+
+    private String id;
 
     private boolean alive = true;
 
@@ -23,9 +24,11 @@ class ServerConnection {
         this.client = client;
 
         try {
-            socket = new Socket(address, port);
+            Socket socket = new Socket(address, port);
 
-            communicationThread = new CommunicationThread(this);
+            id = socket.getInetAddress().toString() + ":" + socket.getPort();
+
+            communicationThread = new CommunicationThread(socket, this);
             communicationThread.start();
         } catch (Exception e) {
             disconnect();
@@ -38,10 +41,6 @@ class ServerConnection {
 
     boolean isCurrentServer() {
         return client.isCurrentServer(this);
-    }
-
-    Socket getSocket() {
-        return socket;
     }
 
     String getNickName() {
@@ -78,7 +77,7 @@ class ServerConnection {
 
     @Override
     public String toString() {
-        return socket.getInetAddress().toString() + ":" + socket.getPort();
+        return id;
     }
 
     @Override

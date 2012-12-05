@@ -4,6 +4,7 @@ import misc.chat.Message;
 import misc.chat.MessageUtils;
 
 import java.io.*;
+import java.net.Socket;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,16 +14,18 @@ import java.io.*;
  */
 class CommunicationThread extends Thread {
     private ServerConnection server;
+    private Socket socket;
     private InputStream in;
     private OutputStream out;
 
     private StringBuilder buffer = new StringBuilder();
 
-    CommunicationThread(ServerConnection server) throws IOException {
+    CommunicationThread(Socket socket, ServerConnection server) throws IOException {
         this.server = server;
+        this.socket = socket;
 
-        in = server.getSocket().getInputStream();
-        out = server.getSocket().getOutputStream();
+        in = socket.getInputStream();
+        out = socket.getOutputStream();
     }
 
     @Override
@@ -54,7 +57,7 @@ class CommunicationThread extends Thread {
 
         in.close();
         out.close();
-        server.getSocket().close();
+        socket.close();
     }
 
     void getMessage() throws IOException {
