@@ -1,8 +1,5 @@
 package misc.chat.client;
 
-import misc.chat.MessageUtils;
-
-import java.io.*;
 import java.net.Socket;
 
 /**
@@ -66,10 +63,6 @@ class ServerConnection {
         communicationThread.flush();
         communicationThread.interrupt();
 
-        try {
-            socket.close();
-        } catch (Exception e) {
-        }
         System.out.println("You got disconnected from " + this);
 
         client.validateServers();

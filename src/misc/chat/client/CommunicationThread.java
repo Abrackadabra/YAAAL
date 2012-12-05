@@ -1,11 +1,9 @@
 package misc.chat.client;
 
 import misc.chat.Message;
-import misc.chat.MessageType;
 import misc.chat.MessageUtils;
 
 import java.io.*;
-import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,6 +15,8 @@ class CommunicationThread extends Thread {
     private ServerConnection server;
     private InputStream in;
     private OutputStream out;
+
+    private StringBuilder buffer = new StringBuilder();
 
     CommunicationThread(ServerConnection server) throws IOException {
         this.server = server;
@@ -51,9 +51,11 @@ class CommunicationThread extends Thread {
     void bye() throws IOException {
         out.write(MessageUtils.bye());
         out.flush();
-    }
 
-    private StringBuilder buffer = new StringBuilder();
+        in.close();
+        out.close();
+        server.getSocket().close();
+    }
 
     void getMessage() throws IOException {
         Message message = Message.readMessage(in);
@@ -82,7 +84,7 @@ class CommunicationThread extends Thread {
         }
     }
 
-    public void flush() {
+    void flush() {
         System.out.print(buffer.toString());
         buffer = new StringBuilder();
     }
