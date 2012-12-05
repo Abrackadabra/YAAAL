@@ -1,7 +1,6 @@
 package misc.parallelsort;
 
 import java.util.*;
-import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
