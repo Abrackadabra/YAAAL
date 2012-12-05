@@ -1,6 +1,7 @@
 package misc.chat.server;
 
 import java.io.*;
+import java.net.ProtocolException;
 import java.net.Socket;
 
 /**
@@ -19,12 +20,16 @@ class ClientConnection {
         return alive;
     }
 
-    void setNickName(String nickName) {
+    void setNickName(String nickName) throws IOException {
         if (!server.isCorrectNickName(nickName)) {
-            disconnect();
+            throw new ProtocolException("That nickname is already taken");
         }
 
         this.nickName = nickName;
+    }
+
+    String getNickName() {
+        return nickName;
     }
 
     ClientConnection(Socket socket, Server server) {
@@ -46,19 +51,30 @@ class ClientConnection {
     void disconnect(String message) {
         alive = false;
 
-        System.err.println(message);
-
         if (message != null) {
-            //senderror
+            System.err.println(message);
+            communicationThread.sendError(message);
         }
 
-        //comT.bye();
+        communicationThread.sendBye();
 
         if (communicationThread != null) {
             communicationThread.interrupt();
         }
 
         server.validateClients();
+    }
+
+    void announce(String message) {
+        server.announce(nickName, message);
+    }
+
+    void sendMessage(String nickName, String message) {
+        try{
+            communicationThread.sendMessage(nickName, message);
+        } catch (IOException e) {
+            disconnect();
+        }
     }
 
     @Override
@@ -68,10 +84,6 @@ class ClientConnection {
 
     @Override
     public boolean equals(Object object) {
-        if (!(object instanceof ClientConnection)) {
-            return false;
-        }
-        ClientConnection client = (ClientConnection) object;
-        return nickName.equals(client.nickName);
+        return this == object;
     }
 }

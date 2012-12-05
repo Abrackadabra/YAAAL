@@ -2,6 +2,7 @@ package misc.chat.server;
 
 import misc.chat.Message;
 import misc.chat.MessageType;
+import misc.chat.MessageUtils;
 
 import java.io.*;
 import java.net.ProtocolException;
@@ -71,10 +72,27 @@ class CommunicationThread extends Thread {
                 }
         }
 
+        client.announce(message.getContents()[1]);
+    }
 
+    void sendMessage(String nickName, String message) throws IOException {
+        out.write(MessageUtils.message(nickName, message));
+        out.flush();
+    }
+
+    void sendBye() {
+        try {
+            out.write(MessageUtils.bye());
+            out.flush();
+        } catch (IOException e) {
+        }
     }
 
     void sendError(String error) {
-
+        try {
+            out.write(MessageUtils.error(error));
+            out.flush();
+        } catch (IOException e) {
+        }
     }
 }

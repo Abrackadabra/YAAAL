@@ -23,7 +23,7 @@ public class Message {
 
     private Message() {}
 
-    public Message(MessageType type, String[] contents) {
+    private Message(MessageType type, String[] contents) {
         this.type = type;
         this.contents = contents;
     }
@@ -72,9 +72,5 @@ public class Message {
             }
         }
         return null;
-    }
-
-    public void send() {
-
     }
 }

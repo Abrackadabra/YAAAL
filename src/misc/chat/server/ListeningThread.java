@@ -23,7 +23,7 @@ class ListeningThread extends Thread {
         try {
             ServerSocket serverSocket = new ServerSocket(port);
             while (true) {
-                server.clients.add(new ClientConnection(serverSocket.accept(), server));
+                server.addClient(new ClientConnection(serverSocket.accept(), server));
             }
         } catch (IOException e) {
             System.err.println(e.getMessage());

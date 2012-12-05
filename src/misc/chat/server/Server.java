@@ -15,7 +15,7 @@ public class Server {
     }
 
     private void run() {
-        nickNamesTaken.add("server");
+        takenNickNames.add("server");
 
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
@@ -32,8 +32,17 @@ public class Server {
     }
 
     private ArrayList<ClientConnection> clients = new ArrayList<ClientConnection>();
-    private HashSet<String> nickNamesTaken = new HashSet<String>();
+    private HashSet<String> takenNickNames = new HashSet<String>();
     private ListeningThread listeningThread;
+
+    void addClient(ClientConnection clientConnection) {
+        if (!clientConnection.isAlive()) return;
+
+        clients.add(clientConnection);
+        takenNickNames.add(clientConnection.getNickName());
+
+        announce("server", clientConnection.getNickName() + " has connected!");
+    }
 
     private void processCommand(String command) {
         if (command.length() > 0 && command.charAt(0) == '/') {
@@ -55,11 +64,14 @@ public class Server {
     }
 
     boolean isCorrectNickName(String nickName) {
-        return !nickNamesTaken.contains(nickName);
+        return !takenNickNames.contains(nickName);
     }
 
     void announce(String nickName, String message) {
-
+        System.out.println("<" + nickName + "> " + message);
+        for (ClientConnection client : clients) {
+            client.sendMessage(nickName, message);
+        }
     }
 
     private void listen(int port) {
@@ -89,6 +101,8 @@ public class Server {
         for (ClientConnection client : clients) {
             if (client.isAlive()) {
                 newClients.add(client);
+            } else {
+                takenNickNames.remove(client.getNickName());
             }
         }
         clients = newClients;
