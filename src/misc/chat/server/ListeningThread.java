@@ -18,15 +18,24 @@ class ListeningThread extends Thread {
         this.server = server;
     }
 
+    ServerSocket serverSocket;
+
     @Override
     public void run() {
         try {
-            ServerSocket serverSocket = new ServerSocket(port);
+            serverSocket = new ServerSocket(port);
             while (true) {
                 server.addClient(new ClientConnection(serverSocket.accept(), server));
             }
         } catch (IOException e) {
             System.err.println(e.getMessage());
+        }
+    }
+
+    void close() {
+        try {
+            serverSocket.close();
+        } catch (IOException e) {
         }
     }
 }

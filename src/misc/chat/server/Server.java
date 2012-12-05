@@ -35,42 +35,27 @@ public class Server {
     private HashSet<String> takenNickNames = new HashSet<String>();
     private ListeningThread listeningThread;
 
-    void addClient(ClientConnection clientConnection) {
-        if (!clientConnection.isAlive()) return;
-
-        clients.add(clientConnection);
-        takenNickNames.add(clientConnection.getNickName());
-
-        announce("server", clientConnection.getNickName() + " has connected!");
-    }
-
     private void processCommand(String command) {
         if (command.length() > 0 && command.charAt(0) == '/') {
             if (command.matches("/listen\\s\\d+")) {
-                listen(Integer.parseInt(command.split(" ")[1]));
+                listen(Integer.parseInt(command.split("\\s")[1]));
             } else if (command.matches("/stop")) {
                 stop();
             } else if (command.matches("/list")) {
+                list();
             } else if (command.matches("/send\\s\\d+\\s.+")) {
+                send(command.split("\\s")[1], command.replaceFirst("/send\\s\\d+\\s", ""));
             } else if (command.matches("/sendall\\s.+")) {
+                announce("server", command.replaceFirst("/sendall\\s", ""));
             } else if (command.matches("/kill\\s\\d+")) {
+                kill(command.split("\\s")[1]);
             } else if (command.matches("/exit")) {
+                exit();
             } else {
                 System.err.println("Wrong syntax");
             }
         } else {
-            System.err.println("One does not simply chat from with a chat server");
-        }
-    }
-
-    boolean isCorrectNickName(String nickName) {
-        return !takenNickNames.contains(nickName);
-    }
-
-    void announce(String nickName, String message) {
-        System.out.println("<" + nickName + "> " + message);
-        for (ClientConnection client : clients) {
-            client.sendMessage(nickName, message);
+            System.err.println("One does not simply chat from a chat server");
         }
     }
 
@@ -85,6 +70,7 @@ public class Server {
 
     private void stop() {
         if (listeningThread != null) {
+            listeningThread.close();
             listeningThread.interrupt();
             listeningThread = null;
 
@@ -94,6 +80,74 @@ public class Server {
             client.disconnect("Server is shutting down");
         }
         validateClients();
+    }
+
+    private void list() {
+        for (int i = 0; i < clients.size(); i++) {
+            System.out.println(i + ") " + clients.get(i).getNickName());
+        }
+    }
+
+    private void send(String addressee, String message) {
+        try{
+            int num = Integer.parseInt(addressee);
+            if (num < 0 || num >= clients.size()) {
+                throw new IllegalAccessException("Wrong number");
+            }
+            clients.get(num).sendMessage("server", message);
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+    }
+
+    void announce(String nickName, String message) {
+        System.out.println("<" + nickName + "> " + message);
+        for (ClientConnection client : clients) {
+            client.sendMessage(nickName, message);
+        }
+    }
+
+    private void kill(String addressee) {
+        int num;
+        try{
+            num = Integer.parseInt(addressee);
+            if (num < 0 || num >= clients.size()) {
+                throw new IllegalAccessException("Wrong number");
+            }
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+            return;
+        }
+        announce("server", clients.get(num).getNickName() + " was kicked");
+        clients.get(num).disconnect("You were kicked");
+    }
+
+    private void exit() {
+        stop();
+        System.exit(0);
+    }
+
+    void addClient(ClientConnection clientConnection) {
+        try {
+            Thread.sleep(100); // wait to get nickname
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        if (!clientConnection.isAlive()) return;
+        if (clientConnection.getNickName() == null) {
+            clientConnection.disconnect();
+            return;
+        }
+
+        clients.add(clientConnection);
+        takenNickNames.add(clientConnection.getNickName());
+
+        announce("server", clientConnection.getNickName() + " has connected!");
+    }
+
+    boolean isCorrectNickName(String nickName) {
+        return !takenNickNames.contains(nickName);
     }
 
     void validateClients() {

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/Message.java" afterPath="$PROJECT_DIR$/src/misc/chat/Message.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java" afterPath="$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/server/CommunicationThread.java" afterPath="$PROJECT_DIR$/src/misc/chat/server/CommunicationThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java" afterPath="$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/server/Server.java" afterPath="$PROJECT_DIR$/src/misc/chat/server/Server.java" />
     </list>
@@ -45,6 +43,19 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/archive/2012.11/calendar/CalendarPrinter.java" line="112" class="misc.calendar.CalendarPrinter" package="misc.calendar">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java" line="23" class="misc.chat.server.ClientConnection" package="misc.chat.server">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -98,10 +109,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClientConnection.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClientConnection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="422" selection-end="422" vertical-scroll-proportion="0.27261904">
+            <state line="19" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,17 +120,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/chat/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="30" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.0">
+            <state line="80" column="97" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.32261905">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#Server#0" expanded="false" />
-                <element signature="method#run#0;class#Server#0" expanded="false" />
                 <element signature="e#798#816#0" expanded="true" />
                 <element signature="e#876#884#0" expanded="true" />
-                <element signature="e#3024#3042#0" expanded="true" />
+                <element signature="method#listen#0;class#Server#0" expanded="false" />
+                <element signature="method#send#0;class#Server#0" expanded="false" />
+                <element signature="method#announce#0;class#Server#0" expanded="false" />
+                <element signature="method#exit#0;class#Server#0" expanded="false" />
+                <element signature="e#4757#4775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/chat/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="77" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#Client#0" expanded="false" />
+                <element signature="e#367#385#0" expanded="true" />
+                <element signature="method#run#0;class#Client#0" expanded="false" />
+                <element signature="method#connect#0;class#Client#0" expanded="false" />
+                <element signature="method#isCurrentServer#0;class#Client#0" expanded="false" />
+                <element signature="method#disconnect#0;class#Client#0" expanded="false" />
+                <element signature="method#validateServers#0;class#Client#0" expanded="false" />
+                <element signature="e#2895#2913#0" expanded="true" />
+                <element signature="method#whereAmI#0;class#Client#0" expanded="false" />
+                <element signature="method#list#0;class#Client#0" expanded="false" />
+                <element signature="method#use#0;class#Client#0" expanded="false" />
+                <element signature="method#exit#0;class#Client#0" expanded="false" />
+                <element signature="method#post#0;class#Client#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,7 +166,7 @@
       <file leaf-file-name="ListeningThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="47" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="37" column="33" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,10 +219,10 @@
         <option value="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/Message.java" />
-        <option value="$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java" />
-        <option value="$PROJECT_DIR$/src/misc/chat/server/Server.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/server/CommunicationThread.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/server/Server.java" />
       </list>
     </option>
   </component>
@@ -528,7 +566,7 @@
       <recent name="C:\Work\Java\Olympic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="false" name="FGrabber" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="misc.FGrabber" />
@@ -559,7 +597,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Olympic" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -567,7 +611,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="misc.chat.client.Client" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Abra" />
+      <option name="PROGRAM_PARAMETERS" value="Abra1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -923,7 +967,11 @@
       <created>1354723033711</created>
       <updated>1354723033711</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="It's alive!">
+      <created>1354724204065</created>
+      <updated>1354724204065</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -934,7 +982,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24877451" sideWeight="0.4951049" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28737745" sideWeight="0.58181816" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28737745" sideWeight="0.6751445" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485548" sideWeight="0.49806702" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -946,7 +994,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13970588" sideWeight="0.38265896" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28431374" sideWeight="0.6751445" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28431374" sideWeight="0.6751445" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -992,7 +1040,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="There is never enough refac! + some server" />
+    <option name="LAST_COMMIT_MESSAGE" value="It's alive!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1005,7 +1053,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="another init commit" />
     <MESSAGE value="fixes + mv" />
     <MESSAGE value="straaaange shell features" />
     <MESSAGE value="movable file fix" />
@@ -1030,6 +1077,7 @@
     <MESSAGE value="refactoring + message" />
     <MESSAGE value="more refac" />
     <MESSAGE value="There is never enough refac! + some server" />
+    <MESSAGE value="It's alive!" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1073,13 +1121,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/misc/chat_belyakov/MessageBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="545" selection-end="545" vertical-scroll-proportion="0.325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat_belyakov/server/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="0" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.28452381">
@@ -1122,35 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="672" column="29" selection-start="25242" selection-end="25242" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="24" selection-start="3913" selection-end="3913" vertical-scroll-proportion="0.41428572">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Client#0" expanded="false" />
-            <element signature="e#367#385#0" expanded="true" />
-            <element signature="method#run#0;class#Client#0" expanded="false" />
-            <element signature="method#connect#0;class#Client#0" expanded="false" />
-            <element signature="method#isCurrentServer#0;class#Client#0" expanded="false" />
-            <element signature="method#disconnect#0;class#Client#0" expanded="false" />
-            <element signature="method#validateServers#0;class#Client#0" expanded="false" />
-            <element signature="e#2895#2913#0" expanded="true" />
-            <element signature="method#whereAmI#0;class#Client#0" expanded="false" />
-            <element signature="method#list#0;class#Client#0" expanded="false" />
-            <element signature="method#use#0;class#Client#0" expanded="false" />
-            <element signature="method#exit#0;class#Client#0" expanded="false" />
-            <element signature="method#post#0;class#Client#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="11" selection-start="392" selection-end="392" vertical-scroll-proportion="0.24285714">
@@ -1179,6 +1191,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2033" column="24" selection-start="78895" selection-end="78895" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="33" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/server/CommunicationThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="20" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
@@ -1188,34 +1216,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/server/ListeningThread.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="47" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+        <state line="240" column="15" selection-start="8840" selection-end="8840" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="77" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Client#0" expanded="false" />
+            <element signature="e#367#385#0" expanded="true" />
+            <element signature="method#run#0;class#Client#0" expanded="false" />
+            <element signature="method#connect#0;class#Client#0" expanded="false" />
+            <element signature="method#isCurrentServer#0;class#Client#0" expanded="false" />
+            <element signature="method#disconnect#0;class#Client#0" expanded="false" />
+            <element signature="method#validateServers#0;class#Client#0" expanded="false" />
+            <element signature="e#2895#2913#0" expanded="true" />
+            <element signature="method#whereAmI#0;class#Client#0" expanded="false" />
+            <element signature="method#list#0;class#Client#0" expanded="false" />
+            <element signature="method#use#0;class#Client#0" expanded="false" />
+            <element signature="method#exit#0;class#Client#0" expanded="false" />
+            <element signature="method#post#0;class#Client#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="30" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.0">
+        <state line="80" column="97" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.32261905">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#Server#0" expanded="false" />
-            <element signature="method#run#0;class#Server#0" expanded="false" />
             <element signature="e#798#816#0" expanded="true" />
             <element signature="e#876#884#0" expanded="true" />
-            <element signature="e#3024#3042#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/server/ClientConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="422" selection-end="422" vertical-scroll-proportion="0.27261904">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#listen#0;class#Server#0" expanded="false" />
+            <element signature="method#send#0;class#Server#0" expanded="false" />
+            <element signature="method#announce#0;class#Server#0" expanded="false" />
+            <element signature="method#exit#0;class#Server#0" expanded="false" />
+            <element signature="e#4757#4775#0" expanded="true" />
           </folding>
         </state>
       </provider>

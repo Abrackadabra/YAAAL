@@ -52,7 +52,6 @@ class ClientConnection {
         alive = false;
 
         if (message != null) {
-            System.err.println(message);
             communicationThread.sendError(message);
         }
 
