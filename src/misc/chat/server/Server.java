@@ -23,6 +23,9 @@ public class Server {
             String command = null;
             try {
                 command = input.readLine();
+                if (command == null) {
+                    throw new IOException();
+                }
             } catch (IOException e) {
                 System.err.println("Could not read from cin");
                 System.exit(1);
@@ -79,7 +82,6 @@ public class Server {
         for (ClientConnection client : clients) {
             client.disconnect("Server is shutting down");
         }
-        validateClients();
     }
 
     private void list() {
@@ -89,7 +91,7 @@ public class Server {
     }
 
     private void send(String addressee, String message) {
-        try{
+        try {
             int num = Integer.parseInt(addressee);
             if (num < 0 || num >= clients.size()) {
                 throw new IllegalAccessException("Wrong number");
@@ -109,7 +111,7 @@ public class Server {
 
     private void kill(String addressee) {
         int num;
-        try{
+        try {
             num = Integer.parseInt(addressee);
             if (num < 0 || num >= clients.size()) {
                 throw new IllegalAccessException("Wrong number");
@@ -134,7 +136,9 @@ public class Server {
             e.printStackTrace();
         }
 
-        if (!clientConnection.isAlive()) return;
+        if (!clientConnection.isAlive()) {
+            return;
+        }
         if (clientConnection.getNickName() == null) {
             clientConnection.disconnect();
             return;
@@ -150,6 +154,7 @@ public class Server {
         return !takenNickNames.contains(nickName);
     }
 
+    // autovalidated by clients
     void validateClients() {
         ArrayList<ClientConnection> newClients = new ArrayList<ClientConnection>();
         for (ClientConnection client : clients) {
