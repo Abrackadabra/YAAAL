@@ -17,9 +17,13 @@ class ServerConnection {
 
     private CommunicationThread communicationThread;
 
+    String id;
+
     ServerConnection(String address, int port, String nickName, Client client) {
         this.nickName = nickName;
         this.client = client;
+
+        id = address + ":" + port;
 
         try {
             Socket socket = new Socket(address, port);
@@ -69,5 +73,10 @@ class ServerConnection {
         } catch (Exception e) {
             disconnect();
         }
+    }
+
+    @Override
+    public String toString() {
+        return id;
     }
 }
