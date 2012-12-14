@@ -1,6 +1,5 @@
 package misc.proxy;
 
-import com.sun.deploy.net.proxy.ProxyUtils;
 import org.objectweb.asm.*;
 import org.objectweb.asm.commons.GeneratorAdapter;
 
@@ -170,9 +169,9 @@ public class FooAsmProxyFactory extends FooProxyFactory {
                         generatorAdapter.loadLocal(resLocal);
                         generatorAdapter.swap(returnType, returnType);
                         String returnTypeDescriptor = returnType.getDescriptor();
-                        final org.objectweb.asm.commons.Method merge = new org.objectweb.asm.commons.Method("merge", "(" +
+                        final org.objectweb.asm.commons.Method sum = new org.objectweb.asm.commons.Method("sum", "(" +
                                                                                                                      returnTypeDescriptor + returnTypeDescriptor + ")" + returnTypeDescriptor);
-                        generatorAdapter.invokeStatic(Type.getType(ProxyUtils.class), merge);
+                        generatorAdapter.invokeStatic(Type.getType(FooAsmProxyFactory.class), sum);
                         generatorAdapter.storeLocal(resLocal);
                     }
 
@@ -210,5 +209,28 @@ public class FooAsmProxyFactory extends FooProxyFactory {
         generatorAdapter.visitCode();
         generatorApplier.apply(generatorAdapter);
         generatorAdapter.endMethod();
+    }
+
+    // sums
+
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+
+    public static Integer sum(Integer a, Integer b) {
+        return a + b;
+    }
+
+    public static long sum(long a, long b) {
+        return a + b;
+    }
+
+    public static Long sum(Long a, Long b) {
+        return a + b;
+    }
+
+    public static List sum(List a, List b) {
+        a.addAll(b);
+        return a;
     }
 }
