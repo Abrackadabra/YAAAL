@@ -12,7 +12,6 @@ import java.util.*;
  * Time: 23:07
  */
 public class FooProxyFactory implements ShardingProxyFactory {
-    @Override
     public Object createProxy(Object[] targets, Class[] interfaces) {
         assertCorrectArgument(targets != null && targets.length > 0);
         assertCorrectArgument(interfaces != null && interfaces.length > 0);
