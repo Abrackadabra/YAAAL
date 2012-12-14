@@ -29,20 +29,20 @@ public class FooProxyFactory implements ShardingProxyFactory {
         return proxy;
     }
 
-    private boolean shouldCollect(Class classBar) {
+    protected boolean shouldCollect(Class classBar) {
         return classBar.equals(int.class) || classBar.equals(Integer.class) ||
                classBar.equals(long.class) || classBar.equals(Long.class) ||
                classBar.equals(void.class) || classBar.equals(Void.class) ||
                classBar.equals(List.class);
     }
 
-    private void assertCorrectArgument(boolean assertion) {
+    protected void assertCorrectArgument(boolean assertion) {
         if (!assertion) {
             throw new IllegalArgumentException();
         }
     }
 
-    private void checkTargets(Object[] targets, Class[] interfaces) {
+    protected void checkTargets(Object[] targets, Class[] interfaces) {
         Set<Class> interfacesNeedToImplement = new HashSet<Class>();
         interfacesNeedToImplement.addAll(Arrays.asList(interfaces));
 
@@ -57,7 +57,7 @@ public class FooProxyFactory implements ShardingProxyFactory {
         }
     }
 
-    private void checkInterfaces(Class[] interfaces) {
+    protected void checkInterfaces(Class[] interfaces) {
         for (Class interfaceBar : interfaces) {
             assertCorrectArgument(interfaceBar != null);
 

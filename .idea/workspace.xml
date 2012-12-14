@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="+">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/proxy/Collect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/proxy/DoNotProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/proxy/FooHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/abrackadabra/util/MiscUtils.java" afterPath="$PROJECT_DIR$/src/abrackadabra/util/MiscUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java" afterPath="$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Olympic.iml" afterPath="$PROJECT_DIR$/Olympic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Olympic.iws" />
@@ -24,9 +20,9 @@
     <file path="/Client.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354906275572" ignored="false" />
     <file path="$PROJECT_DIR$/output/Main.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355078219084" ignored="false" />
     <file path="/Nim.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354969991438" ignored="false" />
-    <file path="/Dummy.txt" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355346772545" ignored="false" />
-    <file path="/a.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354742144380" ignored="false" />
-    <file path="/fragment.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355076595651" ignored="false" />
+    <file path="/Dummy.txt" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355511378865" ignored="false" />
+    <file path="/a.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355516160766" ignored="false" />
+    <file path="/fragment.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355464005707" ignored="false" />
     <file path="/Solution.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354742790724" ignored="false" />
     <file path="/Server.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354906359635" ignored="false" />
     <file path="/I.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355035721462" ignored="false" />
@@ -42,6 +38,11 @@
     <file path="/MyShardingProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355343850986" ignored="false" />
     <file path="/FooFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355343414326" ignored="false" />
     <file path="/FooHandler.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355346718721" ignored="false" />
+    <file path="/AsmShardingProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355470716411" ignored="false" />
+    <file path="/FooProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355470330373" ignored="false" />
+    <file path="/AsmFooProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355516252418" ignored="false" />
+    <file path="/FooAsmProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355515703568" ignored="false" />
+    <file path="/sample.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355516179789" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -97,6 +97,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -109,53 +110,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShardingProxyFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java">
+      <file leaf-file-name="FooHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+            <state line="59" column="38" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TiminShardingProxyFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/proxy/TiminShardingProxyFactory.java">
+      <file leaf-file-name="FooAsmProxyFactory.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="16" selection-start="5314" selection-end="7911" vertical-scroll-proportion="0.0">
+            <state line="58" column="46" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.38270143">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#isCollectableClass#0;class#TiminShardingProxyFactory#0" expanded="false" />
-                <element signature="method#checkInterface#0;class#TiminShardingProxyFactory#0" expanded="false" />
-                <element signature="method#checkObject#0;class#TiminShardingProxyFactory#0" expanded="false" />
-                <element signature="e#2809#2816#0" expanded="true" />
-                <element signature="method#InvocationHandler#0;class#4392:7935" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FooProxyFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="50" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#shouldCollect#0;class#FooProxyFactory#0" expanded="false" />
-                <element signature="method#assertCorrectArgument#0;class#FooProxyFactory#0" expanded="false" />
-                <element signature="method#checkTargets#0;class#FooProxyFactory#0" expanded="false" />
-                <element signature="e#1507#1514#0" expanded="true" />
-                <element signature="method#checkInterfaces#0;class#FooProxyFactory#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FooHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="63" selection-start="2747" selection-end="2747" vertical-scroll-proportion="1.3696682">
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1859#2388#0" expanded="true" />
+                <element signature="e#2381#2382#0" expanded="true" />
+                <element signature="e#3145#9694#0" expanded="true" />
+                <element signature="e#3742#3749#0" expanded="true" />
+                <element signature="e#9683#9684#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,9 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chelper/F.java" />
-        <option value="$PROJECT_DIR$/src/chelper/Problem78.java" />
-        <option value="$PROJECT_DIR$/src/abrackadabra/util/MiscUtils.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
         <option value="$PROJECT_DIR$/src/misc/proxy.java" />
         <option value="$PROJECT_DIR$/src/misc/proxy/LoggingProxyFactory.java" />
@@ -198,9 +169,12 @@
         <option value="$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/misc/proxy/MyShardingProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/misc/proxy/FooFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/misc/proxy/TiminShardingProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/misc/proxy/FooHandler.java" />
+        <option value="$PROJECT_DIR$/src/misc/proxy/AsmShardingProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/misc/proxy/AsmFooProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java" />
       </list>
     </option>
   </component>
@@ -389,15 +363,16 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="232" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="232" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="232" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="232" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/src.zip!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="906" />
@@ -410,22 +385,25 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Work\Java\Olympic\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\Java\Olympic\archive\2012.11" />
@@ -433,9 +411,6 @@
       <recent name="C:\Work\Java\Olympic\archive\2012.10" />
       <recent name="C:\Work\Java\Olympic" />
       <recent name="C:\Work\Java\Olympic\src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
@@ -739,10 +714,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3229885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15789473" sideWeight="0.49885058" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17135863" sideWeight="0.5321839" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15789473" sideWeight="0.49310344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17135863" sideWeight="0.4597701" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28212973" sideWeight="0.5564516" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32373273" sideWeight="0.49806702" order="7" side_tool="true" content_ui="tabs" />
@@ -753,6 +727,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24877451" sideWeight="0.4951049" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3229885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26988983" sideWeight="0.13940091" order="10" side_tool="true" content_ui="tabs" />
@@ -880,28 +855,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="5" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.02014218" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="18" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.6244076">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/abrackadabra/util/MiscUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="78" selection-start="131" selection-end="131" vertical-scroll-proportion="0.06042654">
-          <folding />
-        </state>
+        <state line="3" column="78" selection-start="131" selection-end="131" vertical-scroll-proportion="0.06042654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/proxy/DoNotProxy.java">
@@ -924,25 +880,17 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="69" selection-start="1723" selection-end="1728" vertical-scroll-proportion="-0.64346766">
-          <folding />
-        </state>
+        <state line="70" column="69" selection-start="1723" selection-end="1728" vertical-scroll-proportion="-0.64346766" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Void.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.26184833">
-          <folding />
-        </state>
+        <state line="36" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.26184833" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2981" column="39" selection-start="121230" selection-end="121234" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="2981" column="39" selection-start="121230" selection-end="121234" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Object.java">
@@ -954,58 +902,68 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/reflect/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="13" selection-start="9477" selection-end="9477" vertical-scroll-proportion="1.4206161">
-          <folding />
-        </state>
+        <state line="221" column="13" selection-start="9477" selection-end="9477" vertical-scroll-proportion="1.4206161" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+        <state line="60" column="10" selection-start="1452" selection-end="1463" vertical-scroll-proportion="0.33285302">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="585" column="18" selection-start="24026" selection-end="24026" vertical-scroll-proportion="1.0580568">
+        <state line="257" column="22" selection-start="9207" selection-end="9207" vertical-scroll-proportion="0.3329384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/lib/all/asm-all-4.1.jar!/org/objectweb/asm/commons/GeneratorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="16" selection-start="7400" selection-end="7400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="90" selection-end="90" vertical-scroll-proportion="0.1007109">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#shouldCollect#0;class#FooProxyFactory#0" expanded="false" />
-            <element signature="method#assertCorrectArgument#0;class#FooProxyFactory#0" expanded="false" />
-            <element signature="method#checkTargets#0;class#FooProxyFactory#0" expanded="false" />
-            <element signature="e#1507#1514#0" expanded="true" />
-            <element signature="method#checkInterfaces#0;class#FooProxyFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/TiminShardingProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="16" selection-start="5314" selection-end="7911" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isCollectableClass#0;class#TiminShardingProxyFactory#0" expanded="false" />
-            <element signature="method#checkInterface#0;class#TiminShardingProxyFactory#0" expanded="false" />
-            <element signature="method#checkObject#0;class#TiminShardingProxyFactory#0" expanded="false" />
-            <element signature="e#2809#2816#0" expanded="true" />
-            <element signature="method#InvocationHandler#0;class#4392:7935" expanded="false" />
-          </folding>
+        <state line="15" column="26" selection-start="350" selection-end="350" vertical-scroll-proportion="-1.0876777">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="63" selection-start="2747" selection-end="2747" vertical-scroll-proportion="1.3696682">
+        <state line="59" column="38" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/src.zip!/org/objectweb/asm/commons/GeneratorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1412" column="16" selection-start="44273" selection-end="44273" vertical-scroll-proportion="0.3329384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="46" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.38270143">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1859#2388#0" expanded="true" />
+            <element signature="e#2381#2382#0" expanded="true" />
+            <element signature="e#3145#9694#0" expanded="true" />
+            <element signature="e#3742#3749#0" expanded="true" />
+            <element signature="e#9683#9684#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1086,7 +1044,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jsoup-1.7.1-javadoc</last-edited>
+          <last-edited>asm-all-4.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
