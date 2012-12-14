@@ -127,22 +127,16 @@ public class FooAsmProxyFactory extends FooProxyFactory {
                         if (methodReturnType.equals(int.class)) {
                             generatorAdapter.push(0);
                         } else if (methodReturnType.equals(Integer.class)) {
-                            generatorAdapter.newInstance(Type.getType(Integer.class));
-                            generatorAdapter.dup();
                             generatorAdapter.push(0);
                             //generatorAdapter.invokeConstructor(Type.getType(Integer.class), new org.objectweb.asm.commons.Method("<init>", "(I)V"));
                             generatorAdapter.invokeStatic(Type.getType(Integer.class), new org.objectweb.asm.commons.Method("valueOf", "(I)" + Type.getType(Integer.class).getDescriptor()));
                         } else if (methodReturnType.equals(long.class)) {
                             generatorAdapter.push(0L);
                         } else if (methodReturnType.equals(Long.class)) {
-                            generatorAdapter.newInstance(Type.getType(Long.class));
-                            generatorAdapter.dup();
                             generatorAdapter.push(0L);
                             //generatorAdapter.invokeConstructor(Type.getType(Long.class), new org.objectweb.asm.commons.Method("<init>", "(J)V"));
                             generatorAdapter.invokeStatic(Type.getType(Long.class), new org.objectweb.asm.commons.Method("valueOf", "(J)" + Type.getType(Long.class).getDescriptor()));
                         } else if (methodReturnType.equals(List.class)) {
-                            generatorAdapter.newInstance(Type.getType(ArrayList.class));
-                            generatorAdapter.dup();
                             generatorAdapter.invokeConstructor(arrayListType, new org.objectweb.asm.commons.Method("<init>", "()V"));
                         } else {
                             throw new IllegalArgumentException();
