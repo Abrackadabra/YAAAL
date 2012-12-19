@@ -1,46 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java" afterPath="$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java" />
+    <list default="true" id="38899676-d023-4641-a449-7fc9d8b56ff8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/Client.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/Message.java" afterPath="$PROJECT_DIR$/src/misc/chat/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/E.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354971266166" ignored="false" />
-    <file path="/D.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354949577744" ignored="false" />
-    <file path="/F.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355050370620" ignored="false" />
-    <file path="/C.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354954407748" ignored="false" />
-    <file path="/CollectionUtils.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354908610247" ignored="false" />
-    <file path="/B.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354949162724" ignored="false" />
-    <file path="$PROJECT_DIR$/output/Solution.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354907491061" ignored="false" />
-    <file path="/A.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354948438049" ignored="false" />
-    <file path="/Client.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354906275572" ignored="false" />
-    <file path="$PROJECT_DIR$/output/Main.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355078219084" ignored="false" />
-    <file path="/Nim.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354969991438" ignored="false" />
-    <file path="/Dummy.txt" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355520868863" ignored="false" />
-    <file path="/a.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355516160766" ignored="false" />
-    <file path="/fragment.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355464005707" ignored="false" />
-    <file path="/Solution.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354742790724" ignored="false" />
-    <file path="/Server.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1354906359635" ignored="false" />
-    <file path="/I.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355035721462" ignored="false" />
-    <file path="/G.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355040210390" ignored="false" />
-    <file path="/H.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355042420077" ignored="false" />
-    <file path="/J.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355036250376" ignored="false" />
-    <file path="/Problem78.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355077917915" ignored="false" />
-    <file path="/MiscUtils.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355166235971" ignored="false" />
-    <file path="/ServerConnection.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355212128355" ignored="false" />
-    <file path="$PROJECT_DIR$/src/misc/proxy.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355337814196" ignored="false" />
-    <file path="/Proxy.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355338284092" ignored="false" />
-    <file path="/TiminShardingProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355339052838" ignored="false" />
-    <file path="/MyShardingProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355343850986" ignored="false" />
-    <file path="/FooFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355343414326" ignored="false" />
-    <file path="/FooHandler.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355346718721" ignored="false" />
-    <file path="/AsmShardingProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355470716411" ignored="false" />
-    <file path="/FooProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355470330373" ignored="false" />
-    <file path="/AsmFooProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355516252418" ignored="false" />
-    <file path="/FooAsmProxyFactory.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355526286719" ignored="false" />
-    <file path="/sample.java" changelist="edddd067-8acb-4b9a-901f-848c83998433" time="1355516179789" ignored="false" />
+    <file path="/Dummy.txt" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355938791382" ignored="false" />
+    <file path="/Sheffer.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355659644141" ignored="false" />
+    <file path="/fragment.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355920358864" ignored="false" />
+    <file path="/Main.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355653418397" ignored="false" />
+    <file path="$PROJECT_DIR$/output/Main.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355660603672" ignored="false" />
+    <file path="/FindRect.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355660602243" ignored="false" />
+    <file path="/ClientGUI.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355938785996" ignored="false" />
+    <file path="/Client.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355937929702" ignored="false" />
+    <file path="/ServerConnection.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355920163323" ignored="false" />
+    <file path="/CommunicationThread.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355920179805" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +31,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="Commander">
-    <leftPanel />
-    <rightPanel />
-    <splitter proportion="0.5" />
-  </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="C:\Work\Java\Olympic" />
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -95,41 +73,64 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Olympic">
-      <favorite_root url="file://$PROJECT_DIR$/src/chelper/A.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-    </favorites_list>
+    <favorites_list name="Olympic" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FooHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooHandler.java">
+      <file leaf-file-name="ClientGUI.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="38" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
+            <state line="75" column="54" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.33213645">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#938#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#1380#1608#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+                <element signature="e#1675#1902#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/chat/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooAsmProxyFactory.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java">
+      <file leaf-file-name="CommunicationThread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="0" selection-start="7935" selection-end="7935" vertical-scroll-proportion="0.08076009">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1829#2358#0" expanded="true" />
-                <element signature="e#2351#2352#0" expanded="true" />
-                <element signature="e#3115#10058#0" expanded="true" />
-                <element signature="e#3712#3719#0" expanded="true" />
-                <element signature="e#10047#10048#0" expanded="true" />
-              </folding>
+            <state line="34" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="9" selection-start="1128" selection-end="1160" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientGUI.form" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -149,7 +150,6 @@
     </option>
   </component>
   <component name="GitLogSettings">
-    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -157,27 +157,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/output/Main.java" />
+        <option value="$PROJECT_DIR$/src/chelper/Sheffer.java" />
+        <option value="$PROJECT_DIR$/src/chelper/FindRect.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form" />
+        <option value="$PROJECT_DIR$/src/misc/chat/Message.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/LoggingProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/MyProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/DoNotProxy.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/Collect.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/MyShardingProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/FooFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/TiminShardingProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/FooHandler.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/AsmShardingProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/AsmFooProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java" />
       </list>
     </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -185,36 +175,15 @@
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Java language level migration aids</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SafeVarargsDetector</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <OptionsSetting value="true" id="Undo Check Out" />
-    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="2" id="Remove" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -232,20 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,7 +255,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
+              <option name="myItemId" value="chat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,105 +273,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Olympic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abrackadabra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="232" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="232" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="232" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/src.zip!/" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="906" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="232" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="231" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work\Java\Olympic\src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Work\Java\Olympic\archive\2012.11" />
-      <recent name="C:\Work\Java\Olympic\archive\2012.08" />
-      <recent name="C:\Work\Java\Olympic\archive\2012.10" />
-      <recent name="C:\Work\Java\Olympic" />
-      <recent name="C:\Work\Java\Olympic\src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Server">
+    <configuration default="false" name="ClientGUI" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="misc.chat.gui.ClientGUI" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Abra" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Olympic" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="misc.chat.client.Client" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Debug" />
+      <option name="PROGRAM_PARAMETERS" value="Abra" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -430,13 +331,12 @@
       <method />
     </configuration>
     <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="misc.chat.server.Server" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Debug" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -474,13 +374,12 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Debug" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -493,7 +392,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -513,15 +411,24 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Server" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.ClientGUI" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Server" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClientGUI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client" />
       </list>
     </recent_temporary>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -533,209 +440,37 @@
       <AnalysisUIOptions />
     </option>
   </component>
-  <component name="StructuralSearchPlugin">
-    <replaceConfiguration name="user defined" text="ru.fizteh.fivt.students.dmitriyBelyakov.chat" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" replacement="misc.chat_belyakov" history="1" />
-    <searchConfiguration name="user defined" text="pathSeparator" recursive="true" caseInsensitive="true" type="JAVA" history="1" />
-    <searchConfiguration name="user defined" text="&quot;/&quot;" recursive="true" caseInsensitive="true" type="JAVA" history="1" />
-  </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value="VISIBILITY_SORTER" />
-  </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\Andrey\AppData\Roaming\Subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="edddd067-8acb-4b9a-901f-848c83998433" name="Default" comment="" />
-      <created>1349877961358</created>
-      <updated>1349877961358</updated>
+      <changelist id="38899676-d023-4641-a449-7fc9d8b56ff8" name="Default" comment="" />
+      <created>1355648808592</created>
+      <updated>1355648808592</updated>
     </task>
-    <task id="LOCAL-00001" summary="InitialCommit">
-      <created>1352929773084</created>
-      <updated>1352929773084</updated>
-    </task>
-    <task id="LOCAL-00002" summary="another init commit">
-      <created>1352929833808</created>
-      <updated>1352929833808</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fixes + mv">
-      <created>1353012629839</created>
-      <updated>1353012629839</updated>
-    </task>
-    <task id="LOCAL-00004" summary="straaaange shell features">
-      <created>1353097031742</created>
-      <updated>1353097031742</updated>
-    </task>
-    <task id="LOCAL-00005" summary="movable file fix">
-      <created>1353100901034</created>
-      <updated>1353100901034</updated>
-    </task>
-    <task id="LOCAL-00006" summary="began parallelsort dev">
-      <created>1353355455384</created>
-      <updated>1353355455384</updated>
-    </task>
-    <task id="LOCAL-00007" summary="parallel sort first release">
-      <created>1353361988498</created>
-      <updated>1353361988498</updated>
-    </task>
-    <task id="LOCAL-00008" summary="hot">
-      <created>1353362182581</created>
-      <updated>1353362182581</updated>
-    </task>
-    <task id="LOCAL-00009" summary="++speed&#10;+correct keys">
-      <created>1353522361512</created>
-      <updated>1353522361512</updated>
-    </task>
-    <task id="LOCAL-00010" summary="++speed&#10;+correct keys">
-      <created>1353523003642</created>
-      <updated>1353523003642</updated>
-    </task>
-    <task id="LOCAL-00011" summary="corrected inspections">
-      <created>1353523028583</created>
-      <updated>1353523028583</updated>
-    </task>
-    <task id="LOCAL-00012" summary="added something">
-      <created>1353523263286</created>
-      <updated>1353523263286</updated>
-    </task>
-    <task id="LOCAL-00013" summary="test">
-      <created>1353523594741</created>
-      <updated>1353523594741</updated>
-    </task>
-    <task id="LOCAL-00014" summary="readme fix">
-      <created>1353524387066</created>
-      <updated>1353524387066</updated>
-    </task>
-    <task id="LOCAL-00015" summary="fix">
-      <created>1353524616812</created>
-      <updated>1353524616812</updated>
-    </task>
-    <task id="LOCAL-00016" summary="fix">
-      <created>1353525658701</created>
-      <updated>1353525658701</updated>
-    </task>
-    <task id="LOCAL-00017" summary="fix">
-      <created>1353525692557</created>
-      <updated>1353525692557</updated>
-    </task>
-    <task id="LOCAL-00018" summary="fix">
-      <created>1353526475250</created>
-      <updated>1353526475250</updated>
-    </task>
-    <task id="LOCAL-00019" summary="fix">
-      <created>1353526868389</created>
-      <updated>1353526868389</updated>
-    </task>
-    <task id="LOCAL-00020" summary="+counter">
-      <created>1353594362171</created>
-      <updated>1353594362171</updated>
-    </task>
-    <task id="LOCAL-00021" summary="+Reader">
-      <created>1353647492012</created>
-      <updated>1353647492012</updated>
-    </task>
-    <task id="LOCAL-00022" summary="-Reader&#10;+InputReader&#10;+OutputWriter">
-      <created>1353648451228</created>
-      <updated>1353648451228</updated>
-    </task>
-    <task id="LOCAL-00023" summary="+ps">
-      <created>1353649436044</created>
-      <updated>1353649436044</updated>
-    </task>
-    <task id="LOCAL-00024" summary="fix">
-      <created>1353651572557</created>
-      <updated>1353651572557</updated>
-    </task>
-    <task id="LOCAL-00025" summary="-cishs">
-      <created>1353760492335</created>
-      <updated>1353760492335</updated>
-    </task>
-    <task id="LOCAL-00026" summary="started Calendar dev">
-      <created>1353784548120</created>
-      <updated>1353784548120</updated>
-    </task>
-    <task id="LOCAL-00027" summary="calendar working">
-      <created>1353792190144</created>
-      <updated>1353792190144</updated>
-    </task>
-    <task id="LOCAL-00028" summary="moved old, + simple useless point3d">
-      <created>1354562979566</created>
-      <updated>1354562979566</updated>
-    </task>
-    <task id="LOCAL-00029" summary="first stable Client release">
-      <created>1354659819550</created>
-      <updated>1354659819550</updated>
-    </task>
-    <task id="LOCAL-00030" summary="refactoring + message">
-      <created>1354717861430</created>
-      <updated>1354717861430</updated>
-    </task>
-    <task id="LOCAL-00031" summary="more refac">
-      <created>1354719693609</created>
-      <updated>1354719693609</updated>
-    </task>
-    <task id="LOCAL-00032" summary="There is never enough refac! + some server">
-      <created>1354723033711</created>
-      <updated>1354723033711</updated>
-    </task>
-    <task id="LOCAL-00033" summary="It's alive!">
-      <created>1354724204065</created>
-      <updated>1354724204065</updated>
-    </task>
-    <task id="LOCAL-00034" summary="fix">
-      <created>1354784063486</created>
-      <updated>1354784063486</updated>
-    </task>
-    <task id="LOCAL-00035" summary="fix">
-      <created>1355520870274</created>
-      <updated>1355520870274</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26988983" sideWeight="0.13940091" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17319462" sideWeight="0.53686637" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17319462" sideWeight="0.45506912" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28212973" sideWeight="0.5564516" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32373273" sideWeight="0.49806702" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26988983" sideWeight="0.67626727" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24877451" sideWeight="0.4951049" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3229885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24051407" sideWeight="0.64285713" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.671659" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35189718" sideWeight="0.3978389" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328341" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17319462" sideWeight="0.312212" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17319462" sideWeight="0.3513825" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2858017" sideWeight="0.671659" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -743,7 +478,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
@@ -776,7 +511,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="+gui" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -789,287 +524,113 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="fixes + mv" />
-    <MESSAGE value="straaaange shell features" />
-    <MESSAGE value="movable file fix" />
-    <MESSAGE value="began parallelsort dev" />
-    <MESSAGE value="parallel sort first release" />
-    <MESSAGE value="hot" />
-    <MESSAGE value="++speed&#10;+correct keys" />
-    <MESSAGE value="corrected inspections" />
-    <MESSAGE value="added something" />
-    <MESSAGE value="test" />
-    <MESSAGE value="readme fix" />
-    <MESSAGE value="+counter" />
-    <MESSAGE value="+Reader" />
-    <MESSAGE value="-Reader&#10;+InputReader&#10;+OutputWriter" />
-    <MESSAGE value="+ps" />
-    <MESSAGE value="-cishs" />
-    <MESSAGE value="started Calendar dev" />
-    <MESSAGE value="calendar working" />
-    <MESSAGE value="moved old, + simple useless point3d" />
-    <MESSAGE value="first stable Client release" />
-    <MESSAGE value="refactoring + message" />
-    <MESSAGE value="more refac" />
-    <MESSAGE value="There is never enough refac! + some server" />
-    <MESSAGE value="It's alive!" />
-    <MESSAGE value="fix" />
-  </component>
-  <component name="VssConfiguration">
-    <option name="CLIENT_PATH" value="" />
-    <option name="SRCSAFEINI_PATH" value="" />
-    <option name="USER_NAME" value="" />
-    <option name="PWD" value="" />
-    <CheckoutOptions>
-      <option name="COMMENT" value="" />
-      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
-      <option name="REPLACE_WRITABLE" value="false" />
-      <option name="RECURSIVE" value="false" />
-    </CheckoutOptions>
-    <CheckinOptions>
-      <option name="COMMENT" value="" />
-      <option name="KEEP_CHECKED_OUT" value="false" />
-      <option name="RECURSIVE" value="false" />
-    </CheckinOptions>
-    <AddOptions>
-      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
-      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
-    </AddOptions>
-    <UndocheckoutOptions>
-      <option name="MAKE_WRITABLE" value="false" />
-      <option name="REPLACE_LOCAL_COPY" value="2" />
-      <option name="RECURSIVE" value="false" />
-    </UndocheckoutOptions>
-    <GetOptions>
-      <option name="REPLACE_WRITABLE" value="0" />
-      <option name="MAKE_WRITABLE" value="false" />
-      <option name="ANSWER_NEGATIVELY" value="false" />
-      <option name="ANSWER_POSITIVELY" value="false" />
-      <option name="RECURSIVE" value="false" />
-      <option name="VERSION" />
-    </GetOptions>
+    <MESSAGE value="+gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/DoNotProxy.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/OutputStreamWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="367" selection-end="367" vertical-scroll-proportion="0.28199053">
+        <state line="84" column="32" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.49406177">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/FilterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="6" selection-start="959" selection-end="959" vertical-scroll-proportion="0.33254156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.20190024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="13" selection-start="6397" selection-end="6397" vertical-scroll-proportion="-0.45486936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Appendable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="17" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.21140142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="19" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.3527316">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="23" selection-start="10057" selection-end="10057" vertical-scroll-proportion="0.33254156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.5748218">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#817#835#0" expanded="true" />
+            <element signature="e#3408#3426#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/Collect.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="501" selection-end="501" vertical-scroll-proportion="0.34241706">
+        <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="9" selection-start="1128" selection-end="1160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="54" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.33213645">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#589#938#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#1380#1608#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1675#1902#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="69" selection-start="1723" selection-end="1728" vertical-scroll-proportion="-0.64346766" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Void.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.26184833" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2981" column="39" selection-start="121230" selection-end="121234" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="80" selection-start="3533" selection-end="3533" vertical-scroll-proportion="0.79620856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="13" selection-start="9477" selection-end="9477" vertical-scroll-proportion="1.4206161" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="10" selection-start="1452" selection-end="1463" vertical-scroll-proportion="0.33285302">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="22" selection-start="9207" selection-end="9207" vertical-scroll-proportion="0.3329384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/lib/all/asm-all-4.1.jar!/org/objectweb/asm/commons/GeneratorAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="16" selection-start="7400" selection-end="7400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/ShardingProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="90" selection-end="90" vertical-scroll-proportion="0.1007109">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="350" selection-end="350" vertical-scroll-proportion="-1.0876777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="38" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/src.zip!/org/objectweb/asm/commons/GeneratorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1412" column="16" selection-start="44273" selection-end="44273" vertical-scroll-proportion="0.3329384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Downloads/Manager/Compressed/asm-4.1-bin/asm-4.1/src.zip!/org/objectweb/asm/commons/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="11" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/proxy/FooAsmProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="0" selection-start="7935" selection-end="7935" vertical-scroll-proportion="0.08076009">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1829#2358#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#3115#10058#0" expanded="true" />
-            <element signature="e#3712#3719#0" expanded="true" />
-            <element signature="e#10047#10048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Olympic</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>asm-all-4.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 
