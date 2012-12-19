@@ -11,7 +11,7 @@ import java.net.Socket;
 
 class ServerConnection {
     private String nickName;
-    private Client client;
+    Client client;
 
     private boolean alive = true;
 
@@ -62,7 +62,7 @@ class ServerConnection {
         communicationThread.flush();
         communicationThread.interrupt();
 
-        System.out.println("You got disconnected from " + this);
+        client.out.println("You got disconnected from " + this);
 
         client.validateServers();
     }

@@ -1,7 +1,6 @@
 package misc.chat;
 
 import java.io.*;
-import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -58,10 +57,10 @@ public class Message {
 
     private static int readInt(InputStream in) throws IOException {
         int i = 0;
-        i += read(in) << 24;
-        i += read(in) << 16;
-        i += read(in) << 8;
-        i += read(in);
+        i |= read(in) << 24;
+        i |= read(in) << 16;
+        i |= read(in) << 8;
+        i |= read(in);
         return i;
     }
 
