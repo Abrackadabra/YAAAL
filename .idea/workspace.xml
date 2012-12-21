@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38899676-d023-4641-a449-7fc9d8b56ff8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/Client.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/Message.java" afterPath="$PROJECT_DIR$/src/misc/chat/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" afterPath="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/dialogs/ConnectDialog.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/dialogs/ConnectDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/dialogs/SelectConnectionDialog.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/misc/chat/gui/dialogs/SelectConnectionDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java" afterPath="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Olympic.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355938791382" ignored="false" />
+    <file path="/Dummy.txt" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1356107475447" ignored="false" />
     <file path="/Sheffer.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355659644141" ignored="false" />
-    <file path="/fragment.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355920358864" ignored="false" />
+    <file path="/fragment.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355939047125" ignored="false" />
     <file path="/Main.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355653418397" ignored="false" />
-    <file path="$PROJECT_DIR$/output/Main.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355660603672" ignored="false" />
+    <file path="$PROJECT_DIR$/output/Main.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355954362537" ignored="false" />
     <file path="/FindRect.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355660602243" ignored="false" />
-    <file path="/ClientGUI.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355938785996" ignored="false" />
+    <file path="/ClientGUI.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1356112110253" ignored="false" />
     <file path="/Client.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355937929702" ignored="false" />
     <file path="/ServerConnection.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355920163323" ignored="false" />
     <file path="/CommunicationThread.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355920179805" ignored="false" />
+    <file path="/C.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355953290120" ignored="false" />
+    <file path="/Task.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1355954359251" ignored="false" />
+    <file path="/A.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1356032824360" ignored="false" />
+    <file path="/ConnectDialog.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1356111678447" ignored="false" />
+    <file path="/SelectConnectionDialog.java" changelist="38899676-d023-4641-a449-7fc9d8b56ff8" time="1356112156587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -86,51 +87,22 @@
       <file leaf-file-name="ClientGUI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="54" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.33213645">
+            <state line="86" column="43" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.43349168">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#589#938#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#1380#1608#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-                <element signature="e#1675#1902#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1464#1632#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1747#1926#0" expanded="true" />
+                <element signature="e#1915#1916#0" expanded="true" />
+                <element signature="e#2042#2219#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2370#2543#0" expanded="true" />
+                <element signature="e#2532#2533#0" expanded="true" />
+                <element signature="e#2665#2842#0" expanded="true" />
+                <element signature="e#2831#2832#0" expanded="true" />
+                <element signature="e#2981#3154#0" expanded="true" />
+                <element signature="e#3143#3144#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/chat/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommunicationThread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerConnection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="9" selection-start="1128" selection-end="1160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientGUI.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -157,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/output/Main.java" />
         <option value="$PROJECT_DIR$/src/chelper/Sheffer.java" />
         <option value="$PROJECT_DIR$/src/chelper/FindRect.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java" />
@@ -165,7 +136,15 @@
         <option value="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form" />
         <option value="$PROJECT_DIR$/src/misc/chat/Message.java" />
         <option value="$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java" />
+        <option value="$PROJECT_DIR$/src/test/C.java" />
+        <option value="$PROJECT_DIR$/src/test/Task.java" />
+        <option value="$PROJECT_DIR$/src/test/Something.java" />
+        <option value="$PROJECT_DIR$/src/test/A.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/gui/dialogs/ConnectDialog.form" />
+        <option value="$PROJECT_DIR$/src/misc/chat/gui/dialogs/ConnectDialog.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/gui/dialogs/SelectConnectionDialog.form" />
         <option value="$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java" />
+        <option value="$PROJECT_DIR$/src/misc/chat/gui/dialogs/SelectConnectionDialog.java" />
       </list>
     </option>
   </component>
@@ -201,6 +180,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,6 +196,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,30 +266,135 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientGUI" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Olympic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.ClientGUI">
     <configuration default="false" name="ClientGUI" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="misc.chat.gui.ClientGUI" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Abra" />
+      <option name="PROGRAM_PARAMETERS" value="Abra2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -332,6 +431,22 @@
     </configuration>
     <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="misc.chat.server.Server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Olympic" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConnectDialog" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="misc.chat.gui.dialogs.ConnectDialog" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -411,16 +526,25 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.ClientGUI" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Server" />
+    <configuration default="false" name="Task" type="Task" factoryName="Task">
+      <taskConf />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Task.Task" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ClientGUI" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConnectDialog" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ClientGUI" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Client" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientGUI" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ConnectDialog" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -452,19 +576,19 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24051407" sideWeight="0.64285713" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24051407" sideWeight="0.5794931" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.671659" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35189718" sideWeight="0.3978389" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328341" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17319462" sideWeight="0.312212" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1872705" sideWeight="0.6267281" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17319462" sideWeight="0.3513825" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2858017" sideWeight="0.671659" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1872705" sideWeight="0.36520737" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28457773" sideWeight="0.6705069" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,53 +654,49 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/OutputStreamWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="32" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.49406177">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/FilterOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="6" selection-start="959" selection-end="959" vertical-scroll-proportion="0.33254156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.20190024">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.20190024" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/awt/event/KeyEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="13" selection-start="6397" selection-end="6397" vertical-scroll-proportion="-0.45486936">
-          <folding />
-        </state>
+        <state line="151" column="13" selection-start="6397" selection-end="6397" vertical-scroll-proportion="-0.45486936" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/Appendable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.21140142">
-          <folding />
-        </state>
+        <state line="50" column="17" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.21140142" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.3527316">
-          <folding />
-        </state>
+        <state line="57" column="19" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.3527316" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="23" selection-start="10057" selection-end="10057" vertical-scroll-proportion="0.33254156">
-          <folding />
-        </state>
+        <state line="319" column="23" selection-start="10057" selection-end="10057" vertical-scroll-proportion="0.33254156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.020190023" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="0.020190023" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="9" selection-start="1128" selection-end="1160" vertical-scroll-proportion="0.18171021" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="433" column="27" selection-start="16232" selection-end="16232" vertical-scroll-proportion="0.5653207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.form">
@@ -584,49 +704,53 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/dialogs/ConnectDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/dialogs/ConnectDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/dialogs/SelectConnectionDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.5748218">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#817#835#0" expanded="true" />
-            <element signature="e#3408#3426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+        <state line="73" column="23" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/CommunicationThread.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/dialogs/SelectConnectionDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/chat/client/ServerConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="9" selection-start="1128" selection-end="1160" vertical-scroll-proportion="0.0">
+        <state line="29" column="48" selection-start="848" selection-end="848" vertical-scroll-proportion="0.44418052">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/chat/gui/ClientGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="54" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.33213645">
+        <state line="86" column="43" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.43349168">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#589#938#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#1380#1608#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#1675#1902#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1464#1632#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1747#1926#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#2042#2219#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2370#2543#0" expanded="true" />
+            <element signature="e#2532#2533#0" expanded="true" />
+            <element signature="e#2665#2842#0" expanded="true" />
+            <element signature="e#2831#2832#0" expanded="true" />
+            <element signature="e#2981#3154#0" expanded="true" />
+            <element signature="e#3143#3144#0" expanded="true" />
           </folding>
         </state>
       </provider>
