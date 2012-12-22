@@ -17,7 +17,7 @@ import java.io.*;
  * Date: 19/12/12
  * Time: 16:01
  */
-public class ClientGUI {
+public class ClientGraphicalUserInterface {
     private JTextArea chatTextArea;
     private JTextField inputTextField;
     private JButton sendButton;
@@ -25,7 +25,7 @@ public class ClientGUI {
     private JTextArea logTextArea;
     private JMenuBar menuBar = new JMenuBar();
 
-    public ClientGUI() {
+    public ClientGraphicalUserInterface() {
         sendButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -109,7 +109,7 @@ public class ClientGUI {
     private Client client;
 
     private void sendMessage(String s) {
-        if (s.startsWith("/")) s = Character.DIRECTIONALITY_LEFT_TO_RIGHT + s; // mwahaha
+        if (s.startsWith("/")) s = " " + s;
         client.processCommand(s);
     }
 
@@ -132,18 +132,18 @@ public class ClientGUI {
     }, true);
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("ClientGUI");
-        ClientGUI clientGUI = new ClientGUI();
+        JFrame frame = new JFrame("Graphical User Interface");
+        ClientGraphicalUserInterface clientGraphicalUserInterface = new ClientGraphicalUserInterface();
 
-        frame.setJMenuBar(clientGUI.menuBar);
+        frame.setJMenuBar(clientGraphicalUserInterface.menuBar);
 
-        frame.setContentPane(clientGUI.panel);
+        frame.setContentPane(clientGraphicalUserInterface.panel);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
 
-        clientGUI.client = new Client(clientGUI.textPrintStream, clientGUI.logPrintStream, args);
-        clientGUI.client.run();
+        clientGraphicalUserInterface.client = new Client(clientGraphicalUserInterface.textPrintStream, clientGraphicalUserInterface.logPrintStream, args);
+        clientGraphicalUserInterface.client.run();
     }
 }
