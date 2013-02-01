@@ -37,4 +37,32 @@ public class OutputWriter extends PrintWriter {
             print(objects[i]);
         }
     }
+
+    public void printCase(int index) {
+        printf("Case #%d: ", index);
+    }
+
+    public void printYesNo(boolean value) {
+        printYesNo(value, false);
+    }
+
+    public void printYesNo(boolean value, boolean caps) {
+        printYesNo(value, caps, false);
+    }
+
+    public void printYesNo(boolean value, boolean caps, boolean polish) {
+        if (polish) {
+            if (caps) {
+                println(value ? "TAK" : "NIE");
+            } else {
+                println(value ? "Tak" : "Nie");
+            }
+        } else {
+            if (caps) {
+                println(value ? "YES" : "NO");
+            } else {
+                println(value ? "Yes" : "No");
+            }
+        }
+    }
 }

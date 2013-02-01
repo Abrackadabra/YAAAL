@@ -4,4 +4,10 @@ public class MiscUtils {
     public static boolean rangeCheck(int lowerBound, int higherBound, int x) {
         return x >= lowerBound && x <= higherBound;
     }
+
+    public static void assertMF(boolean value) { // I DARE YOU
+        if (!value) {
+            throw new AssertionError();
+        }
+    }
 }
