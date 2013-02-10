@@ -1,0 +1,29 @@
+12 CowCrossings
+6 SINGLE
+6 CUSTOM
+12 crossings.in
+6 CUSTOM
+13 crossings.out
+1
+0
+20 4
+-3 4
+7 8
+10 16
+3 9
+1 2
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+20 chelper.CowCrossings
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.10
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

@@ -1,0 +1,33 @@
+6 CR115A
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+4 1234
+2 37
+0
+1
+4 9000
+2 90
+0
+2
+4 0009
+2 -1
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+14 chelper.CR115A
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.05
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

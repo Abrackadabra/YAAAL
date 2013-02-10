@@ -9,7 +9,7 @@ import java.io.*;
  * Time: 09:12
  */
 public class OutputWriter extends PrintWriter {
-    public static final String DEFAULT_SEPARATOR = " ";
+    static final String DEFAULT_SEPARATOR = " ";
 
     String separator = DEFAULT_SEPARATOR;
 

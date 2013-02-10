@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class InputReader {
-    BufferedReader  br;
+    BufferedReader br;
     StringTokenizer in;
 
     public InputReader(String fileName) {
@@ -36,11 +36,10 @@ public class InputReader {
 
     public String nextLine() {
         try {
-            in = null; // riad legacy
+            in = null;
             return br.readLine();
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
