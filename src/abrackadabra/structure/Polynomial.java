@@ -59,12 +59,12 @@ public class Polynomial {
         }
     }
 
-    Map<Integer, Long> coeffs = new HashMap<Integer, Long>();
+    final Map<Integer, Long> coeffs = new HashMap<Integer, Long>();
 
     private Polynomial() {
     }
 
-    private Polynomial(Map<Integer, Long> coeffs) {
+    public Polynomial(Map<Integer, Long> coeffs) {
         if (coeffs == null) {
             throw new NullPointerException();
         }
@@ -113,7 +113,7 @@ public class Polynomial {
         }
     }
 
-    Polynomial inverse() {
+    public Polynomial negate() {
         Map<Integer, Long> map = new HashMap<Integer, Long>();
 
         for (Map.Entry<Integer, Long> e : coeffs.entrySet()) {
@@ -123,7 +123,7 @@ public class Polynomial {
         return new Polynomial(map);
     }
 
-    Polynomial add(Polynomial arg) {
+    public Polynomial add(Polynomial arg) {
         Map<Integer, Long> map = new HashMap<Integer, Long>();
 
         Set<Integer> keys = new HashSet<Integer>();
@@ -141,34 +141,20 @@ public class Polynomial {
         return new Polynomial(map);
     }
 
-    Polynomial subtract(Polynomial arg) {
-        Map<Integer, Long> map = new HashMap<Integer, Long>();
-
-        Set<Integer> keys = new HashSet<Integer>();
-        keys.addAll(coeffs.keySet());
-        keys.addAll(arg.coeffs.keySet());
-
-        for (Integer key : keys) {
-            long val = 0;
-            if (coeffs.containsKey(key)) val += coeffs.get(key);
-            if (arg.coeffs.containsKey(key)) val -= arg.coeffs.get(key);
-            if (val != 0)
-                map.put(key, val);
-        }
-
-        return new Polynomial(map);
+    public Polynomial subtract(Polynomial arg) {
+        return add(arg.negate());
     }
 
-    Polynomial multiply(Polynomial arg) {
+    public Polynomial multiply(Polynomial arg) {
         Map<Integer, Long> map = new HashMap<Integer, Long>();
 
         for (Map.Entry<Integer, Long> a : coeffs.entrySet()) {
             for (Map.Entry<Integer, Long> b : arg.coeffs.entrySet()) {
                 int degree = a.getKey() + b.getKey();
                 long val = a.getValue() * b.getValue();
-                    /*if (Math.log(a.getValue()) + Math.log(b.getValue()) > Math.log(Long.MAX_VALUE)) {
-                        throw new IllegalArgumentException();
-                    }*/
+                /*if (Math.log(a.getValue()) + Math.log(b.getValue()) > Math.log(Long.MAX_VALUE)) {
+                    throw new IllegalArgumentException();
+                }*/
                 if (map.containsKey(degree)) {
                     val += map.get(degree);
                 }
@@ -185,7 +171,7 @@ public class Polynomial {
         return new Polynomial(map);
     }
 
-    Polynomial pow(int arg) {
+    public Polynomial pow(int arg) {
         if (arg == 0) {
             if (coeffs.isEmpty()) {
                 throw new IllegalArgumentException();
@@ -219,7 +205,7 @@ public class Polynomial {
                     stack.push(l);
                     break;
                 case '-':
-                    stack.push(l.inverse());
+                    stack.push(l.negate());
                     break;
             }
         } else {
@@ -300,7 +286,6 @@ public class Polynomial {
             applyOperator(stack, operators.pop());
         }
 
-        coeffs = new HashMap<Integer, Long>();
         coeffs.putAll(stack.pop().coeffs);
     }
 
@@ -341,5 +326,4 @@ public class Polynomial {
 
         return value.compareTo(BigInteger.ZERO) == 0;
     }
-
 }

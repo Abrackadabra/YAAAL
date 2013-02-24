@@ -12,6 +12,14 @@ public class AMath {
         return min;
     }
 
+    public static double min(double... a) {
+        double min = a[0];
+        for (int i = 1; i < a.length; i++) {
+            min = Math.min(min, a[i]);
+        }
+        return min;
+    }
+
     public static int max(int... a) {
         int max = a[0];
         for (int i = 1; i < a.length; i++) {

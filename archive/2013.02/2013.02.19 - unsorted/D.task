@@ -1,0 +1,36 @@
+1 D
+6 SINGLE
+6 CUSTOM
+9 input.txt
+6 CUSTOM
+10 output.txt
+1
+0
+81 5 10
+12:00:00 12:00:01 12:00:02 11:59:59 14:00:01
+0 1 2 3 4 3600 7200 86399 11 21
+34 NO
+YES
+YES
+YES
+NO
+NO
+YES
+YES
+NO
+NO
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.D
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.19
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

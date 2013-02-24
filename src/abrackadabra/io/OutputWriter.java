@@ -65,4 +65,17 @@ public class OutputWriter extends PrintWriter {
             }
         }
     }
+
+    public void printlnSpaced(Iterable<? extends Object> from) {
+        boolean first = true;
+        for (Object object : from) {
+            if (!first) {
+                print(' ');
+            } else {
+                first = false;
+            }
+            print(object);
+        }
+        println();
+    }
 }
