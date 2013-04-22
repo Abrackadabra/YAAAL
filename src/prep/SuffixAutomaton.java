@@ -9,51 +9,45 @@ import java.util.*;
  * Time: 21:06
  */
 public class SuffixAutomaton {
-    private static class State {
-        int length;
-        char parent_char;
+    public static class State {
+        public int length;
+        public char parentChar;
 
-        State link, parent;
+        public State link, parent;
 
-        Map<Character, State> edges = new HashMap<Character, State>();
+        public State[] edges = new State[36];
+        //public Map<Character, State> edges = new HashMap<Character, State>();
+        public int a = 0;
+        public boolean visited = false;
     };
 
-    private State root;
-    private State last;
-
-    private void init() {
-        root = new State();
-        root.length = 0;
-        root.link = null;
-        root.parent = null;
-        root.parent_char = '\0';
-        last = root;
-    }
+    public final State root = new State();
+    State last = root;
 
     private void append(char c) {
         State current = new State();
         current.length = last.length + 1;
         current.parent = last;
-        current.parent_char = c;
-        State p = last;
-        for (; p != null && !p.edges.containsKey(c); p = p.link) {
-            p.edges.put(c, current);
+        current.parentChar = c;
+        State p;
+        for (p = last; p != null && p.edges[c - 'a'] == null; p = p.link) {
+            p.edges[c - 'a'] = current;
         }
         if (p == null) {
             current.link = root;
         } else {
-            State q = p.edges.get(c);
+            State q = p.edges[c - 'a'];
             if (p.length + 1 == q.length) {
                 current.link = q;
             } else {
                 State clone = new State();
                 clone.length = p.length + 1;
                 clone.parent = p;
-                clone.parent_char = c;
-                clone.edges = q.edges;
+                clone.parentChar = c;
+                clone.edges = q.edges.clone();
                 clone.link = q.link;
-                for (; p != null && p.edges.get(c) == q; p = p.link) {
-                    p.edges.put(c, clone);
+                for (; p != null && p.edges[c - 'a'] == q; p = p.link) {
+                    p.edges[c - 'a'] = clone;
                 }
                 q.link = clone;
                 current.link = clone;
@@ -62,8 +56,7 @@ public class SuffixAutomaton {
         last = current;
     }
 
-    SuffixAutomaton(String s) {
-        init();
+    public SuffixAutomaton(String s) {
         for (char c : s.toCharArray()) {
             append(c);
         }

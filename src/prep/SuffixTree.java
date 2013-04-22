@@ -9,8 +9,8 @@ import java.util.*;
  * Time: 22:31
  */
 public class SuffixTree {
-    private String s;
-    private Node root = new Node();
+    public final String s;
+    public final Node root = new Node();
 
     private State pointer = new State(root, 0);
 
@@ -21,7 +21,7 @@ public class SuffixTree {
         }
     }
 
-    private class Node {
+    class Node {
         int l = 0, r = 0;
         Node parent = null;
         Node link = null;
@@ -77,8 +77,7 @@ public class SuffixTree {
 
     }
 
-    private class State {
-
+    class State {
         Node node;
         int pos;
 

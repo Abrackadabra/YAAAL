@@ -1,6 +1,9 @@
+
 package abrackadabra.io;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.Locale;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,12 +13,6 @@ import java.io.*;
  */
 public class OutputWriter extends PrintWriter {
     static final String DEFAULT_SEPARATOR = " ";
-
-    String separator = DEFAULT_SEPARATOR;
-
-    public void setSeparator(String separator) {
-        this.separator = separator;
-    }
 
     public OutputWriter(String fileName) throws FileNotFoundException {
         super(fileName);
@@ -29,7 +26,16 @@ public class OutputWriter extends PrintWriter {
         super(writer);
     }
 
-    public void printSeparated(Object... objects) {
+    public void print(Object... objects) {
+        printSeparated(DEFAULT_SEPARATOR, objects);
+    }
+
+    public void println(Object... objects) {
+        printSeparated(DEFAULT_SEPARATOR, objects);
+        println();
+    }
+
+    public void printSeparated(String separator, Object... objects) {
         for (int i = 0; i < objects.length; i++) {
             if (i > 0) {
                 print(separator);
@@ -38,44 +44,19 @@ public class OutputWriter extends PrintWriter {
         }
     }
 
-    public void printCase(int index) {
-        printf("Case #%d: ", index);
+    public void print(Iterable<?> from) {
+        printSeparated(DEFAULT_SEPARATOR, from);
     }
 
-    public void printYesNo(boolean value) {
-        printYesNo(value, false);
-    }
-
-    public void printYesNo(boolean value, boolean caps) {
-        printYesNo(value, caps, false);
-    }
-
-    public void printYesNo(boolean value, boolean caps, boolean polish) {
-        if (polish) {
-            if (caps) {
-                println(value ? "TAK" : "NIE");
-            } else {
-                println(value ? "Tak" : "Nie");
-            }
-        } else {
-            if (caps) {
-                println(value ? "YES" : "NO");
-            } else {
-                println(value ? "Yes" : "No");
-            }
-        }
-    }
-
-    public void printlnSpaced(Iterable<? extends Object> from) {
+    public void printSeparated(String separator, Iterable<?> from) {
         boolean first = true;
         for (Object object : from) {
             if (!first) {
-                print(' ');
+                print(separator);
             } else {
                 first = false;
             }
             print(object);
         }
-        println();
     }
 }

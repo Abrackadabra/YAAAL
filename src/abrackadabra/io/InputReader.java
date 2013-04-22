@@ -1,9 +1,10 @@
 package abrackadabra.io;
 
 import java.io.*;
+import java.nio.CharBuffer;
 import java.util.*;
 
-public class InputReader {
+public class InputReader implements Iterable<String> {
     BufferedReader br;
     StringTokenizer in;
 
@@ -19,13 +20,15 @@ public class InputReader {
         br = new BufferedReader(new InputStreamReader(inputStream));
     }
 
+    String lastLine = null;
+
     boolean hasMoreTokens() {
         while (in == null || !in.hasMoreTokens()) {
-            String s = nextLine();
-            if (s == null) {
+            lastLine = nextLine();
+            if (lastLine == null) {
                 return false;
             }
-            in = new StringTokenizer(s);
+            in = new StringTokenizer(lastLine);
         }
         return true;
     }
@@ -35,8 +38,12 @@ public class InputReader {
     }
 
     public String nextLine() {
+        boolean somethingLeft = in != null && in.hasMoreTokens();
+        in = null;
+        if (somethingLeft) {
+            return lastLine;
+        }
         try {
-            in = null;
             return br.readLine();
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -98,5 +105,38 @@ public class InputReader {
     @Deprecated
     public String next() {
         return nextString();
+    }
+
+    public String readAll() {
+        StringBuilder stringBuilder = new StringBuilder();
+        int c;
+        try {
+            while ((c = br.read()) != -1) {
+                stringBuilder.append((char) c);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return stringBuilder.toString();
+    }
+
+    @Override
+    public Iterator<String> iterator() {
+        return new Iterator<String>() {
+            @Override
+            public boolean hasNext() {
+                return hasMoreTokens();
+            }
+
+            @Override
+            public String next() {
+                return nextString();
+            }
+
+            @Override
+            public void remove() {
+                throw new RuntimeException();
+            }
+        };
     }
 }
