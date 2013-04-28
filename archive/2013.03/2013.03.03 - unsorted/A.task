@@ -1,0 +1,507 @@
+1 A
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+11
+0
+375 find
+python
+13
+. 0
+./download_client.sh 1
+./random1000_queries_sport.txt 2
+./times.txt 3
+./site 4
+./site/site_kz_domains_random1000_2011-07-26.txt 5
+./site/site_ru_domains_top1000_2011-07-27.txt 6
+./site/site_by_domains_top1000_2011-07-27.txt 7
+./site/kz 8
+./site/kz/random1000 9
+./site/kz/random1000/site_kz_random1000_2011-07-16.xml 10
+./site/ru 11
+./site/ru/random1000 12
+
+374 13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+1
+1
+388 python
+python
+13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+374 13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+1
+2
+344 acm1
+python
+13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+4 1 2 3 4
+0
+0
+0
+5 5 6 7 8 11
+0
+0
+0
+2 9 10
+0
+0
+1 12
+0
+
+374 13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+1
+3
+319 acm2
+python
+13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+-1
+0
+0
+0
+0
+4
+4
+4
+4
+8
+8
+4
+11
+
+374 13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+1
+4
+343 acm3
+python
+13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+0 1
+0 2
+0 3
+0 4
+4 5
+4 6
+4 7
+4 8
+4 11
+8 9
+8 10
+11 12
+
+374 13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+1
+5
+727 xml
+python
+<dir name=’.’ id=’0’>
+  <file name=’download_client.sh’ id=’1’/>
+  <file name=’random1000_queries_sport.txt’ id=’2’/>
+  <file name=’times.txt’ id=’3’/>
+  <dir name=’site’ id=’4’>
+    <file name=’site_kz_domains_random1000_2011-07-26.txt’ id=’5’/>
+    <file name=’site_ru_domains_top1000_2011-07-27.txt’ id=’6’/>
+    <file name=’site_by_domains_top1000_2011-07-27.txt’ id=’7’/>
+    <dir name=’kz’ id=’8’>
+      <file name=’random1000’ id=’9’/>
+      <file name=’site_kz_random1000_2011-07-16.xml’ id=’10’/>
+    </dir>
+    <dir name=’ru’ id=’11’>
+      <file name=’random1000’ id=’12’/>
+    </dir>
+  </dir>
+</dir>
+
+374 13
+. 0
+    download_client.sh 1
+    random1000_queries_sport.txt 2
+    times.txt 3
+    site 4
+        site_kz_domains_random1000_2011-07-26.txt 5
+        site_ru_domains_top1000_2011-07-27.txt 6
+        site_by_domains_top1000_2011-07-27.txt 7
+        kz 8
+            random1000 9
+                site_kz_random1000_2011-07-16.xml 10
+        ru 11
+            random1000 12
+1
+6
+373 find
+find
+13
+. 0
+./download_client.sh 1
+./random1000_queries_sport.txt 2
+./times.txt 3
+./site 4
+./site/site_kz_domains_random1000_2011-07-26.txt 5
+./site/site_ru_domains_top1000_2011-07-27.txt 6
+./site/site_by_domains_top1000_2011-07-27.txt 7
+./site/kz 8
+./site/kz/random1000 9
+./site/kz/random1000/site_kz_random1000_2011-07-16.xml 10
+./site/ru 11
+./site/ru/random1000 12
+
+363 13
+. 0
+./download_client.sh 1
+./random1000_queries_sport.txt 2
+./times.txt 3
+./site 4
+./site/site_kz_domains_random1000_2011-07-26.txt 5
+./site/site_ru_domains_top1000_2011-07-27.txt 6
+./site/site_by_domains_top1000_2011-07-27.txt 7
+./site/kz 8
+./site/kz/random1000 9
+./site/kz/random1000/site_kz_random1000_2011-07-16.xml 10
+./site/ru 11
+./site/ru/random1000 12
+
+1
+7
+372 find
+acm1
+13
+. 0
+./download_client.sh 1
+./random1000_queries_sport.txt 2
+./times.txt 3
+./site 4
+./site/site_kz_domains_random1000_2011-07-26.txt 5
+./site/site_ru_domains_top1000_2011-07-27.txt 6
+./site/site_by_domains_top1000_2011-07-27.txt 7
+./site/kz 8
+./site/kz/random1000 9
+./site/kz/random1000/site_kz_random1000_2011-07-16.xml 10
+./site/ru 11
+./site/ru/random1000 12
+332 13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+4 1 2 3 4
+0
+0
+0
+5 5 6 7 8 11
+0
+0
+0
+1 9
+1 10
+0
+1 12
+0
+
+1
+8
+342 acm1
+acm2
+13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+4 1 2 3 4
+0
+0
+0
+5 5 6 7 8 11
+0
+0
+0
+2 9 10
+0
+0
+1 12
+0
+
+307 13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+-1
+0
+0
+0
+0
+4
+4
+4
+4
+8
+8
+4
+11
+
+1
+9
+317 acm2
+acm3
+13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+-1
+0
+0
+0
+0
+4
+4
+4
+4
+8
+8
+4
+11
+
+331 13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+0 1
+0 2
+0 3
+0 4
+4 5
+4 6
+4 7
+4 8
+4 11
+8 9
+8 10
+11 12
+
+1
+10
+340 acm3
+xml
+13
+. 0
+download_client.sh 1
+random1000_queries_sport.txt 2
+times.txt 3
+site 4
+site_kz_domains_random1000_2011-07-26.txt 5
+site_ru_domains_top1000_2011-07-27.txt 6
+site_by_domains_top1000_2011-07-27.txt 7
+kz 8
+random1000 9
+site_kz_random1000_2011-07-16.xml 10
+ru 11
+random1000 12
+0 1
+0 2
+0 3
+0 4
+4 5
+4 6
+4 7
+4 8
+4 11
+8 9
+8 10
+11 12
+
+716 <dir name=’.’ id=’0’>
+  <file name=’download_client.sh’ id=’1’/>
+  <file name=’random1000_queries_sport.txt’ id=’2’/>
+  <file name=’times.txt’ id=’3’/>
+  <dir name=’site’ id=’4’>
+    <file name=’site_kz_domains_random1000_2011-07-26.txt’ id=’5’/>
+    <file name=’site_ru_domains_top1000_2011-07-27.txt’ id=’6’/>
+    <file name=’site_by_domains_top1000_2011-07-27.txt’ id=’7’/>
+    <dir name=’kz’ id=’8’>
+      <file name=’random1000’ id=’9’/>
+      <file name=’site_kz_random1000_2011-07-16.xml’ id=’10’/>
+    </dir>
+    <dir name=’ru’ id=’11’>
+      <file name=’random1000’ id=’12’/>
+    </dir>
+  </dir>
+</dir>
+
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.A
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.03
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

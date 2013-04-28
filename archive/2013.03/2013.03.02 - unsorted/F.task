@@ -1,0 +1,53 @@
+1 F
+9 MULTI_EOF
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+183 100 2
+3000 45 15
+2000 60 10
+100 3
+3000 45 15
+2000 60 10
+4000 20 8
+100 3
+3000 45 15
+2000 60 10
+4000 20 7
+100 3
+3000 45 15
+2000 60 10
+4000 20 6
+100 3
+3000 45 15
+2000 60 10
+4000 20 5
+0 0
+134 Case 1: 3095
+0:64 1:36
+Case 2: 4101
+0:42 1:24 2:34
+Case 3: 4070
+0:45 1:27 2:28
+Case 4: 4040
+0:46 1:27 2:27
+Case 5: 4011
+0:46 1:27 2:27
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.F
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.02
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

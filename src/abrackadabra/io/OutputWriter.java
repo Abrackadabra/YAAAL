@@ -14,8 +14,20 @@ import java.util.Locale;
 public class OutputWriter extends PrintWriter {
     static final String DEFAULT_SEPARATOR = " ";
 
-    public OutputWriter(String fileName) throws FileNotFoundException {
-        super(fileName);
+    public OutputWriter(String fileName) {
+        super(getWriter(fileName));
+    }
+
+    private static Writer getWriter(String s) {
+        Writer writer;
+
+        try {
+            writer = new FileWriter(s);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        return writer;
     }
 
     public OutputWriter(OutputStream outputStream) {

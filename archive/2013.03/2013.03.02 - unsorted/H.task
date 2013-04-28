@@ -1,0 +1,32 @@
+1 H
+9 MULTI_EOF
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+79 2 1 Al O2 Al2O3
+2 2 Fe2(SO4)3 KSCN K3Fe(SCN)6 K2SO4
+1 1 CO2 O2
+2 2 A B AB B
+0 0
+52 Case 1: 4 3 2
+Case 2: 1 12 2 3
+Case 3: No
+Case 4: No
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.H
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.02
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

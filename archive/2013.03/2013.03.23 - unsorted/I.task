@@ -1,0 +1,65 @@
+1 I
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+11
+0
+34 ex eoii jpxbmx cvz uxju sjzzcn jzz
+34 we will avenge our dead parrot arr
+1
+1
+6 wl jkd
+10 Impossible
+1
+2
+10 dyd jkl cs
+10 Impossible
+1
+3
+2 ab
+2 be
+1
+4
+3 abc
+10 Impossible
+1
+5
+3 abb
+10 Impossible
+1
+6
+7 abc cbd
+7 our rum
+1
+7
+11 abc cbd abd
+-1
+1
+8
+9 abc cbd a
+9 our rum o
+1
+9
+17 hut pizda captain
+-1
+1
+10
+5 cs cs
+5 be be
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.I
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.23
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

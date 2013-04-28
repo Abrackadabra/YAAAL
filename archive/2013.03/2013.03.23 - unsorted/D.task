@@ -1,0 +1,31 @@
+1 D
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+11 1
+MWWMWMMWM
+1 9
+1
+1
+16 2
+WMMMMWWMMMWWMW
+1 8
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.D
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.23
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0

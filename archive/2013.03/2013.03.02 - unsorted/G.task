@@ -1,0 +1,44 @@
+1 G
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+115 4 2 4
+1 1
+2 1
+3 4
+6 2
+1 2
+1 6
+S 0 4 2 4
+W 4 2 4 0
+N 6 4 7 4
+S 6 5 7 5
+1 0 2
+20 20
+W 30 10 30 30
+N 25 20 27 20
+0 0 0
+56 Case 1:
+vampire 1 east
+vampire 2 east north
+Case 2:
+none
+1
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+9 chelper.G
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.02
+0 
+1
+27 abrackadabra.io.InputReader
+28 abrackadabra.io.OutputWriter
+0
+0
