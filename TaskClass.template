@@ -1,0 +1,12 @@
+package %package%;
+
+import abrackadabra.templates.AbstractChelperSolution;
+import %InputClassFQN%;
+import %OutputClassFQN%;
+
+public class %TaskClass% extends AbstractChelperSolution {
+    @Override
+    public void solve(int testNumber) {
+
+    }
+}

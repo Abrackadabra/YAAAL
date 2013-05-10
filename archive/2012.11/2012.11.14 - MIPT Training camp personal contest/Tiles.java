@@ -37,7 +37,7 @@ public class Tiles {
 
 
 /*
-package chelper;
+package templates;
 
 import abrackadabra.io.InputReader;
 

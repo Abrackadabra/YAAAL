@@ -2,8 +2,6 @@
 package abrackadabra.io;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Locale;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,10 +13,10 @@ public class OutputWriter extends PrintWriter {
     static final String DEFAULT_SEPARATOR = " ";
 
     public OutputWriter(String fileName) {
-        super(getWriter(fileName));
+        super(createFileWriter(fileName));
     }
 
-    private static Writer getWriter(String s) {
+    private static Writer createFileWriter(String s) {
         Writer writer;
 
         try {

@@ -79,7 +79,7 @@ public class AMath {
         return random.nextDouble() * (b - a) + a;
     }
 
-    public static ArrayList<Integer> getPrimes(int max) {
+    public static List<Integer> getPrimes(int max) {
         ArrayList<Integer> res = new ArrayList<Integer>();
         boolean[] a = new boolean[max + 1];
         for (int i = 2; i <= max; i++) {

@@ -44,4 +44,9 @@ public class Pair<A, B> implements Comparable<Pair<A, B>> {
 
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "[" + first + ", " + second + "]";
+    }
 }
